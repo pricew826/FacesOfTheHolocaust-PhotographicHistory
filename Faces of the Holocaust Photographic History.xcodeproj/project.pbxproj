@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */; };
+		B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF601F4206A60065DFBE /* ViewController.swift */; };
+		B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF621F4206A60065DFBE /* Main.storyboard */; };
+		B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF651F4206A60065DFBE /* Assets.xcassets */; };
+		B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */; };
+		B2F8DF741F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */; };
+		B2F8DF7F1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F8DF701F4206A60065DFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F8DF531F4206A60065DFBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F8DF5A1F4206A60065DFBE;
+			remoteInfo = "Faces of the Holocaust Photographic History";
+		};
+		B2F8DF7B1F4206A60065DFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F8DF531F4206A60065DFBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F8DF5A1F4206A60065DFBE;
+			remoteInfo = "Faces of the Holocaust Photographic History";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2F8DF5B1F4206A60065DFBE /* Faces of the Holocaust Photographic History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faces of the Holocaust Photographic History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F8DF601F4206A60065DFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F8DF631F4206A60065DFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F8DF651F4206A60065DFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F8DF681F4206A60065DFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F8DF6A1F4206A60065DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F8DF6F1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faces of the Holocaust Photographic HistoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces_of_the_Holocaust_Photographic_HistoryTests.swift; sourceTree = "<group>"; };
+		B2F8DF751F4206A60065DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F8DF7A1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faces of the Holocaust Photographic HistoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces_of_the_Holocaust_Photographic_HistoryUITests.swift; sourceTree = "<group>"; };
+		B2F8DF801F4206A60065DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F8DF581F4206A60065DFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8DF6C1F4206A60065DFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8DF771F4206A60065DFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F8DF521F4206A60065DFBE = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF5D1F4206A60065DFBE /* Faces of the Holocaust Photographic History */,
+				B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */,
+				B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */,
+				B2F8DF5C1F4206A60065DFBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F8DF5C1F4206A60065DFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF5B1F4206A60065DFBE /* Faces of the Holocaust Photographic History.app */,
+				B2F8DF6F1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests.xctest */,
+				B2F8DF7A1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F8DF5D1F4206A60065DFBE /* Faces of the Holocaust Photographic History */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */,
+				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
+				B2F8DF621F4206A60065DFBE /* Main.storyboard */,
+				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
+				B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */,
+				B2F8DF6A1F4206A60065DFBE /* Info.plist */,
+			);
+			path = "Faces of the Holocaust Photographic History";
+			sourceTree = "<group>";
+		};
+		B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */,
+				B2F8DF751F4206A60065DFBE /* Info.plist */,
+			);
+			path = "Faces of the Holocaust Photographic HistoryTests";
+			sourceTree = "<group>";
+		};
+		B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */,
+				B2F8DF801F4206A60065DFBE /* Info.plist */,
+			);
+			path = "Faces of the Holocaust Photographic HistoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F8DF5A1F4206A60065DFBE /* Faces of the Holocaust Photographic History */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F8DF831F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic History" */;
+			buildPhases = (
+				B2F8DF571F4206A60065DFBE /* Sources */,
+				B2F8DF581F4206A60065DFBE /* Frameworks */,
+				B2F8DF591F4206A60065DFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Faces of the Holocaust Photographic History";
+			productName = "Faces of the Holocaust Photographic History";
+			productReference = B2F8DF5B1F4206A60065DFBE /* Faces of the Holocaust Photographic History.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F8DF6E1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F8DF861F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryTests" */;
+			buildPhases = (
+				B2F8DF6B1F4206A60065DFBE /* Sources */,
+				B2F8DF6C1F4206A60065DFBE /* Frameworks */,
+				B2F8DF6D1F4206A60065DFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F8DF711F4206A60065DFBE /* PBXTargetDependency */,
+			);
+			name = "Faces of the Holocaust Photographic HistoryTests";
+			productName = "Faces of the Holocaust Photographic HistoryTests";
+			productReference = B2F8DF6F1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2F8DF791F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F8DF891F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryUITests" */;
+			buildPhases = (
+				B2F8DF761F4206A60065DFBE /* Sources */,
+				B2F8DF771F4206A60065DFBE /* Frameworks */,
+				B2F8DF781F4206A60065DFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F8DF7C1F4206A60065DFBE /* PBXTargetDependency */,
+			);
+			name = "Faces of the Holocaust Photographic HistoryUITests";
+			productName = "Faces of the Holocaust Photographic HistoryUITests";
+			productReference = B2F8DF7A1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F8DF531F4206A60065DFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "New User";
+				TargetAttributes = {
+					B2F8DF5A1F4206A60065DFBE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2Z2FWA33N3;
+						ProvisioningStyle = Automatic;
+					};
+					B2F8DF6E1F4206A60065DFBE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2Z2FWA33N3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2F8DF5A1F4206A60065DFBE;
+					};
+					B2F8DF791F4206A60065DFBE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2Z2FWA33N3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2F8DF5A1F4206A60065DFBE;
+					};
+				};
+			};
+			buildConfigurationList = B2F8DF561F4206A60065DFBE /* Build configuration list for PBXProject "Faces of the Holocaust Photographic History" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F8DF521F4206A60065DFBE;
+			productRefGroup = B2F8DF5C1F4206A60065DFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F8DF5A1F4206A60065DFBE /* Faces of the Holocaust Photographic History */,
+				B2F8DF6E1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */,
+				B2F8DF791F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F8DF591F4206A60065DFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */,
+				B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */,
+				B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8DF6D1F4206A60065DFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8DF781F4206A60065DFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F8DF571F4206A60065DFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
+				B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8DF6B1F4206A60065DFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F8DF741F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8DF761F4206A60065DFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F8DF7F1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F8DF711F4206A60065DFBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F8DF5A1F4206A60065DFBE /* Faces of the Holocaust Photographic History */;
+			targetProxy = B2F8DF701F4206A60065DFBE /* PBXContainerItemProxy */;
+		};
+		B2F8DF7C1F4206A60065DFBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F8DF5A1F4206A60065DFBE /* Faces of the Holocaust Photographic History */;
+			targetProxy = B2F8DF7B1F4206A60065DFBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2F8DF621F4206A60065DFBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F8DF631F4206A60065DFBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F8DF681F4206A60065DFBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F8DF811F4206A60065DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F8DF821F4206A60065DFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F8DF841F4206A60065DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z2FWA33N3;
+				INFOPLIST_FILE = "Faces of the Holocaust Photographic History/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2F8DF851F4206A60065DFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z2FWA33N3;
+				INFOPLIST_FILE = "Faces of the Holocaust Photographic History/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B2F8DF871F4206A60065DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Z2FWA33N3;
+				INFOPLIST_FILE = "Faces of the Holocaust Photographic HistoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-HistoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faces of the Holocaust Photographic History.app/Faces of the Holocaust Photographic History";
+			};
+			name = Debug;
+		};
+		B2F8DF881F4206A60065DFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Z2FWA33N3;
+				INFOPLIST_FILE = "Faces of the Holocaust Photographic HistoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-HistoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faces of the Holocaust Photographic History.app/Faces of the Holocaust Photographic History";
+			};
+			name = Release;
+		};
+		B2F8DF8A1F4206A60065DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2Z2FWA33N3;
+				INFOPLIST_FILE = "Faces of the Holocaust Photographic HistoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-HistoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Faces of the Holocaust Photographic History";
+			};
+			name = Debug;
+		};
+		B2F8DF8B1F4206A60065DFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2Z2FWA33N3;
+				INFOPLIST_FILE = "Faces of the Holocaust Photographic HistoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-HistoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Faces of the Holocaust Photographic History";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F8DF561F4206A60065DFBE /* Build configuration list for PBXProject "Faces of the Holocaust Photographic History" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F8DF811F4206A60065DFBE /* Debug */,
+				B2F8DF821F4206A60065DFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F8DF831F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic History" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F8DF841F4206A60065DFBE /* Debug */,
+				B2F8DF851F4206A60065DFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2F8DF861F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F8DF871F4206A60065DFBE /* Debug */,
+				B2F8DF881F4206A60065DFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2F8DF891F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F8DF8A1F4206A60065DFBE /* Debug */,
+				B2F8DF8B1F4206A60065DFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F8DF531F4206A60065DFBE /* Project object */;
+}
