@@ -14,6 +14,24 @@
 		B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */; };
 		B2F8DF741F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */; };
 		B2F8DF7F1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */; };
+		B2F8DF981F4225150065DFBE /* icon-home.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF951F4225150065DFBE /* icon-home.png */; };
+		B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF961F4225150065DFBE /* icon-home@2x.png */; };
+		B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF971F4225150065DFBE /* icon-home@3x.png */; };
+		B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */; };
+		B2F8DF9F1F4225E40065DFBE /* icon-home-filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF9C1F4225E40065DFBE /* icon-home-filled@2x.png */; };
+		B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */; };
+		B2F8DFA21F42272E0065DFBE /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFA11F42272E0065DFBE /* icon-map.png */; };
+		B2F8DFA41F4227E90065DFBE /* icon-map-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFA31F4227E90065DFBE /* icon-map-filled.png */; };
+		B2F8DFA61F422A380065DFBE /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFA51F422A380065DFBE /* background.jpg */; };
+		B2F8DFA81F422D4B0065DFBE /* seal-faces-of-the-holocaust.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFA71F422D4B0065DFBE /* seal-faces-of-the-holocaust.png */; };
+		B2F8DFAC1F423B600065DFBE /* polanfd background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFAB1F423B600065DFBE /* polanfd background.jpg */; };
+		B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFAF1F425AC40065DFBE /* background hungary.jpg */; };
+		B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB11F425B8A0065DFBE /* background czechoslovakia.jpg */; };
+		B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB31F425C8D0065DFBE /* background austria.jpg */; };
+		B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB51F425DD70065DFBE /* background germany.jpg */; };
+		B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */; };
+		B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFBB1F448B100065DFBE /* ResourceList.plist */; };
+		B2F8DFC21F45BB7B0065DFBE /* polandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DFC11F45BB7B0065DFBE /* polandView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +65,24 @@
 		B2F8DF7A1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faces of the Holocaust Photographic HistoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces_of_the_Holocaust_Photographic_HistoryUITests.swift; sourceTree = "<group>"; };
 		B2F8DF801F4206A60065DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F8DF951F4225150065DFBE /* icon-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home.png"; sourceTree = "<group>"; };
+		B2F8DF961F4225150065DFBE /* icon-home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home@2x.png"; sourceTree = "<group>"; };
+		B2F8DF971F4225150065DFBE /* icon-home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home@3x.png"; sourceTree = "<group>"; };
+		B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home-filled.png"; sourceTree = "<group>"; };
+		B2F8DF9C1F4225E40065DFBE /* icon-home-filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home-filled@2x.png"; sourceTree = "<group>"; };
+		B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home-filled@3x.png"; sourceTree = "<group>"; };
+		B2F8DFA11F42272E0065DFBE /* icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map.png"; sourceTree = "<group>"; };
+		B2F8DFA31F4227E90065DFBE /* icon-map-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map-filled.png"; sourceTree = "<group>"; };
+		B2F8DFA51F422A380065DFBE /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		B2F8DFA71F422D4B0065DFBE /* seal-faces-of-the-holocaust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seal-faces-of-the-holocaust.png"; sourceTree = "<group>"; };
+		B2F8DFAB1F423B600065DFBE /* polanfd background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "polanfd background.jpg"; sourceTree = "<group>"; };
+		B2F8DFAF1F425AC40065DFBE /* background hungary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background hungary.jpg"; sourceTree = "<group>"; };
+		B2F8DFB11F425B8A0065DFBE /* background czechoslovakia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background czechoslovakia.jpg"; sourceTree = "<group>"; };
+		B2F8DFB31F425C8D0065DFBE /* background austria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background austria.jpg"; sourceTree = "<group>"; };
+		B2F8DFB51F425DD70065DFBE /* background germany.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background germany.jpg"; sourceTree = "<group>"; };
+		B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "icon-home-option2.png"; sourceTree = "<group>"; };
+		B2F8DFBB1F448B100065DFBE /* ResourceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResourceList.plist; sourceTree = "<group>"; };
+		B2F8DFC11F45BB7B0065DFBE /* polandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = polandView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +113,7 @@
 		B2F8DF521F4206A60065DFBE = {
 			isa = PBXGroup;
 			children = (
+				B2F8DFC11F45BB7B0065DFBE /* polandView.swift */,
 				B2F8DF5D1F4206A60065DFBE /* Faces of the Holocaust Photographic History */,
 				B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */,
 				B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */,
@@ -101,8 +138,10 @@
 				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
 				B2F8DF621F4206A60065DFBE /* Main.storyboard */,
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
+				B2F8DF901F421F7E0065DFBE /* Images */,
 				B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */,
 				B2F8DF6A1F4206A60065DFBE /* Info.plist */,
+				B2F8DFBB1F448B100065DFBE /* ResourceList.plist */,
 			);
 			path = "Faces of the Holocaust Photographic History";
 			sourceTree = "<group>";
@@ -123,6 +162,29 @@
 				B2F8DF801F4206A60065DFBE /* Info.plist */,
 			);
 			path = "Faces of the Holocaust Photographic HistoryUITests";
+			sourceTree = "<group>";
+		};
+		B2F8DF901F421F7E0065DFBE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF951F4225150065DFBE /* icon-home.png */,
+				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
+				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
+				B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */,
+				B2F8DFB51F425DD70065DFBE /* background germany.jpg */,
+				B2F8DFB31F425C8D0065DFBE /* background austria.jpg */,
+				B2F8DFB11F425B8A0065DFBE /* background czechoslovakia.jpg */,
+				B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */,
+				B2F8DFAB1F423B600065DFBE /* polanfd background.jpg */,
+				B2F8DFAF1F425AC40065DFBE /* background hungary.jpg */,
+				B2F8DFA11F42272E0065DFBE /* icon-map.png */,
+				B2F8DFA31F4227E90065DFBE /* icon-map-filled.png */,
+				B2F8DFA71F422D4B0065DFBE /* seal-faces-of-the-holocaust.png */,
+				B2F8DF9C1F4225E40065DFBE /* icon-home-filled@2x.png */,
+				B2F8DFA51F422A380065DFBE /* background.jpg */,
+				B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +297,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */,
+				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
+				B2F8DF9F1F4225E40065DFBE /* icon-home-filled@2x.png in Resources */,
+				B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */,
 				B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */,
+				B2F8DFA41F4227E90065DFBE /* icon-map-filled.png in Resources */,
+				B2F8DFA81F422D4B0065DFBE /* seal-faces-of-the-holocaust.png in Resources */,
 				B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */,
+				B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */,
+				B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */,
 				B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */,
+				B2F8DF981F4225150065DFBE /* icon-home.png in Resources */,
+				B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */,
+				B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */,
+				B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */,
+				B2F8DFA61F422A380065DFBE /* background.jpg in Resources */,
+				B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */,
+				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
+				B2F8DFA21F42272E0065DFBE /* icon-map.png in Resources */,
+				B2F8DFAC1F423B600065DFBE /* polanfd background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +343,7 @@
 			files = (
 				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
 				B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */,
+				B2F8DFC21F45BB7B0065DFBE /* polandView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +594,7 @@
 				B2F8DF851F4206A60065DFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F8DF861F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +603,7 @@
 				B2F8DF881F4206A60065DFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F8DF891F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +612,7 @@
 				B2F8DF8B1F4206A60065DFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Adelle Besserman</string>
+		<key>SubTitle</key>
+		<string>Polish Holocaust Survivor</string>
+		<key>Testimony</key>
+		<string></string>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string></string>
+		<key>SubTitle</key>
+		<string>Test Sub Title</string>
+		<key>Testimony</key>
+		<string></string>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string></string>
+		<key>SubTitle</key>
+		<string>Test Sub Title</string>
+		<key>Testimony</key>
+		<string></string>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string></string>
+		<key>Testimony</key>
+		<string></string>
+		<key>Image</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
