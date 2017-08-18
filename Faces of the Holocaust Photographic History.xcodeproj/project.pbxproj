@@ -32,6 +32,8 @@
 		B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */; };
 		B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFBB1F448B100065DFBE /* ResourceList.plist */; };
 		B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */; };
+		B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */; };
+		B2F8E0041F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "icon-home-option2.png"; sourceTree = "<group>"; };
 		B2F8DFBB1F448B100065DFBE /* ResourceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResourceList.plist; sourceTree = "<group>"; };
 		B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hitler-hindenburg.jpg"; sourceTree = "<group>"; };
+		B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RetrieveAsset.aspx.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				B2F8DF951F4225150065DFBE /* icon-home.png */,
 				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
 				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
+				B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */,
+				B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */,
 				B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */,
 				B2F8DFB51F425DD70065DFBE /* background germany.jpg */,
 				B2F8DFB31F425C8D0065DFBE /* background austria.jpg */,
@@ -298,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */,
+				B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */,
 				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
 				B2F8DF9F1F4225E40065DFBE /* icon-home-filled@2x.png in Resources */,
 				B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */,
@@ -315,6 +322,7 @@
 				B2F8DFA61F422A380065DFBE /* background.jpg in Resources */,
 				B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */,
 				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
+				B2F8E0041F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg in Resources */,
 				B2F8DFA21F42272E0065DFBE /* icon-map.png in Resources */,
 				B2F8DFAC1F423B600065DFBE /* polanfd background.jpg in Resources */,
 			);

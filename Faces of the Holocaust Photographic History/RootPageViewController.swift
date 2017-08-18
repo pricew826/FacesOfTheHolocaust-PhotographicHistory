@@ -11,6 +11,9 @@ import UIKit
 class RootPageViewController: UIPageViewController, UIPageViewControllerDataSource {
     
     
+    
+    
+    
     lazy var viewControllerList:[UIViewController] = {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
@@ -32,6 +35,9 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDataSour
         
         if let firstViewController = viewControllerList.first {
             self.setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
+            
+            
+            
         
     }
         

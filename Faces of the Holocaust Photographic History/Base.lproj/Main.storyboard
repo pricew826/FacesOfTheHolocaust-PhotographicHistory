@@ -49,26 +49,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="polanfd background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2jD-rq-hUS">
-                                                    <rect key="frame" x="0.0" y="-1" width="415" height="230"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="229.33333333333334"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="2jD-rq-hUS" secondAttribute="height" multiplier="83:46" id="8gn-Kg-LJH"/>
                                                         <constraint firstAttribute="width" secondItem="2jD-rq-hUS" secondAttribute="height" multiplier="83:46" id="Imx-ST-hqW"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POLAND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A60-Az-p1J">
-                                                    <rect key="frame" x="12" y="242" width="92" height="41"/>
+                                                    <rect key="frame" x="20" y="241.33333333333331" width="92" height="40.999999999999943"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vu7-eO-nnK">
-                                                    <rect key="frame" x="116" y="322" width="42" height="21"/>
+                                                    <rect key="frame" x="116" y="321.33333333333331" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors from Poland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5e-Hp-Csp">
-                                                    <rect key="frame" x="12" y="283" width="171" height="24"/>
+                                                    <rect key="frame" x="20" y="282.33333333333331" width="171" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.72758620689655173" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -116,26 +116,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background hungary.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vct-pm-2YK">
-                                                    <rect key="frame" x="0.0" y="-1" width="415" height="230"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="229.33333333333334"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Vct-pm-2YK" secondAttribute="height" multiplier="83:46" id="JDU-WE-teu"/>
                                                         <constraint firstAttribute="width" secondItem="Vct-pm-2YK" secondAttribute="height" multiplier="83:46" id="LNb-NN-lUJ"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HUNGARY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6z-z3-4xm">
-                                                    <rect key="frame" x="11.999999999999993" y="242" width="110.33333333333331" height="41"/>
+                                                    <rect key="frame" x="11.999999999999993" y="241.33333333333331" width="110.33333333333331" height="40.999999999999943"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpv-b4-33P">
-                                                    <rect key="frame" x="116" y="322" width="42" height="21"/>
+                                                    <rect key="frame" x="116" y="322.33333333333331" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors from Hungary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qds-Fz-hcm">
-                                                    <rect key="frame" x="12" y="283" width="183.33333333333334" height="24"/>
+                                                    <rect key="frame" x="12" y="286.33333333333331" width="183.33333333333334" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.72758620689999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -182,26 +182,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background czechoslovakia.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6Tf-cZ-A3z">
-                                                    <rect key="frame" x="0.0" y="-1" width="415" height="230"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="229.33333333333334"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="6Tf-cZ-A3z" secondAttribute="height" multiplier="83:46" id="X02-jV-A7l"/>
                                                         <constraint firstAttribute="width" secondItem="6Tf-cZ-A3z" secondAttribute="height" multiplier="83:46" id="hui-tE-5Az"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CZECHOSLOVAKIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ce-Mo-Vd2">
-                                                    <rect key="frame" x="12" y="242" width="196" height="41"/>
+                                                    <rect key="frame" x="20" y="241.33333333333331" width="196" height="40.999999999999943"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dw-eJ-c0K">
-                                                    <rect key="frame" x="116" y="322" width="42" height="21"/>
+                                                    <rect key="frame" x="116" y="321.33333333333331" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors from Czechoslovakia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEN-pR-1oP">
-                                                    <rect key="frame" x="12" y="283" width="238" height="24"/>
+                                                    <rect key="frame" x="20" y="282.33333333333331" width="238" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.72758620689999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -237,26 +237,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background austria.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O7l-cj-bLU">
-                                                    <rect key="frame" x="0.0" y="-1" width="415" height="230"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="229.33333333333334"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="O7l-cj-bLU" secondAttribute="height" multiplier="83:46" id="53U-uj-RW3"/>
                                                         <constraint firstAttribute="width" secondItem="O7l-cj-bLU" secondAttribute="height" multiplier="83:46" id="mqC-ts-oAU"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUSTRIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhY-Dn-YVg">
-                                                    <rect key="frame" x="12" y="242" width="92" height="41"/>
+                                                    <rect key="frame" x="20" y="241.33333333333331" width="92" height="40.999999999999943"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQM-Ic-eXv">
-                                                    <rect key="frame" x="116" y="322" width="42" height="21"/>
+                                                    <rect key="frame" x="116" y="318.33333333333331" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors from Austria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aL0-SV-ngt">
-                                                    <rect key="frame" x="12" y="283" width="171" height="24"/>
+                                                    <rect key="frame" x="20" y="282.33333333333331" width="171" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.72758620689999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -292,26 +292,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background germany.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rw7-QY-f06">
-                                                    <rect key="frame" x="0.0" y="-1" width="415" height="230"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="229.33333333333334"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="rw7-QY-f06" secondAttribute="height" multiplier="83:46" id="7uM-gc-qb4"/>
                                                         <constraint firstAttribute="width" secondItem="rw7-QY-f06" secondAttribute="height" multiplier="83:46" id="mv1-gw-LEn"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GERMANY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0t-Xx-QbK">
-                                                    <rect key="frame" x="12" y="242" width="111" height="41"/>
+                                                    <rect key="frame" x="20" y="241.33333333333331" width="111" height="40.999999999999943"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2Q-ur-Tv9">
-                                                    <rect key="frame" x="116" y="322" width="42" height="21"/>
+                                                    <rect key="frame" x="116" y="321.33333333333331" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors from Germany" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poc-3Y-dJF">
-                                                    <rect key="frame" x="12" y="283" width="189" height="24"/>
+                                                    <rect key="frame" x="20" y="282.33333333333331" width="189" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.72758620689999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -358,7 +358,6 @@
         <!--Table View Controller-->
         <scene sceneID="Bqh-V4-6uW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dAD-Qj-8Li" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="dBu-er-Kll" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TVB-JC-yHc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -389,6 +388,7 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAD-Qj-8Li" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1088" y="-1151"/>
         </scene>
@@ -472,12 +472,66 @@
                     <view key="view" contentMode="scaleToFill" id="zp1-8b-fwP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1933" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umO-jd-vhR">
+                                <rect key="frame" x="20" y="33" width="374" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="T3Z-KR-xVz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hitler with President Von Hinenburg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDm-g9-TEm">
+                                <rect key="frame" x="32" y="325" width="165" height="14"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HITLER COMES TO POWER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwz-LG-w2u">
+                                <rect key="frame" x="32" y="347" width="196" height="29"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ugs-zK-HQZ">
+                                <rect key="frame" x="32" y="386" width="362" height="342"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hitler-hindenburg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WrZ-eJ-8Kb">
+                                <rect key="frame" x="20" y="72" width="374" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Wll-65-b7K"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CDm-g9-TEm" firstAttribute="leading" secondItem="zp1-8b-fwP" secondAttribute="leadingMargin" constant="12" id="B17-3o-M6d"/>
+                            <constraint firstItem="umO-jd-vhR" firstAttribute="trailing" secondItem="WrZ-eJ-8Kb" secondAttribute="trailing" id="LOh-l1-aMJ"/>
+                            <constraint firstItem="umO-jd-vhR" firstAttribute="top" secondItem="8ua-qk-1d3" secondAttribute="bottom" constant="13" id="OeL-aY-sXo"/>
+                            <constraint firstItem="3eS-t5-UtN" firstAttribute="top" secondItem="ugs-zK-HQZ" secondAttribute="bottom" constant="70" id="Qnv-2e-Ks9"/>
+                            <constraint firstItem="CDm-g9-TEm" firstAttribute="top" secondItem="WrZ-eJ-8Kb" secondAttribute="bottom" constant="3" id="RdI-hD-Uk1"/>
+                            <constraint firstItem="CDm-g9-TEm" firstAttribute="leading" secondItem="fwz-LG-w2u" secondAttribute="leading" id="TCH-6Y-OLQ"/>
+                            <constraint firstItem="umO-jd-vhR" firstAttribute="leading" secondItem="zp1-8b-fwP" secondAttribute="leadingMargin" id="dJ6-et-JLJ"/>
+                            <constraint firstItem="fwz-LG-w2u" firstAttribute="leading" secondItem="ugs-zK-HQZ" secondAttribute="leading" id="dQs-S6-aKe"/>
+                            <constraint firstItem="fwz-LG-w2u" firstAttribute="top" secondItem="CDm-g9-TEm" secondAttribute="bottom" constant="8" symbolic="YES" id="jWy-bY-bCF"/>
+                            <constraint firstItem="WrZ-eJ-8Kb" firstAttribute="top" secondItem="umO-jd-vhR" secondAttribute="bottom" constant="8" symbolic="YES" id="lSv-xk-9x7"/>
+                            <constraint firstItem="WrZ-eJ-8Kb" firstAttribute="trailing" secondItem="ugs-zK-HQZ" secondAttribute="trailing" id="mcJ-AW-jy3"/>
+                            <constraint firstItem="ugs-zK-HQZ" firstAttribute="top" secondItem="fwz-LG-w2u" secondAttribute="bottom" constant="10" id="pbT-0L-ohe"/>
+                            <constraint firstItem="3eS-t5-UtN" firstAttribute="top" secondItem="ugs-zK-HQZ" secondAttribute="bottom" constant="8" id="tTS-ik-1Ob"/>
+                            <constraint firstItem="umO-jd-vhR" firstAttribute="leading" secondItem="WrZ-eJ-8Kb" secondAttribute="leading" id="ueh-FW-qk6"/>
+                            <constraint firstItem="umO-jd-vhR" firstAttribute="trailing" secondItem="zp1-8b-fwP" secondAttribute="trailingMargin" id="z23-3M-grY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pk3-d1-N5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="1105"/>
+            <point key="canvasLocation" x="124.6376811594203" y="1104.6195652173915"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rlQ-wZ-bhK">
@@ -490,7 +544,19 @@
                     <view key="view" contentMode="scaleToFill" id="lcT-a8-oQY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1937" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ead-p0-Uaj">
+                                <rect key="frame" x="40" y="48" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ead-p0-Uaj" firstAttribute="leading" secondItem="lcT-a8-oQY" secondAttribute="leadingMargin" constant="12" id="Jrk-zP-oy3"/>
+                            <constraint firstItem="Ead-p0-Uaj" firstAttribute="top" secondItem="9Hk-xl-6a1" secondAttribute="bottom" constant="15" id="KxN-dp-K4j"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IY0-b9-4zA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -578,7 +644,7 @@
                     <tabBarItem key="tabBarItem" title="" image="icon-map.png" selectedImage="icon-map-filled.png" id="eyN-f2-bA9">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" backIndicatorImage="icon-home-option2.png" backIndicatorTransitionMaskImage="icon-home-option2.png" id="tsN-yi-NgO">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" backIndicatorImage="icon-home-option2.png" backIndicatorTransitionMaskImage="icon-home-option2.png" id="tsN-yi-NgO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -601,6 +667,7 @@
         <image name="background germany.jpg" width="725" height="761"/>
         <image name="background hungary.jpg" width="448" height="452"/>
         <image name="background.jpg" width="304" height="539"/>
+        <image name="hitler-hindenburg.jpg" width="500" height="316"/>
         <image name="icon-home-filled.png" width="21" height="19"/>
         <image name="icon-home-option2.png" width="34" height="34"/>
         <image name="icon-home.png" width="21" height="20"/>
