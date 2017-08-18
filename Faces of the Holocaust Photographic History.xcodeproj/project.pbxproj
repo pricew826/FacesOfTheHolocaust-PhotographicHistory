@@ -31,7 +31,7 @@
 		B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB51F425DD70065DFBE /* background germany.jpg */; };
 		B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */; };
 		B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFBB1F448B100065DFBE /* ResourceList.plist */; };
-		B2F8DFC21F45BB7B0065DFBE /* polandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DFC11F45BB7B0065DFBE /* polandView.swift */; };
+		B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +82,7 @@
 		B2F8DFB51F425DD70065DFBE /* background germany.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background germany.jpg"; sourceTree = "<group>"; };
 		B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "icon-home-option2.png"; sourceTree = "<group>"; };
 		B2F8DFBB1F448B100065DFBE /* ResourceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResourceList.plist; sourceTree = "<group>"; };
-		B2F8DFC11F45BB7B0065DFBE /* polandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = polandView.swift; sourceTree = "<group>"; };
+		B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,6 @@
 		B2F8DF521F4206A60065DFBE = {
 			isa = PBXGroup;
 			children = (
-				B2F8DFC11F45BB7B0065DFBE /* polandView.swift */,
 				B2F8DF5D1F4206A60065DFBE /* Faces of the Holocaust Photographic History */,
 				B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */,
 				B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */,
@@ -137,6 +136,7 @@
 				B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */,
 				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
 				B2F8DF621F4206A60065DFBE /* Main.storyboard */,
+				B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */,
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
 				B2F8DF901F421F7E0065DFBE /* Images */,
 				B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */,
@@ -341,9 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */,
 				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
 				B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */,
-				B2F8DFC21F45BB7B0065DFBE /* polandView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
