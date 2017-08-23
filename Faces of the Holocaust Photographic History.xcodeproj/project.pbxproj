@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */; };
+		B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBC71F4D1B3900EBED0D /* face1.jpg */; };
+		B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */; };
+		B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */; };
 		B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */; };
 		B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF601F4206A60065DFBE /* ViewController.swift */; };
 		B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF621F4206A60065DFBE /* Main.storyboard */; };
@@ -34,6 +38,7 @@
 		B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */; };
 		B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */; };
 		B2F8E0041F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */; };
+		B2F8E0061F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8E0051F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolandViewController.swift; sourceTree = "<group>"; };
+		B2C8BBC71F4D1B3900EBED0D /* face1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face1.jpg; sourceTree = "<group>"; };
+		B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		B2F8DF5B1F4206A60065DFBE /* Faces of the Holocaust Photographic History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faces of the Holocaust Photographic History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F8DF601F4206A60065DFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +96,7 @@
 		B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hitler-hindenburg.jpg"; sourceTree = "<group>"; };
 		B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RetrieveAsset.aspx.jpeg; sourceTree = "<group>"; };
+		B2F8E0051F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RetrieveAsset-1.aspx.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,9 @@
 				B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */,
 				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
 				B2F8DF621F4206A60065DFBE /* Main.storyboard */,
+				B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */,
+				B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */,
+				B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */,
 				B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */,
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
 				B2F8DF901F421F7E0065DFBE /* Images */,
@@ -173,9 +186,11 @@
 			children = (
 				B2F8DF951F4225150065DFBE /* icon-home.png */,
 				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
+				B2C8BBC71F4D1B3900EBED0D /* face1.jpg */,
 				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
 				B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */,
 				B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */,
+				B2F8E0051F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg */,
 				B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */,
 				B2F8DFB51F425DD70065DFBE /* background germany.jpg */,
 				B2F8DFB31F425C8D0065DFBE /* background austria.jpg */,
@@ -303,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */,
 				B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */,
 				B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */,
 				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
@@ -318,7 +334,9 @@
 				B2F8DF981F4225150065DFBE /* icon-home.png in Resources */,
 				B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */,
 				B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */,
+				B2F8E0061F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg in Resources */,
 				B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */,
+				B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */,
 				B2F8DFA61F422A380065DFBE /* background.jpg in Resources */,
 				B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */,
 				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
@@ -350,7 +368,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */,
+				B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */,
 				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
+				B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */,
 				B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
