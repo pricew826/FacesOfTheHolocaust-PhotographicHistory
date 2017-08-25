@@ -19,11 +19,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="tII-1R-vuW" kind="relationship" relationship="viewControllers" id="P0N-d9-lz2"/>
                         <segue destination="Bf2-Tw-5jo" kind="relationship" relationship="viewControllers" id="r2T-wi-OoT"/>
+                        <segue destination="toX-ac-NEA" kind="relationship" relationship="viewControllers" id="ZA3-fr-CXN"/>
                         <segue destination="mpe-c7-dzr" kind="relationship" relationship="viewControllers" id="VfE-sw-xDW"/>
+                        <segue destination="LIB-Px-fJq" kind="relationship" relationship="viewControllers" id="vAw-F9-LIV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDG-iw-knw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -33,7 +37,7 @@
         <!--COUNTRIES-->
         <scene sceneID="O2L-E3-XM5">
             <objects>
-                <tableViewController id="f7N-je-AMR" userLabel="COUNTRIES" sceneMemberID="viewController">
+                <tableViewController title="COUNTRIES" id="f7N-je-AMR" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="331" sectionHeaderHeight="28" sectionFooterHeight="28" id="AsB-Sm-Cok">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -347,7 +351,9 @@
                             <outlet property="delegate" destination="f7N-je-AMR" id="MU4-9z-bEH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="TyK-4u-yFe"/>
+                    <navigationItem key="navigationItem" id="TyK-4u-yFe">
+                        <barButtonItem key="backBarButtonItem" title="    " id="M30-sy-jud"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="1800"/>
                 </tableViewController>
@@ -392,10 +398,10 @@
             </objects>
             <point key="canvasLocation" x="1088" y="-1151"/>
         </scene>
-        <!--Poland View Controller-->
+        <!--POLAND-->
         <scene sceneID="aSs-e1-Vw5">
             <objects>
-                <viewController id="FCT-fr-kNV" customClass="PolandViewController" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="POLAND" id="FCT-fr-kNV" customClass="PolandViewController" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pel-V0-gTj"/>
                         <viewControllerLayoutGuide type="bottom" id="24u-MN-QcB"/>
@@ -419,14 +425,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CH5-9x-6GG">
-                                                    <rect key="frame" x="15" y="29" width="34" height="31"/>
+                                                    <rect key="frame" x="15" y="30" width="33.666666666666664" height="30.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IBv-1w-CfW">
-                                                    <rect key="frame" x="15" y="60" width="41" height="21"/>
+                                                    <rect key="frame" x="15" y="60.333333333333321" width="41" height="20.666666666666668"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -482,7 +488,7 @@
         <!--View Controller-->
         <scene sceneID="6En-bw-1d7">
             <objects>
-                <viewController storyboardIdentifier="firstVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hbJ-Iy-R7N" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="thirdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hbJ-Iy-R7N" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8ua-qk-1d3"/>
                         <viewControllerLayoutGuide type="bottom" id="3eS-t5-UtN"/>
@@ -629,10 +635,10 @@
             </objects>
             <point key="canvasLocation" x="776.81159420289862" y="1102.9891304347827"/>
         </scene>
-        <!--View Controller-->
+        <!--1933 - 1945-->
         <scene sceneID="rcF-GK-kI1">
             <objects>
-                <viewController storyboardIdentifier="thirdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RoA-jC-eti" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstVC" title="1933 - 1945" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RoA-jC-eti" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FIX-gy-XVx"/>
                         <viewControllerLayoutGuide type="bottom" id="bt7-Ib-ghf"/>
@@ -641,70 +647,281 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1939" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9x-61-OOW">
-                                <rect key="frame" x="32" y="32" width="39" height="27"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RetrieveAsset-1.aspx.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="z6n-t8-2AO">
-                                <rect key="frame" x="20" y="67" width="374" height="259"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="z6n-t8-2AO" secondAttribute="height" multiplier="374:259" id="MDW-g0-rFK"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="View of the entrance to the main camp of Auschwitz. USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgj-21-gqU">
-                                <rect key="frame" x="20" y="334" width="374" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="dA0-iU-aE3"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="AUSCHWITZ CONCENTRATION CAMP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QK-OH-Wff">
-                                <rect key="frame" x="20" y="363" width="261" height="28"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yod-C3-Sf2">
-                                <rect key="frame" x="20" y="405" width="374" height="311"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oeu-Uy-Al7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <connections>
+                                    <segue destination="6DD-lq-ssK" kind="embed" id="ZUv-Lh-SJp"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Yod-C3-Sf2" firstAttribute="leading" secondItem="dLM-BA-V0v" secondAttribute="leadingMargin" constant="12" id="7XM-Tc-RRG"/>
-                            <constraint firstItem="Yod-C3-Sf2" firstAttribute="top" secondItem="0QK-OH-Wff" secondAttribute="bottom" constant="8" id="9Q3-e1-aqd"/>
-                            <constraint firstItem="z6n-t8-2AO" firstAttribute="leading" secondItem="dLM-BA-V0v" secondAttribute="leadingMargin" constant="12" id="B6y-KK-y2b"/>
-                            <constraint firstItem="Pgj-21-gqU" firstAttribute="top" secondItem="z6n-t8-2AO" secondAttribute="bottom" constant="8" symbolic="YES" id="Dij-d9-B7i"/>
-                            <constraint firstItem="0QK-OH-Wff" firstAttribute="leading" secondItem="dLM-BA-V0v" secondAttribute="leadingMargin" constant="12" id="ELm-cl-Zxk"/>
-                            <constraint firstItem="bt7-Ib-ghf" firstAttribute="top" secondItem="Yod-C3-Sf2" secondAttribute="bottom" constant="8" id="JkL-io-ruC"/>
-                            <constraint firstItem="Pgj-21-gqU" firstAttribute="trailing" secondItem="z6n-t8-2AO" secondAttribute="trailing" id="OIJ-re-ixq"/>
-                            <constraint firstItem="Pgj-21-gqU" firstAttribute="leading" secondItem="0QK-OH-Wff" secondAttribute="leading" id="RsD-Cl-JSX"/>
-                            <constraint firstItem="z6n-t8-2AO" firstAttribute="top" secondItem="N9x-61-OOW" secondAttribute="bottom" constant="8" id="SJv-hm-pm0"/>
-                            <constraint firstItem="Pgj-21-gqU" firstAttribute="trailing" secondItem="Yod-C3-Sf2" secondAttribute="trailing" id="UIH-KL-smm"/>
-                            <constraint firstItem="0QK-OH-Wff" firstAttribute="top" secondItem="Pgj-21-gqU" secondAttribute="bottom" constant="8" id="Vh0-iN-hsz"/>
-                            <constraint firstItem="N9x-61-OOW" firstAttribute="top" secondItem="FIX-gy-XVx" secondAttribute="bottom" constant="12" id="r1g-mK-jcl"/>
-                            <constraint firstItem="N9x-61-OOW" firstAttribute="leading" secondItem="dLM-BA-V0v" secondAttribute="leadingMargin" constant="12" id="rco-d3-WiI"/>
-                            <constraint firstItem="z6n-t8-2AO" firstAttribute="trailing" secondItem="dLM-BA-V0v" secondAttribute="trailingMargin" constant="12" id="xi7-Cn-g1u"/>
+                            <constraint firstItem="Oeu-Uy-Al7" firstAttribute="leading" secondItem="dLM-BA-V0v" secondAttribute="leading" id="0vL-zv-1oR"/>
+                            <constraint firstAttribute="trailing" secondItem="Oeu-Uy-Al7" secondAttribute="trailing" id="3kF-Wm-3zn"/>
+                            <constraint firstItem="Oeu-Uy-Al7" firstAttribute="top" secondItem="dLM-BA-V0v" secondAttribute="top" id="a1O-nD-BZy"/>
+                            <constraint firstItem="bt7-Ib-ghf" firstAttribute="top" secondItem="Oeu-Uy-Al7" secondAttribute="bottom" id="ke9-F4-xi7"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9SN-o9-km7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1414.4927536231885" y="1105.4347826086957"/>
         </scene>
+        <!--1933-1945-->
+        <scene sceneID="Hl9-lk-4ev">
+            <objects>
+                <tableViewController title="1933-1945" id="6DD-lq-ssK" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bYR-5R-XDc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="QtJ-7N-bTC">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="546" id="l5P-LV-Nxa">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="546"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l5P-LV-Nxa" id="kl6-qo-gXM">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="545.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adolf Hitler Appointed Chancellor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKq-7Q-2Ik">
+                                                    <rect key="frame" x="15" y="19" width="268" height="31"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 30, 1933" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFp-Bo-vbA">
+                                                    <rect key="frame" x="15" y="48" width="133" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hitler-hindenburg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kz6-12-zOn">
+                                                    <rect key="frame" x="15" y="77" width="380" height="242"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Kz6-12-zOn" secondAttribute="height" multiplier="190:121" id="6dg-XX-Dky"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HjD-aJ-CFO">
+                                                    <rect key="frame" x="15" y="352" width="380" height="177"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <string key="text">The National Socialist German Workers' Party (Nationalsozialistische Deutsche Arbeiterpartei; NSDAP), more commonly known as the Nazi Party, assumes control of the German state when German President Paul von Hindenburg appoints Nazi Party leader Adolf Hitler as Chancellor at the head of a coalition government. The Nazis and the German Nationalist People's Party (Deutschnationale Volkspartei; DNVP) are members of the coalition.</string>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hitler with Von Hindenburgb - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkw-Cs-aQg">
+                                                    <rect key="frame" x="23" y="327" width="219" height="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hKq-7Q-2Ik" firstAttribute="top" secondItem="kl6-qo-gXM" secondAttribute="topMargin" constant="11" id="5Yk-1s-gKm"/>
+                                                <constraint firstItem="Kz6-12-zOn" firstAttribute="top" secondItem="NFp-Bo-vbA" secondAttribute="bottom" constant="8" symbolic="YES" id="97f-AQ-6s2"/>
+                                                <constraint firstItem="Kz6-12-zOn" firstAttribute="top" secondItem="hKq-7Q-2Ik" secondAttribute="bottom" constant="27" id="CdG-rt-gJ1"/>
+                                                <constraint firstItem="hKq-7Q-2Ik" firstAttribute="leading" secondItem="kl6-qo-gXM" secondAttribute="leadingMargin" constant="7" id="Gx4-gU-oCJ"/>
+                                                <constraint firstItem="hKq-7Q-2Ik" firstAttribute="leading" secondItem="NFp-Bo-vbA" secondAttribute="leading" id="Irt-ut-o5q"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Kz6-12-zOn" secondAttribute="trailing" constant="11" id="OKS-1D-qkR"/>
+                                                <constraint firstItem="bkw-Cs-aQg" firstAttribute="top" secondItem="Kz6-12-zOn" secondAttribute="bottom" constant="8" symbolic="YES" id="UUk-Qu-52Z"/>
+                                                <constraint firstItem="Kz6-12-zOn" firstAttribute="leading" secondItem="HjD-aJ-CFO" secondAttribute="leading" id="cNd-RQ-Qtr"/>
+                                                <constraint firstItem="bkw-Cs-aQg" firstAttribute="leading" secondItem="kl6-qo-gXM" secondAttribute="leadingMargin" constant="15" id="ebM-cQ-kZA"/>
+                                                <constraint firstItem="NFp-Bo-vbA" firstAttribute="leading" secondItem="Kz6-12-zOn" secondAttribute="leading" id="kBX-w0-Xqm"/>
+                                                <constraint firstItem="HjD-aJ-CFO" firstAttribute="top" secondItem="bkw-Cs-aQg" secondAttribute="bottom" constant="10" id="n5B-vS-cDu"/>
+                                                <constraint firstItem="Kz6-12-zOn" firstAttribute="trailing" secondItem="HjD-aJ-CFO" secondAttribute="trailing" id="pLL-uK-fgF"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="HjD-aJ-CFO" secondAttribute="bottom" constant="8" id="zRS-kv-VOb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="665" id="Rhi-ZS-i6o">
+                                        <rect key="frame" x="0.0" y="546" width="414" height="665"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rhi-ZS-i6o" id="3Th-Wt-T5L">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="664.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Establishment of Dachau Concentration Camp" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atF-hR-hss">
+                                                    <rect key="frame" x="15" y="19" width="363" height="31"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 22, 1933" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNb-X6-7Z0">
+                                                    <rect key="frame" x="15" y="48" width="120" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-dachau.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Pqg-TY-LvW">
+                                                    <rect key="frame" x="15" y="77" width="380" height="242"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Pqg-TY-LvW" secondAttribute="height" multiplier="190:121" id="xRz-1j-L0D"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nwu-KK-R4A">
+                                                    <rect key="frame" x="15" y="352" width="380" height="296.66666666666663"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <mutableString key="text">Outside the town of Dachau, Germany, the SS (Schutzstaffel, Protection Squads) establishes its first concentration camp to incarcerate political opponents.Between 1933 and 1945, concentration camps (Konzentrationslager; KL or KZ) were an integral feature of the Nazi regime. The number of prisoners incarcerated in Dachau during these years exceeded 188,000. The number of prisoners who died in the camp and its subcamps between January 1940 and May 1945 was at least 28,000, to which must be added more who died there between 1933 and the end of 1939, as well as an undetermined number of unregistered prisoners. Dachau was the only concentration camp to remain in operation during the entire period of Nazi power. It is unlikely that the total number of victims who died in Dachau will ever be known.</mutableString>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barracks at Dachau - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJs-1Q-jbh">
+                                                    <rect key="frame" x="23" y="327" width="170" height="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Pqg-TY-LvW" firstAttribute="leading" secondItem="Nwu-KK-R4A" secondAttribute="leading" id="3Kv-ES-ew0"/>
+                                                <constraint firstItem="atF-hR-hss" firstAttribute="leading" secondItem="rNb-X6-7Z0" secondAttribute="leading" id="3Pl-g4-ONf"/>
+                                                <constraint firstItem="atF-hR-hss" firstAttribute="top" secondItem="3Th-Wt-T5L" secondAttribute="topMargin" constant="11" id="Cmj-6v-pS1"/>
+                                                <constraint firstItem="rNb-X6-7Z0" firstAttribute="leading" secondItem="Pqg-TY-LvW" secondAttribute="leading" id="DMa-4n-b22"/>
+                                                <constraint firstItem="Pqg-TY-LvW" firstAttribute="top" secondItem="rNb-X6-7Z0" secondAttribute="bottom" constant="8" symbolic="YES" id="EAC-ON-x8p"/>
+                                                <constraint firstItem="QJs-1Q-jbh" firstAttribute="leading" secondItem="3Th-Wt-T5L" secondAttribute="leadingMargin" constant="15" id="ItN-5m-Wrq"/>
+                                                <constraint firstItem="Nwu-KK-R4A" firstAttribute="top" secondItem="QJs-1Q-jbh" secondAttribute="bottom" constant="10" id="V9Q-qZ-HNR"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Pqg-TY-LvW" secondAttribute="trailing" constant="11" id="YW1-nO-Zzy"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Nwu-KK-R4A" secondAttribute="bottom" constant="8" id="dTG-K8-naa"/>
+                                                <constraint firstItem="QJs-1Q-jbh" firstAttribute="top" secondItem="Pqg-TY-LvW" secondAttribute="bottom" constant="8" symbolic="YES" id="geW-yI-7zx"/>
+                                                <constraint firstItem="Pqg-TY-LvW" firstAttribute="trailing" secondItem="Nwu-KK-R4A" secondAttribute="trailing" id="ggq-3T-ng5"/>
+                                                <constraint firstItem="Pqg-TY-LvW" firstAttribute="top" secondItem="atF-hR-hss" secondAttribute="bottom" constant="27" id="hGW-5D-lmZ"/>
+                                                <constraint firstItem="atF-hR-hss" firstAttribute="leading" secondItem="3Th-Wt-T5L" secondAttribute="leadingMargin" constant="7" id="kw0-Tz-SG9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="665" id="O1G-5E-d6E">
+                                        <rect key="frame" x="0.0" y="1211" width="414" height="665"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O1G-5E-d6E" id="Kyc-Go-xW5">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="665"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Burning" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTR-qc-0Qa">
+                                                    <rect key="frame" x="15" y="19" width="110" height="31"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May 10, 1933" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y91-HF-vgo">
+                                                    <rect key="frame" x="15" y="48" width="102" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-book-burning.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="rQM-CQ-Oh5">
+                                                    <rect key="frame" x="15" y="77" width="380" height="242"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="242" id="ibL-yd-llF"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hte-gn-JCN">
+                                                    <rect key="frame" x="15" y="352" width="380" height="297"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <mutableString key="text">On May 10, 1933, university students burn upwards of 25,000 “un-German” books in Berlin’s Opera Square. Some 40,000 people gather to hear Joseph Goebbels deliver a fiery address: “No to decadence and moral corruption!”As part of an effort to align German arts and culture with Nazi ideas (Gleichschaltung), university students in college towns across Germany burned thousands of books they considered to be “un-German,” heralding an era of state censorship and cultural control. Students threw books pillaged mostly from public and university libraries onto bonfires with great ceremony, band-playing, and so-called “fire oaths.” The students sought to purify German literature of “foreign,” especially Jewish, and other immoral influences. Among the authors whose works were burned was Helen Keller, an American whose belief in social justice encouraged her to champion disabled persons, pacifism, improved conditions for industrial workers, and women's voting rights.</mutableString>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Member of the SA throws confiscated books into bonfire - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeG-JR-X4T">
+                                                    <rect key="frame" x="23" y="327" width="390" height="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gTR-qc-0Qa" firstAttribute="top" secondItem="Kyc-Go-xW5" secondAttribute="topMargin" constant="11" id="0zd-Di-EpU"/>
+                                                <constraint firstItem="rQM-CQ-Oh5" firstAttribute="leading" secondItem="hte-gn-JCN" secondAttribute="leading" id="2tS-yt-90I"/>
+                                                <constraint firstItem="gTR-qc-0Qa" firstAttribute="leading" secondItem="Y91-HF-vgo" secondAttribute="leading" id="CsM-wL-Thb"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rQM-CQ-Oh5" secondAttribute="trailing" constant="11" id="FoJ-eg-MDa"/>
+                                                <constraint firstItem="gTR-qc-0Qa" firstAttribute="leading" secondItem="Kyc-Go-xW5" secondAttribute="leadingMargin" constant="7" id="Kpe-yF-1w4"/>
+                                                <constraint firstItem="yeG-JR-X4T" firstAttribute="leading" secondItem="Kyc-Go-xW5" secondAttribute="leadingMargin" constant="15" id="MMr-yu-jFn"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="hte-gn-JCN" secondAttribute="bottom" constant="7.6666666666666288" id="NN8-qY-c45"/>
+                                                <constraint firstItem="rQM-CQ-Oh5" firstAttribute="top" secondItem="gTR-qc-0Qa" secondAttribute="bottom" constant="27" id="PZW-vh-O62"/>
+                                                <constraint firstItem="rQM-CQ-Oh5" firstAttribute="top" secondItem="Y91-HF-vgo" secondAttribute="bottom" constant="8" symbolic="YES" id="YEb-K2-Ari"/>
+                                                <constraint firstItem="Y91-HF-vgo" firstAttribute="leading" secondItem="rQM-CQ-Oh5" secondAttribute="leading" id="dfD-aZ-EIG"/>
+                                                <constraint firstItem="rQM-CQ-Oh5" firstAttribute="trailing" secondItem="hte-gn-JCN" secondAttribute="trailing" id="k0g-Z1-ZHG"/>
+                                                <constraint firstItem="yeG-JR-X4T" firstAttribute="top" secondItem="rQM-CQ-Oh5" secondAttribute="bottom" constant="8" symbolic="YES" id="uEJ-lx-hTi"/>
+                                                <constraint firstItem="hte-gn-JCN" firstAttribute="top" secondItem="yeG-JR-X4T" secondAttribute="bottom" constant="10" id="uZY-5Y-lm2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="6DD-lq-ssK" id="aFF-3Y-SYT"/>
+                            <outlet property="delegate" destination="6DD-lq-ssK" id="6CW-aL-jd9"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7V7-6f-RoJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142.0289855072465" y="1404.6195652173915"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="NGN-Mx-FA4">
+            <objects>
+                <tableViewController id="baj-en-5dr" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="oYM-P5-cNF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="NgP-Wr-1rc">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NgP-Wr-1rc" id="ykX-VT-TfQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="baj-en-5dr" id="hcr-Ls-fyT"/>
+                            <outlet property="delegate" destination="baj-en-5dr" id="s9a-yq-ch9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="tgd-IR-d3A"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YFG-fd-ezw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2046" y="190"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ngU-rl-avn">
+            <objects>
+                <navigationController id="toX-ac-NEA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-video" selectedImage="icon-video" id="TDA-gZ-n2S">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BSt-Ig-d34">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="baj-en-5dr" kind="relationship" relationship="rootViewController" id="HLy-xG-WeH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UYH-AU-yRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2700" y="104"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mu7-Sw-L0t">
             <objects>
                 <navigationController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="mpe-c7-dzr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" systemItem="bookmarks" id="2UH-n5-02X"/>
+                    <tabBarItem key="tabBarItem" title="" image="icon-timeline" selectedImage="icon-timeline" id="2UH-n5-02X">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" backIndicatorImage="icon-home-option2.png" backIndicatorTransitionMaskImage="icon-home-option2.png" id="zwu-Yk-bhz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -716,6 +933,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YPK-F4-6fZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-539" y="459"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pRZ-2I-W2i">
+            <objects>
+                <navigationController id="LIB-Px-fJq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-map" selectedImage="icon-map" id="g2p-eA-0CV">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-4"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="N85-P8-O9B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aoO-Cq-QiZ" kind="relationship" relationship="rootViewController" id="FjV-GL-ofm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPw-bx-e6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1822" y="901"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zI9-qp-nNN">
+            <objects>
+                <viewController id="aoO-Cq-QiZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cvI-0G-CsI"/>
+                        <viewControllerLayoutGuide type="bottom" id="WaO-Zi-70l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J65-b7-vov">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NTW-yw-AkX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4CY-RY-TTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1074" y="1130"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u19-bW-34u">
@@ -759,29 +1015,28 @@
         <!--Navigation Controller-->
         <scene sceneID="xuK-eQ-Tu4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rc7-yi-XZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="Bf2-Tw-5jo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="icon-map.png" selectedImage="icon-map-filled.png" id="eyN-f2-bA9">
+                    <tabBarItem key="tabBarItem" title="" image="icon-people" selectedImage="icon-people" id="eyN-f2-bA9">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" backIndicatorImage="icon-home-option2.png" backIndicatorTransitionMaskImage="icon-home-option2.png" id="tsN-yi-NgO">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" backIndicatorImage="icon-home-trans" backIndicatorTransitionMaskImage="icon-home-trans" id="tsN-yi-NgO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="f7N-je-AMR" kind="relationship" relationship="rootViewController" id="Sca-ec-eW5"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rc7-yi-XZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-539" y="-235"/>
+            <point key="canvasLocation" x="-539" y="-263"/>
         </scene>
     </scenes>
     <resources>
-        <image name="RetrieveAsset-1.aspx.jpeg" width="800" height="577"/>
         <image name="RetrieveAsset.aspx.jpeg" width="800" height="682"/>
         <image name="background austria.jpg" width="448" height="700"/>
         <image name="background czechoslovakia.jpg" width="725" height="910"/>
@@ -791,9 +1046,14 @@
         <image name="hitler-hindenburg.jpg" width="500" height="316"/>
         <image name="icon-home-filled.png" width="21" height="19"/>
         <image name="icon-home-option2.png" width="34" height="34"/>
+        <image name="icon-home-trans" width="34" height="34"/>
         <image name="icon-home.png" width="21" height="20"/>
-        <image name="icon-map-filled.png" width="21" height="21"/>
-        <image name="icon-map.png" width="21" height="21"/>
+        <image name="icon-map" width="21" height="21"/>
+        <image name="icon-people" width="21" height="21"/>
+        <image name="icon-timeline" width="21" height="21"/>
+        <image name="icon-video" width="21" height="21"/>
+        <image name="image-book-burning.jpeg" width="320" height="255"/>
+        <image name="image-dachau.jpeg" width="640" height="428"/>
         <image name="polanfd background.jpg" width="725" height="1132"/>
         <image name="seal-faces-of-the-holocaust.png" width="701" height="701"/>
     </resources>

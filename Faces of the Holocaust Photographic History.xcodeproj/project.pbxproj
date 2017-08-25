@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248F35F01EE19E7238A4CA55 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3138535273AB67529E26DC9 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework */; };
+		6216C64A32A5BB54BD228A2F /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F2768C9874B8CA4C9DBDF8 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework */; };
+		8C3C72E47DC636965BEB090F /* Pods_Faces_of_the_Holocaust_Photographic_History.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADFE4093C8F69004090DD8E /* Pods_Faces_of_the_Holocaust_Photographic_History.framework */; };
 		B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */; };
 		B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBC71F4D1B3900EBED0D /* face1.jpg */; };
 		B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */; };
 		B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */; };
+		B2C8BBCE1F4FB23100EBED0D /* icon-home-trans.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBCD1F4FB23100EBED0D /* icon-home-trans.png */; };
+		B2C8BBD01F4FB7D100EBED0D /* icon-people.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBCF1F4FB7D100EBED0D /* icon-people.png */; };
+		B2C8BBD21F4FB9AB00EBED0D /* icon-video.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */; };
+		B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */; };
+		B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */; };
+		B2F330D41F4FCC9200B766D5 /* image-book-burning.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */; };
+		B2F330D61F50564100B766D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F330D51F50564100B766D5 /* GoogleService-Info.plist */; };
 		B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */; };
 		B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF601F4206A60065DFBE /* ViewController.swift */; };
 		B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF621F4206A60065DFBE /* Main.storyboard */; };
@@ -18,7 +28,6 @@
 		B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */; };
 		B2F8DF741F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */; };
 		B2F8DF7F1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */; };
-		B2F8DF981F4225150065DFBE /* icon-home.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF951F4225150065DFBE /* icon-home.png */; };
 		B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF961F4225150065DFBE /* icon-home@2x.png */; };
 		B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF971F4225150065DFBE /* icon-home@3x.png */; };
 		B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */; };
@@ -33,7 +42,6 @@
 		B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB11F425B8A0065DFBE /* background czechoslovakia.jpg */; };
 		B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB31F425C8D0065DFBE /* background austria.jpg */; };
 		B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB51F425DD70065DFBE /* background germany.jpg */; };
-		B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */; };
 		B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DFBB1F448B100065DFBE /* ResourceList.plist */; };
 		B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */; };
 		B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */; };
@@ -59,10 +67,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		397058280D4E8D15F7BE080F /* Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryUITests/Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ADFE4093C8F69004090DD8E /* Pods_Faces_of_the_Holocaust_Photographic_History.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faces_of_the_Holocaust_Photographic_History.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5F01C40186CF42FC9ECE4F /* Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryUITests/Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolandViewController.swift; sourceTree = "<group>"; };
 		B2C8BBC71F4D1B3900EBED0D /* face1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face1.jpg; sourceTree = "<group>"; };
 		B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B2C8BBCD1F4FB23100EBED0D /* icon-home-trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home-trans.png"; sourceTree = "<group>"; };
+		B2C8BBCF1F4FB7D100EBED0D /* icon-people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-people.png"; sourceTree = "<group>"; };
+		B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-video.png"; sourceTree = "<group>"; };
+		B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-timeline.png"; sourceTree = "<group>"; };
+		B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-dachau.jpeg"; sourceTree = "<group>"; };
+		B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-book-burning.jpeg"; sourceTree = "<group>"; };
+		B2F330D51F50564100B766D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2F8DF5B1F4206A60065DFBE /* Faces of the Holocaust Photographic History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faces of the Holocaust Photographic History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F8DF601F4206A60065DFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +94,6 @@
 		B2F8DF7A1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faces of the Holocaust Photographic HistoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces_of_the_Holocaust_Photographic_HistoryUITests.swift; sourceTree = "<group>"; };
 		B2F8DF801F4206A60065DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2F8DF951F4225150065DFBE /* icon-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home.png"; sourceTree = "<group>"; };
 		B2F8DF961F4225150065DFBE /* icon-home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home@2x.png"; sourceTree = "<group>"; };
 		B2F8DF971F4225150065DFBE /* icon-home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home@3x.png"; sourceTree = "<group>"; };
 		B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home-filled.png"; sourceTree = "<group>"; };
@@ -91,12 +108,17 @@
 		B2F8DFB11F425B8A0065DFBE /* background czechoslovakia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background czechoslovakia.jpg"; sourceTree = "<group>"; };
 		B2F8DFB31F425C8D0065DFBE /* background austria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background austria.jpg"; sourceTree = "<group>"; };
 		B2F8DFB51F425DD70065DFBE /* background germany.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background germany.jpg"; sourceTree = "<group>"; };
-		B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "icon-home-option2.png"; sourceTree = "<group>"; };
 		B2F8DFBB1F448B100065DFBE /* ResourceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResourceList.plist; sourceTree = "<group>"; };
 		B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hitler-hindenburg.jpg"; sourceTree = "<group>"; };
 		B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RetrieveAsset.aspx.jpeg; sourceTree = "<group>"; };
 		B2F8E0051F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RetrieveAsset-1.aspx.jpeg"; sourceTree = "<group>"; };
+		BB10BAAA9DB605A1B1BC972A /* Pods-Faces of the Holocaust Photographic History.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic History.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic History/Pods-Faces of the Holocaust Photographic History.debug.xcconfig"; sourceTree = "<group>"; };
+		C16D94D7003F970CA922E9F2 /* Pods-Faces of the Holocaust Photographic HistoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic HistoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryTests/Pods-Faces of the Holocaust Photographic HistoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9F2768C9874B8CA4C9DBDF8 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61D656F27FEBC67558F0063 /* Pods-Faces of the Holocaust Photographic History.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic History.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic History/Pods-Faces of the Holocaust Photographic History.release.xcconfig"; sourceTree = "<group>"; };
+		E3138535273AB67529E26DC9 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D808D3687F5B7814BFF5B6 /* Pods-Faces of the Holocaust Photographic HistoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic HistoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryTests/Pods-Faces of the Holocaust Photographic HistoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3C72E47DC636965BEB090F /* Pods_Faces_of_the_Holocaust_Photographic_History.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6216C64A32A5BB54BD228A2F /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248F35F01EE19E7238A4CA55 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +156,8 @@
 				B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */,
 				B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */,
 				B2F8DF5C1F4206A60065DFBE /* Products */,
+				D24463DB57CDDA0D3D4864A4 /* Pods */,
+				C83790AEAE307999A2132202 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,7 +181,19 @@
 				B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */,
 				B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */,
 				B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */,
+				B2F330D51F50564100B766D5 /* GoogleService-Info.plist */,
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
+				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
+				B2C8BBCD1F4FB23100EBED0D /* icon-home-trans.png */,
+				B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */,
+				B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */,
+				B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */,
+				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
+				B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */,
+				B2F8DFA31F4227E90065DFBE /* icon-map-filled.png */,
+				B2C8BBCF1F4FB7D100EBED0D /* icon-people.png */,
+				B2F8DFA11F42272E0065DFBE /* icon-map.png */,
+				B2F8DF9C1F4225E40065DFBE /* icon-home-filled@2x.png */,
 				B2F8DF901F421F7E0065DFBE /* Images */,
 				B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */,
 				B2F8DF6A1F4206A60065DFBE /* Info.plist */,
@@ -184,28 +223,44 @@
 		B2F8DF901F421F7E0065DFBE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B2F8DF951F4225150065DFBE /* icon-home.png */,
-				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
 				B2C8BBC71F4D1B3900EBED0D /* face1.jpg */,
-				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
 				B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */,
 				B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */,
+				B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */,
 				B2F8E0051F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg */,
 				B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */,
 				B2F8DFB51F425DD70065DFBE /* background germany.jpg */,
 				B2F8DFB31F425C8D0065DFBE /* background austria.jpg */,
 				B2F8DFB11F425B8A0065DFBE /* background czechoslovakia.jpg */,
-				B2F8DFB91F4277FB0065DFBE /* icon-home-option2.png */,
 				B2F8DFAB1F423B600065DFBE /* polanfd background.jpg */,
 				B2F8DFAF1F425AC40065DFBE /* background hungary.jpg */,
-				B2F8DFA11F42272E0065DFBE /* icon-map.png */,
-				B2F8DFA31F4227E90065DFBE /* icon-map-filled.png */,
 				B2F8DFA71F422D4B0065DFBE /* seal-faces-of-the-holocaust.png */,
-				B2F8DF9C1F4225E40065DFBE /* icon-home-filled@2x.png */,
 				B2F8DFA51F422A380065DFBE /* background.jpg */,
-				B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		C83790AEAE307999A2132202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ADFE4093C8F69004090DD8E /* Pods_Faces_of_the_Holocaust_Photographic_History.framework */,
+				C9F2768C9874B8CA4C9DBDF8 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework */,
+				E3138535273AB67529E26DC9 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D24463DB57CDDA0D3D4864A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB10BAAA9DB605A1B1BC972A /* Pods-Faces of the Holocaust Photographic History.debug.xcconfig */,
+				D61D656F27FEBC67558F0063 /* Pods-Faces of the Holocaust Photographic History.release.xcconfig */,
+				E4D808D3687F5B7814BFF5B6 /* Pods-Faces of the Holocaust Photographic HistoryTests.debug.xcconfig */,
+				C16D94D7003F970CA922E9F2 /* Pods-Faces of the Holocaust Photographic HistoryTests.release.xcconfig */,
+				397058280D4E8D15F7BE080F /* Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig */,
+				AE5F01C40186CF42FC9ECE4F /* Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F8DF831F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic History" */;
 			buildPhases = (
+				7FC64BCA2F0D0F665C218AE6 /* [CP] Check Pods Manifest.lock */,
 				B2F8DF571F4206A60065DFBE /* Sources */,
 				B2F8DF581F4206A60065DFBE /* Frameworks */,
 				B2F8DF591F4206A60065DFBE /* Resources */,
+				9D2CDABA462A3186A687EE9A /* [CP] Embed Pods Frameworks */,
+				91947013394D2F8684F8B3CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F8DF861F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryTests" */;
 			buildPhases = (
+				6A80CDA2B63E5064F6991F9C /* [CP] Check Pods Manifest.lock */,
 				B2F8DF6B1F4206A60065DFBE /* Sources */,
 				B2F8DF6C1F4206A60065DFBE /* Frameworks */,
 				B2F8DF6D1F4206A60065DFBE /* Resources */,
+				452B58DEC33889B7AB777846 /* [CP] Embed Pods Frameworks */,
+				CCE813EE6729BC9B45C67C1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F8DF891F4206A60065DFBE /* Build configuration list for PBXNativeTarget "Faces of the Holocaust Photographic HistoryUITests" */;
 			buildPhases = (
+				A1DA1C39E8A16D4D0F53A514 /* [CP] Check Pods Manifest.lock */,
 				B2F8DF761F4206A60065DFBE /* Sources */,
 				B2F8DF771F4206A60065DFBE /* Frameworks */,
 				B2F8DF781F4206A60065DFBE /* Resources */,
+				2A5AEDC462305F5BE6856D68 /* [CP] Embed Pods Frameworks */,
+				2D38F2715B622BEDF50C1839 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,9 +384,11 @@
 			files = (
 				B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */,
 				B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */,
+				B2C8BBCE1F4FB23100EBED0D /* icon-home-trans.png in Resources */,
 				B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */,
 				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
 				B2F8DF9F1F4225E40065DFBE /* icon-home-filled@2x.png in Resources */,
+				B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */,
 				B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */,
 				B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */,
 				B2F8DFA41F4227E90065DFBE /* icon-map-filled.png in Resources */,
@@ -330,13 +396,16 @@
 				B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */,
 				B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */,
 				B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */,
+				B2C8BBD01F4FB7D100EBED0D /* icon-people.png in Resources */,
+				B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */,
 				B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */,
-				B2F8DF981F4225150065DFBE /* icon-home.png in Resources */,
+				B2F330D61F50564100B766D5 /* GoogleService-Info.plist in Resources */,
 				B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */,
 				B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */,
 				B2F8E0061F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg in Resources */,
-				B2F8DFBA1F4277FB0065DFBE /* icon-home-option2.png in Resources */,
+				B2C8BBD21F4FB9AB00EBED0D /* icon-video.png in Resources */,
 				B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */,
+				B2F330D41F4FCC9200B766D5 /* image-book-burning.jpeg in Resources */,
 				B2F8DFA61F422A380065DFBE /* background.jpg in Resources */,
 				B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */,
 				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
@@ -361,6 +430,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5AEDC462305F5BE6856D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryUITests/Pods-Faces of the Holocaust Photographic HistoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D38F2715B622BEDF50C1839 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryUITests/Pods-Faces of the Holocaust Photographic HistoryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452B58DEC33889B7AB777846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryTests/Pods-Faces of the Holocaust Photographic HistoryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A80CDA2B63E5064F6991F9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Faces of the Holocaust Photographic HistoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC64BCA2F0D0F665C218AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Faces of the Holocaust Photographic History-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91947013394D2F8684F8B3CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic History/Pods-Faces of the Holocaust Photographic History-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2CDABA462A3186A687EE9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic History/Pods-Faces of the Holocaust Photographic History-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic History/Pods-Faces of the Holocaust Photographic History-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DA1C39E8A16D4D0F53A514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Faces of the Holocaust Photographic HistoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE813EE6729BC9B45C67C1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryTests/Pods-Faces of the Holocaust Photographic HistoryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2F8DF571F4206A60065DFBE /* Sources */ = {
@@ -521,32 +742,39 @@
 		};
 		B2F8DF841F4206A60065DFBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB10BAAA9DB605A1B1BC972A /* Pods-Faces of the Holocaust Photographic History.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z2FWA33N3;
 				INFOPLIST_FILE = "Faces of the Holocaust Photographic History/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B2F8DF851F4206A60065DFBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61D656F27FEBC67558F0063 /* Pods-Faces of the Holocaust Photographic History.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z2FWA33N3;
 				INFOPLIST_FILE = "Faces of the Holocaust Photographic History/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B2F8DF871F4206A60065DFBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D808D3687F5B7814BFF5B6 /* Pods-Faces of the Holocaust Photographic HistoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,6 +790,7 @@
 		};
 		B2F8DF881F4206A60065DFBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16D94D7003F970CA922E9F2 /* Pods-Faces of the Holocaust Photographic HistoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -577,6 +806,7 @@
 		};
 		B2F8DF8A1F4206A60065DFBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397058280D4E8D15F7BE080F /* Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2Z2FWA33N3;
@@ -591,6 +821,7 @@
 		};
 		B2F8DF8B1F4206A60065DFBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5F01C40186CF42FC9ECE4F /* Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2Z2FWA33N3;
