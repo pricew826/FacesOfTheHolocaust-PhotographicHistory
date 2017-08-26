@@ -34,7 +34,7 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDataSour
         
         
         if let firstViewController = viewControllerList.first {
-            self.setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
+            self.setViewControllers([firstViewController], direction: .forward, animated: false, completion: nil)
             
             
             

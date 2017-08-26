@@ -21,6 +21,11 @@
 		B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */; };
 		B2F330D41F4FCC9200B766D5 /* image-book-burning.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */; };
 		B2F330D61F50564100B766D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F330D51F50564100B766D5 /* GoogleService-Info.plist */; };
+		B2F330DC1F51146100B766D5 /* FirebaseVidoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F330DB1F51146100B766D5 /* FirebaseVidoes.swift */; };
+		B2F330E01F51277C00B766D5 /* polandBackgroundBlur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2F330DF1F51277C00B766D5 /* polandBackgroundBlur.jpg */; };
+		B2F330E21F51AF0D00B766D5 /* VideoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F330E11F51AF0D00B766D5 /* VideoTest.swift */; };
+		B2F330E41F51C15300B766D5 /* hol.mp4.mov in Resources */ = {isa = PBXBuildFile; fileRef = B2F330E31F51C15300B766D5 /* hol.mp4.mov */; };
+		B2F330EA1F520A5C00B766D5 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F330E91F520A5C00B766D5 /* VideoPlayerViewController.swift */; };
 		B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */; };
 		B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8DF601F4206A60065DFBE /* ViewController.swift */; };
 		B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F8DF621F4206A60065DFBE /* Main.storyboard */; };
@@ -81,6 +86,11 @@
 		B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-dachau.jpeg"; sourceTree = "<group>"; };
 		B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-book-burning.jpeg"; sourceTree = "<group>"; };
 		B2F330D51F50564100B766D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2F330DB1F51146100B766D5 /* FirebaseVidoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseVidoes.swift; sourceTree = "<group>"; };
+		B2F330DF1F51277C00B766D5 /* polandBackgroundBlur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polandBackgroundBlur.jpg; sourceTree = "<group>"; };
+		B2F330E11F51AF0D00B766D5 /* VideoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTest.swift; sourceTree = "<group>"; };
+		B2F330E31F51C15300B766D5 /* hol.mp4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = hol.mp4.mov; sourceTree = "<group>"; };
+		B2F330E91F520A5C00B766D5 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		B2F8DF5B1F4206A60065DFBE /* Faces of the Holocaust Photographic History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faces of the Holocaust Photographic History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F8DF601F4206A60065DFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -174,21 +184,26 @@
 		B2F8DF5D1F4206A60065DFBE /* Faces of the Holocaust Photographic History */ = {
 			isa = PBXGroup;
 			children = (
+				B2F330E91F520A5C00B766D5 /* VideoPlayerViewController.swift */,
 				B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */,
 				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
 				B2F8DF621F4206A60065DFBE /* Main.storyboard */,
 				B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */,
+				B2F330DB1F51146100B766D5 /* FirebaseVidoes.swift */,
 				B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */,
+				B2F330E11F51AF0D00B766D5 /* VideoTest.swift */,
 				B2C8BBCA1F4D270D00EBED0D /* CustomTableViewCell.xib */,
 				B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */,
 				B2F330D51F50564100B766D5 /* GoogleService-Info.plist */,
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
+				B2F330E31F51C15300B766D5 /* hol.mp4.mov */,
 				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
 				B2C8BBCD1F4FB23100EBED0D /* icon-home-trans.png */,
 				B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */,
 				B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */,
 				B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */,
 				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
+				B2F330DF1F51277C00B766D5 /* polandBackgroundBlur.jpg */,
 				B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */,
 				B2F8DFA31F4227E90065DFBE /* icon-map-filled.png */,
 				B2C8BBCF1F4FB7D100EBED0D /* icon-people.png */,
@@ -395,6 +410,7 @@
 				B2F8DFA81F422D4B0065DFBE /* seal-faces-of-the-holocaust.png in Resources */,
 				B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */,
 				B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */,
+				B2F330E41F51C15300B766D5 /* hol.mp4.mov in Resources */,
 				B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */,
 				B2C8BBD01F4FB7D100EBED0D /* icon-people.png in Resources */,
 				B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */,
@@ -405,6 +421,7 @@
 				B2F8E0061F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg in Resources */,
 				B2C8BBD21F4FB9AB00EBED0D /* icon-video.png in Resources */,
 				B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */,
+				B2F330E01F51277C00B766D5 /* polandBackgroundBlur.jpg in Resources */,
 				B2F330D41F4FCC9200B766D5 /* image-book-burning.jpeg in Resources */,
 				B2F8DFA61F422A380065DFBE /* background.jpg in Resources */,
 				B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */,
@@ -535,12 +552,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Faces of the Holocaust Photographic History/Pods-Faces of the Holocaust Photographic History-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,9 +609,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F330DC1F51146100B766D5 /* FirebaseVidoes.swift in Sources */,
+				B2F330E21F51AF0D00B766D5 /* VideoTest.swift in Sources */,
 				B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */,
 				B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */,
 				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
+				B2F330EA1F520A5C00B766D5 /* VideoPlayerViewController.swift in Sources */,
 				B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */,
 				B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */,
 			);
@@ -752,7 +776,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -768,7 +792,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
