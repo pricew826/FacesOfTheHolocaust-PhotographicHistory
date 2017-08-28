@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Faces_of_the_Holocaust_Photographic_History : NSObject
+@end
+@implementation PodsDummy_Pods_Faces_of_the_Holocaust_Photographic_History
+@end
