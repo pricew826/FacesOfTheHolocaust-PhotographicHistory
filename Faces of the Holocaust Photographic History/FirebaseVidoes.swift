@@ -14,6 +14,7 @@ import AVFoundation
 struct postStruct {
     let title : String!
     let message : String!
+    let url : URL!
     //let image : UIImage!
 }
 
@@ -40,10 +41,13 @@ class FirebaseVidoes: UITableViewController {
             let snapshotValue = snapshot.value as? NSDictionary
             let title = snapshotValue?["title"] as? String
             let message = snapshotValue?["message"] as? String
+            let url = snapshotValue?["url"] as? URL
             //let image = snapshotValue?["image"] as? UIImage
             
-            self.posts.insert(postStruct(title: title, message: message) , at: 0)
+            self.posts.insert(postStruct(title: title, message: message, url: url) , at: 0)
             self.tableView.reloadData()
+            
+            
             
 
         })
@@ -54,7 +58,7 @@ class FirebaseVidoes: UITableViewController {
     }
     
     
-    func post(){
+   func post(){
         
         let title = "Title"
         let message = "Message"
@@ -95,13 +99,32 @@ class FirebaseVidoes: UITableViewController {
         let label2 = cell?.viewWithTag(2) as! UILabel
             label2.text = posts[indexPath.row].message
         
+        
+        
         //let image1 = cell?.viewWithTag(3) as! UIImage
             //image1.UIimage = posts[indexPath.row].image
         
         
         
         return cell!
+        
+        
+        
 
+    }
+    
+    func tableView(_tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        var selectedIndex = indexPath
+        
+        let url = posts[indexPath.row].url
+        let player = AVPlayer(url: url!)
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+        self.present(playerViewController, animated: true) {
+            playerViewController.player!.play()
+        }
+        
     }
     
    

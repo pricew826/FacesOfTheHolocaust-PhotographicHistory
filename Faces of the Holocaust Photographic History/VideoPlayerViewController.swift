@@ -3,12 +3,18 @@ import AVFoundation
 
 class VideoPlayerViewController: UIViewController {
     
+    @IBOutlet weak var theButton: UIButton!
+    
+    
+    
     let avPlayer = AVPlayer()
     var avPlayerLayer: AVPlayerLayer!
     let invisibleButton = UIButton()
     
     
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         view.backgroundColor = .black
         
@@ -41,6 +47,9 @@ class VideoPlayerViewController: UIViewController {
         
         avPlayerLayer.frame = view.bounds
         invisibleButton.frame = view.bounds
+        
+        view.bringSubview(toFront: theButton)
+
     }
     
     func invisibleButtonTapped(sender: UIButton) {

@@ -586,7 +586,7 @@
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="MORE"/>
                                 <connections>
-                                    <segue destination="mtn-9F-iVH" kind="show" animates="NO" id="uRo-hg-Jbj"/>
+                                    <segue destination="3sh-ty-8yp" kind="show" animates="NO" id="FCF-hw-e5T"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -600,43 +600,31 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <connections>
+                        <outlet property="theButton" destination="jbY-md-u6H" id="EWS-4L-yax"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IY0-b9-4zA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="776.79999999999995" y="1102.3988005997003"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="VUJ-94-Ibg">
+        <scene sceneID="yBD-7b-whE">
             <objects>
-                <viewController id="mtn-9F-iVH" sceneMemberID="viewController">
+                <viewController id="3sh-ty-8yp" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5HU-73-PQS"/>
-                        <viewControllerLayoutGuide type="bottom" id="yB0-FA-ABv"/>
+                        <viewControllerLayoutGuide type="top" id="Olx-IN-eSt"/>
+                        <viewControllerLayoutGuide type="bottom" id="afW-nA-KPh"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jz9-Pc-jNa">
+                    <view key="view" contentMode="scaleToFill" id="qXW-O2-fob">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOY-hS-OzE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="Yhn-Q5-2xW"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FOY-hS-OzE" firstAttribute="leading" secondItem="jz9-Pc-jNa" secondAttribute="leading" id="6jk-Gg-oiv"/>
-                            <constraint firstAttribute="trailing" secondItem="FOY-hS-OzE" secondAttribute="trailing" id="d9W-rh-sMK"/>
-                            <constraint firstItem="FOY-hS-OzE" firstAttribute="top" secondItem="jz9-Pc-jNa" secondAttribute="top" id="did-7Z-vvR"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="RVB-Ah-m0n"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Uw8-uY-4Pr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Nk-xm-TFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1238" y="1854"/>
+            <point key="canvasLocation" x="777" y="1864"/>
         </scene>
         <!--1933 - 1945-->
         <scene sceneID="rcF-GK-kI1">
@@ -914,12 +902,6 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKb-qS-v6d">
                                             <rect key="frame" x="8" y="-3" width="359" height="292"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Por Alex gross" translatesAutoresizingMaskIntoConstraints="NO" id="Rhy-vw-6sH">
-                                                    <rect key="frame" x="0.0" y="0.0" width="359" height="201"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="Rhy-vw-6sH" secondAttribute="height" multiplier="398:223" id="gJ2-1M-wmt"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZF-9F-QgH">
                                                     <rect key="frame" x="0.0" y="135" width="359" height="29"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="21"/>
@@ -936,9 +918,6 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="6rv-AP-E6n" firstAttribute="top" secondItem="sZF-9F-QgH" secondAttribute="bottom" constant="8" id="8Mc-VJ-Chb"/>
-                                                <constraint firstItem="Rhy-vw-6sH" firstAttribute="top" secondItem="aKb-qS-v6d" secondAttribute="top" id="Feo-Cn-KDj"/>
-                                                <constraint firstItem="Rhy-vw-6sH" firstAttribute="leading" secondItem="aKb-qS-v6d" secondAttribute="leading" id="muj-a4-rfm"/>
-                                                <constraint firstAttribute="trailing" secondItem="Rhy-vw-6sH" secondAttribute="trailing" id="vfC-0G-3iQ"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -966,7 +945,7 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                     <navigationItem key="navigationItem" id="5A7-Ag-vQG"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="-1989.8550724637682" y="89.673913043478265"/>
+            <point key="canvasLocation" x="-2055.1999999999998" y="103.89805097451276"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mu7-Sw-L0t">
@@ -1005,7 +984,7 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPw-bx-e6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1822" y="901"/>
+            <point key="canvasLocation" x="-1670" y="1105"/>
         </scene>
         <!--Video Test-->
         <scene sceneID="zI9-qp-nNN">
@@ -1049,7 +1028,7 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CY-RY-TTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-967.20000000000005" y="1101.4992503748126"/>
+            <point key="canvasLocation" x="-1007" y="1102"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u19-bW-34u">
@@ -1115,7 +1094,6 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
         </scene>
     </scenes>
     <resources>
-        <image name="Por Alex gross" width="900" height="856"/>
         <image name="background austria.jpg" width="448" height="700"/>
         <image name="background czechoslovakia.jpg" width="725" height="910"/>
         <image name="background germany.jpg" width="725" height="761"/>
