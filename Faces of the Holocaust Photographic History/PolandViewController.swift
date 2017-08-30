@@ -67,9 +67,11 @@ extension PolandViewController:UITableViewDataSource, UITableViewDelegate{
         
         cell.titleLabel.text = item["title"]
         cell.shortLabel.text = item["short"]
+        cell.otherImage.image = UIImage.init(named: item["image"]!)
         cell.thumbImage.image = UIImage.init(named: item["image"]!)
         cell.longLabel.text = item["long"]
         
+                
         
         
         return cell
@@ -78,12 +80,18 @@ extension PolandViewController:UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
+        let height = UIScreen.main.bounds.height
+        
+        
+        
+        
         if isExpanded && self.selectedIndex == indexPath{
+            //return self.view.frame.size.height * 0.6
             return 400
-            
         }
         
         return 110
+         //return height * 0.2
         
     }
 }

@@ -23,7 +23,7 @@
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="tII-1R-vuW" kind="relationship" relationship="viewControllers" id="P0N-d9-lz2"/>
+                        <segue destination="8eG-pl-Bpc" kind="relationship" relationship="viewControllers" id="P0N-d9-lz2"/>
                         <segue destination="Bf2-Tw-5jo" kind="relationship" relationship="viewControllers" id="r2T-wi-OoT"/>
                         <segue destination="toX-ac-NEA" kind="relationship" relationship="viewControllers" id="ZA3-fr-CXN"/>
                         <segue destination="mpe-c7-dzr" kind="relationship" relationship="viewControllers" id="VfE-sw-xDW"/>
@@ -359,7 +359,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Igd-4X-BRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="329" y="-717"/>
+            <point key="canvasLocation" x="3145.5999999999999" y="-717.84107946026995"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Bqh-V4-6uW">
@@ -374,7 +374,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mSn-uA-9Ua" id="0GC-58-wl8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -382,7 +382,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TQR-fu-PUk" id="n5Y-YA-e1O">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.53846982758620687" colorSpace="calibratedWhite"/>
@@ -396,7 +396,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAD-Qj-8Li" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1088" y="-1151"/>
+            <point key="canvasLocation" x="3904.8000000000002" y="-1151.8740629685158"/>
         </scene>
         <!--POLAND-->
         <scene sceneID="aSs-e1-Vw5">
@@ -417,28 +417,12 @@
                                 <rect key="frame" x="14" y="84" width="387" height="603"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="left" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="cell" textLabel="CH5-9x-6GG" detailTextLabel="IBv-1w-CfW" rowHeight="110" style="IBUITableViewCellStyleSubtitle" id="fn6-8k-qLm">
+                                    <tableViewCell clipsSubviews="YES" contentMode="left" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="110" id="fn6-8k-qLm">
                                         <rect key="frame" x="0.0" y="28" width="387" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="fn6-8k-qLm" id="8uN-8W-y7D">
                                             <rect key="frame" x="0.0" y="0.0" width="387" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CH5-9x-6GG">
-                                                    <rect key="frame" x="15" y="29" width="34" height="31"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IBv-1w-CfW">
-                                                    <rect key="frame" x="15" y="60" width="41" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                                         </tableViewCellContentView>
@@ -473,17 +457,202 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BiU-rt-w2o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1086.9565217391305" y="-462.22826086956525"/>
+            <point key="canvasLocation" x="3953.5999999999999" y="-447.0764617691155"/>
         </scene>
-        <!--Root Page View Controller-->
+        <!--HOLOCAUST TIMELINE-->
         <scene sceneID="Qsp-7e-gDQ">
             <objects>
                 <pageViewController storyboardIdentifier="Main" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Vt6-en-CnC" customClass="RootPageViewController" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Vds-Ji-DNO"/>
+                    <navigationItem key="navigationItem" title="HOLOCAUST TIMELINE" id="Vds-Ji-DNO">
+                        <barButtonItem key="backBarButtonItem" title="Done" id="Om9-C9-TNA"/>
+                    </navigationItem>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nke-UA-6hT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="441" y="459"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="ZjE-WK-dFH">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="2M9-BK-wkf" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="frQ-wX-KIX"/>
+                        <viewControllerLayoutGuide type="bottom" id="k49-KN-TGd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bsr-8f-5Nm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZ7-9D-T1C">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7KU-zb-2Rs">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DRANCY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwk-cO-y5t">
+                                            <rect key="frame" x="55" y="36" width="266" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="zwk-cO-y5t" firstAttribute="centerX" secondItem="7KU-zb-2Rs" secondAttribute="centerX" id="EaK-wi-Heo"/>
+                                        <constraint firstItem="zwk-cO-y5t" firstAttribute="top" secondItem="7KU-zb-2Rs" secondAttribute="top" constant="25" id="PsT-pF-4w3"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ImageDrancy.jpg.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ZCT-in-gCw">
+                                <rect key="frame" x="19" y="122" width="337" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZCT-in-gCw" secondAttribute="height" multiplier="337:192" id="kH4-09-gPc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5EA-d0-t6e">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="7ua-UP-rGo"/>
+                                    <constraint firstAttribute="width" constant="29" id="TyZ-Li-Vi5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup:" destination="2M9-BK-wkf" eventType="touchUpInside" id="uYT-6H-T0y"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvX-8z-eVb">
+                                <rect key="frame" x="19" y="345" width="337" height="322"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Drancy concentration camp was located in the northeastern suburbs in Paris. The camp was used mainly as a holding place for Jews awaiting deportation to other concentration camps. Approximately 70,000 prisoners passed through Drancy between August 1941 and August 1944. Most of the inmates in this camp were Jews except for some members of the French resistance. Five subcamps were located in the vicinity and mainly served as storage places for goods taken from the Jews. Altogether, 64,759 Jews were deported from Drancy in 64 transports, and approximately 61,000 of these were sent to Auschwitz-Birkenau. The camp was liberated in 1944 after the guards had destroyed many of the documents. The Red Cross moved into the camp after liberation to care for the 1,500 Jews that were still alive.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Drancy Concentration Camp - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyA-id-WB8">
+                                <rect key="frame" x="19" y="316" width="340" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZCT-in-gCw" firstAttribute="centerX" secondItem="bsr-8f-5Nm" secondAttribute="centerX" id="3sO-hd-hQC"/>
+                            <constraint firstItem="k49-KN-TGd" firstAttribute="top" secondItem="CvX-8z-eVb" secondAttribute="bottom" constant="20" id="C8R-1a-aZk"/>
+                            <constraint firstItem="k49-KN-TGd" firstAttribute="top" secondItem="yZ7-9D-T1C" secondAttribute="bottom" id="JAb-Up-2U6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZCT-in-gCw" secondAttribute="trailing" constant="3" id="JdS-P5-kf5"/>
+                            <constraint firstItem="ZCT-in-gCw" firstAttribute="leading" secondItem="bsr-8f-5Nm" secondAttribute="leadingMargin" constant="3" id="NCG-uE-JVG"/>
+                            <constraint firstItem="5EA-d0-t6e" firstAttribute="leading" secondItem="bsr-8f-5Nm" secondAttribute="leadingMargin" id="UpB-Ns-oD9"/>
+                            <constraint firstItem="wyA-id-WB8" firstAttribute="top" secondItem="ZCT-in-gCw" secondAttribute="bottom" constant="2" id="cUm-W9-oIa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CvX-8z-eVb" secondAttribute="trailing" constant="12" id="cv1-Hi-Alf"/>
+                            <constraint firstItem="CvX-8z-eVb" firstAttribute="leading" secondItem="bsr-8f-5Nm" secondAttribute="leadingMargin" constant="12" id="dDI-QW-Zth"/>
+                            <constraint firstItem="CvX-8z-eVb" firstAttribute="top" secondItem="wyA-id-WB8" secondAttribute="bottom" constant="8" id="dtc-CJ-DLm"/>
+                            <constraint firstItem="5EA-d0-t6e" firstAttribute="top" secondItem="frQ-wX-KIX" secondAttribute="bottom" id="fkn-ZA-Rv2"/>
+                            <constraint firstItem="ZCT-in-gCw" firstAttribute="top" secondItem="5EA-d0-t6e" secondAttribute="bottom" constant="40" id="gj1-BA-auq"/>
+                            <constraint firstItem="yZ7-9D-T1C" firstAttribute="top" secondItem="bsr-8f-5Nm" secondAttribute="top" id="pbh-yg-rsa"/>
+                            <constraint firstItem="yZ7-9D-T1C" firstAttribute="leading" secondItem="bsr-8f-5Nm" secondAttribute="leading" id="uVf-fM-RbQ"/>
+                            <constraint firstItem="wyA-id-WB8" firstAttribute="leading" secondItem="bsr-8f-5Nm" secondAttribute="leadingMargin" constant="3" id="vSH-yc-nLT"/>
+                            <constraint firstAttribute="trailing" secondItem="yZ7-9D-T1C" secondAttribute="trailing" id="zwU-N0-3ny"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pj6-bW-6Rf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959.20000000000005" y="1942.5787106446778"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="L3r-Lt-HJB">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="gPe-to-hgH" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Wu-kg-NMY"/>
+                        <viewControllerLayoutGuide type="bottom" id="K4X-Yz-PUc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N0p-ah-xqS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41e-6N-o5D">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="akw-3e-dz0">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="AUSCHWITZ-BIRKENAU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMy-wK-CeU">
+                                            <rect key="frame" x="91" y="26" width="192" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="EMy-wK-CeU" firstAttribute="top" secondItem="akw-3e-dz0" secondAttribute="top" constant="25" id="aNP-CC-2RF"/>
+                                        <constraint firstItem="EMy-wK-CeU" firstAttribute="centerX" secondItem="akw-3e-dz0" secondAttribute="centerX" id="bu3-xP-FnD"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="AuschwitzGate.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cIp-gz-tpq">
+                                <rect key="frame" x="19" y="66" width="337" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cIp-gz-tpq" secondAttribute="height" multiplier="337:248" id="hzS-Is-1Kb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHP-7N-baM">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="N6K-8M-fUg"/>
+                                    <constraint firstAttribute="width" constant="29" id="mLa-Zc-gwl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup2:" destination="gPe-to-hgH" eventType="touchUpInside" id="OtX-Kh-7la"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trI-9g-xrv">
+                                <rect key="frame" x="19" y="345" width="337" height="451"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Established in 1940, Auschwitz became the largest death camp. The original purpose for the camp was to facilitate the growing number of Poles that were being arrested and could not fit into the “local” prisons. Due to the strategic location of Auschwitz, people would be deported from all over Europe to this massive concentration camp. The first camp, also called the “main camp” or Auschwitz I, was located in the previous location of pre-war Polish barracks, and consistently contained between 15,000 and sometimes more than 20,000 prisoners. The second and largest part of Auschwitz was Birkenau, or Auschwitz II, which held over 90,000 prisoners in 1944; the majority of the mass murder occurred here. Under the name Auschwitz were over 40 subcamps, most of which were built near German plants and farms; the largest of these subcamps was Buna, which became the head camp of Auschwitz III. All of the camps and subcamps were enclosed with barbed wire, thus creating a barrier between the inside of the camp and the rest of the world. Through the years of Auschwitz's operation, approximately 1,100,000 Jews were sent to Auschwitz, and the majority were sent immediately to the gas chambers.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="View of Entrance to Auschwitz I (Auschwitz I) - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yc-Sy-fCh">
+                                <rect key="frame" x="19" y="316" width="340" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cIp-gz-tpq" firstAttribute="top" secondItem="xHP-7N-baM" secondAttribute="bottom" constant="25" id="0UP-kT-rtC"/>
+                            <constraint firstItem="8yc-Sy-fCh" firstAttribute="top" secondItem="cIp-gz-tpq" secondAttribute="bottom" constant="2" id="Cus-uW-e8c"/>
+                            <constraint firstItem="K4X-Yz-PUc" firstAttribute="top" secondItem="41e-6N-o5D" secondAttribute="bottom" id="RMA-2D-TZ9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="trI-9g-xrv" secondAttribute="trailing" constant="3" id="S6F-TE-hxD"/>
+                            <constraint firstItem="cIp-gz-tpq" firstAttribute="leading" secondItem="N0p-ah-xqS" secondAttribute="leadingMargin" constant="3" id="SPD-oF-2ue"/>
+                            <constraint firstItem="xHP-7N-baM" firstAttribute="leading" secondItem="N0p-ah-xqS" secondAttribute="leadingMargin" id="VAX-hP-5Nf"/>
+                            <constraint firstItem="8yc-Sy-fCh" firstAttribute="leading" secondItem="N0p-ah-xqS" secondAttribute="leadingMargin" constant="3" id="cBZ-jg-aSa"/>
+                            <constraint firstAttribute="trailing" secondItem="41e-6N-o5D" secondAttribute="trailing" id="duB-Ls-XQG"/>
+                            <constraint firstItem="trI-9g-xrv" firstAttribute="leading" secondItem="N0p-ah-xqS" secondAttribute="leadingMargin" constant="3" id="mRC-dS-Jne"/>
+                            <constraint firstItem="K4X-Yz-PUc" firstAttribute="top" secondItem="trI-9g-xrv" secondAttribute="bottom" constant="8" id="sux-Yq-gPu"/>
+                            <constraint firstItem="trI-9g-xrv" firstAttribute="top" secondItem="8yc-Sy-fCh" secondAttribute="bottom" constant="8" id="tSg-EI-wVI"/>
+                            <constraint firstItem="41e-6N-o5D" firstAttribute="leading" secondItem="N0p-ah-xqS" secondAttribute="leading" id="ubs-to-vOm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cIp-gz-tpq" secondAttribute="trailing" constant="3" id="v33-hI-ucA"/>
+                            <constraint firstItem="xHP-7N-baM" firstAttribute="top" secondItem="1Wu-kg-NMY" secondAttribute="bottom" id="yEI-fC-Ilz"/>
+                            <constraint firstItem="41e-6N-o5D" firstAttribute="top" secondItem="N0p-ah-xqS" secondAttribute="top" id="zsC-3S-ddc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcS-cw-ch8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-330" y="1943"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6En-bw-1d7">
@@ -561,7 +730,7 @@
         <!--1933-1938-->
         <scene sceneID="rlQ-wZ-bhK">
             <objects>
-                <viewController storyboardIdentifier="secondVC" title="1933-1938" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q1J-Bs-kAD" customClass="VideoPlayerViewController" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondVC" autoresizesArchivedViewToFullSize="NO" title="1933-1938" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q1J-Bs-kAD" customClass="VideoPlayerViewController" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Hk-xl-6a1"/>
                         <viewControllerLayoutGuide type="bottom" id="pIj-Mi-kVE"/>
@@ -673,29 +842,29 @@
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="546" id="l5P-LV-Nxa">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="546"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="l5P-LV-Nxa" id="kl6-qo-gXM">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l5P-LV-Nxa" id="kl6-qo-gXM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="545.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Adolf Hitler Appointed Chancellor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKq-7Q-2Ik">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adolf Hitler Appointed Chancellor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKq-7Q-2Ik">
                                                     <rect key="frame" x="15" y="19" width="268" height="31"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="22"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="January 30, 1933" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFp-Bo-vbA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 30, 1933" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFp-Bo-vbA">
                                                     <rect key="frame" x="15" y="48" width="133" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="hitler-hindenburg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kz6-12-zOn">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hitler-hindenburg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kz6-12-zOn">
                                                     <rect key="frame" x="15" y="77" width="341" height="217"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Kz6-12-zOn" secondAttribute="height" multiplier="190:121" id="6dg-XX-Dky"/>
                                                     </constraints>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HjD-aJ-CFO">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HjD-aJ-CFO">
                                                     <rect key="frame" x="15" y="327" width="341" height="202"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <string key="text">The National Socialist German Workers' Party (Nationalsozialistische Deutsche Arbeiterpartei; NSDAP), more commonly known as the Nazi Party, assumes control of the German state when German President Paul von Hindenburg appoints Nazi Party leader Adolf Hitler as Chancellor at the head of a coalition government. The Nazis and the German Nationalist People's Party (Deutschnationale Volkspartei; DNVP) are members of the coalition.</string>
@@ -703,7 +872,7 @@
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hitler with Von Hindenburgb - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkw-Cs-aQg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hitler with Von Hindenburgb - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkw-Cs-aQg">
                                                     <rect key="frame" x="23" y="302" width="219" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -732,7 +901,7 @@
                                         <rect key="frame" x="0.0" y="546" width="375" height="665"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rhi-ZS-i6o" id="3Th-Wt-T5L">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Establishment of Dachau Concentration Camp" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atF-hR-hss">
@@ -748,13 +917,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-dachau.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Pqg-TY-LvW">
-                                                    <rect key="frame" x="15" y="77" width="734" height="467.5"/>
+                                                    <rect key="frame" x="15" y="77" width="341" height="217"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Pqg-TY-LvW" secondAttribute="height" multiplier="190:121" id="xRz-1j-L0D"/>
                                                     </constraints>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nwu-KK-R4A">
-                                                    <rect key="frame" x="15" y="577.5" width="734" height="71"/>
+                                                    <rect key="frame" x="15" y="327" width="341" height="321.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <string key="text">Outside the town of Dachau, Germany, the SS (Schutzstaffel, Protection Squads) establishes its first concentration camp to incarcerate political opponents.
 
@@ -764,7 +933,7 @@ Between 1933 and 1945, concentration camps (Konzentrationslager; KL or KZ) were 
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barracks at Dachau - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJs-1Q-jbh">
-                                                    <rect key="frame" x="23" y="552.5" width="170" height="15"/>
+                                                    <rect key="frame" x="23" y="302" width="170" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -792,7 +961,7 @@ Between 1933 and 1945, concentration camps (Konzentrationslager; KL or KZ) were 
                                         <rect key="frame" x="0.0" y="1211" width="375" height="665"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O1G-5E-d6E" id="Kyc-Go-xW5">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Burning" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTR-qc-0Qa">
@@ -808,13 +977,13 @@ Between 1933 and 1945, concentration camps (Konzentrationslager; KL or KZ) were 
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-book-burning.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="rQM-CQ-Oh5">
-                                                    <rect key="frame" x="15" y="77" width="734" height="242"/>
+                                                    <rect key="frame" x="15" y="77" width="341" height="242"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="242" id="ibL-yd-llF"/>
                                                     </constraints>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hte-gn-JCN">
-                                                    <rect key="frame" x="15" y="352" width="734" height="297"/>
+                                                    <rect key="frame" x="15" y="352" width="341" height="297"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <string key="text">On May 10, 1933, university students burn upwards of 25,000 “un-German” books in Berlin’s Opera Square. Some 40,000 people gather to hear Joseph Goebbels deliver a fiery address: “No to decadence and moral corruption!”
 
@@ -865,7 +1034,8 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
         <!--Navigation Controller-->
         <scene sceneID="ngU-rl-avn">
             <objects>
-                <navigationController navigationBarHidden="YES" id="toX-ac-NEA" sceneMemberID="viewController">
+                <navigationController id="toX-ac-NEA" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="" image="icon-video" selectedImage="icon-video" id="TDA-gZ-n2S">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
@@ -880,58 +1050,75 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYH-AU-yRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2700" y="104"/>
+            <point key="canvasLocation" x="-3030" y="91"/>
         </scene>
         <!--Firebase Vidoes-->
         <scene sceneID="MJQ-w0-4Pj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HyD-qh-zLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Z0P-8V-oQV" customClass="FirebaseVidoes" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="297" sectionHeaderHeight="28" sectionFooterHeight="28" id="T5z-l7-cOd">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="162" sectionHeaderHeight="28" sectionFooterHeight="28" id="T5z-l7-cOd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="297" id="8la-7A-obi">
-                                <rect key="frame" x="0.0" y="28" width="375" height="297"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="162" id="8la-7A-obi">
+                                <rect key="frame" x="0.0" y="28" width="375" height="162"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8la-7A-obi" id="FBx-vg-wYE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="297"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKb-qS-v6d">
-                                            <rect key="frame" x="8" y="-3" width="359" height="292"/>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aKb-qS-v6d">
+                                            <rect key="frame" x="8" y="18" width="359" height="120"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZF-9F-QgH">
-                                                    <rect key="frame" x="0.0" y="135" width="359" height="29"/>
+                                                    <rect key="frame" x="132" y="40" width="41" height="29"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="21"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rv-AP-E6n">
-                                                    <rect key="frame" x="0.0" y="172" width="359" height="24"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rv-AP-E6n">
+                                                    <rect key="frame" x="132" y="69" width="219" height="32"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="14"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Por Alex gross" translatesAutoresizingMaskIntoConstraints="NO" id="j8F-lw-l9d">
+                                                    <rect key="frame" x="0.0" y="0.0" width="124" height="120"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="120" id="FJG-tO-xEe"/>
+                                                        <constraint firstAttribute="width" constant="120" id="U9z-aj-mFz"/>
+                                                        <constraint firstAttribute="width" secondItem="j8F-lw-l9d" secondAttribute="height" multiplier="33:32" id="zXJ-1K-0Wd"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5F-hG-OHn">
+                                                    <rect key="frame" x="310" y="95" width="41" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstItem="6rv-AP-E6n" firstAttribute="top" secondItem="sZF-9F-QgH" secondAttribute="bottom" constant="8" id="8Mc-VJ-Chb"/>
+                                                <constraint firstItem="sZF-9F-QgH" firstAttribute="leading" secondItem="j8F-lw-l9d" secondAttribute="trailing" constant="8" symbolic="YES" id="183-ku-N9j"/>
+                                                <constraint firstItem="sZF-9F-QgH" firstAttribute="top" secondItem="aKb-qS-v6d" secondAttribute="top" constant="40" id="5zO-W0-SnZ"/>
+                                                <constraint firstItem="6rv-AP-E6n" firstAttribute="leading" secondItem="sZF-9F-QgH" secondAttribute="leading" id="Rsf-tK-L7p"/>
+                                                <constraint firstItem="j8F-lw-l9d" firstAttribute="top" secondItem="aKb-qS-v6d" secondAttribute="top" id="fHe-dc-oo5"/>
+                                                <constraint firstItem="6rv-AP-E6n" firstAttribute="top" secondItem="sZF-9F-QgH" secondAttribute="bottom" id="ffv-IO-cJS"/>
+                                                <constraint firstItem="j8F-lw-l9d" firstAttribute="leading" secondItem="aKb-qS-v6d" secondAttribute="leading" id="hyW-CL-j6j"/>
+                                                <constraint firstAttribute="trailing" secondItem="Q5F-hG-OHn" secondAttribute="trailing" constant="8" id="jrJ-2F-5pi"/>
+                                                <constraint firstAttribute="bottom" secondItem="j8F-lw-l9d" secondAttribute="bottom" id="kCF-hx-OUE"/>
+                                                <constraint firstAttribute="trailing" secondItem="6rv-AP-E6n" secondAttribute="trailing" constant="8" id="sx6-yV-E1N"/>
+                                                <constraint firstAttribute="bottom" secondItem="Q5F-hG-OHn" secondAttribute="bottom" constant="8" id="vXg-UV-tG6"/>
+                                                <constraint firstItem="sZF-9F-QgH" firstAttribute="leading" secondItem="aKb-qS-v6d" secondAttribute="leading" constant="140" id="wxg-Au-tf9"/>
                                             </constraints>
                                         </view>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="leadingMargin" secondItem="6rv-AP-E6n" secondAttribute="leading" id="00T-mh-n5y"/>
                                         <constraint firstAttribute="trailing" secondItem="aKb-qS-v6d" secondAttribute="trailing" constant="8" id="4Ev-V0-sHQ"/>
-                                        <constraint firstItem="aKb-qS-v6d" firstAttribute="top" secondItem="FBx-vg-wYE" secondAttribute="top" constant="-3" id="8he-It-JPN"/>
-                                        <constraint firstAttribute="bottom" secondItem="aKb-qS-v6d" secondAttribute="bottom" constant="8" id="Qzs-ON-FwV" userLabel="bottom = View.bottom + 12"/>
+                                        <constraint firstItem="aKb-qS-v6d" firstAttribute="top" secondItem="FBx-vg-wYE" secondAttribute="topMargin" constant="18" id="5nW-4j-iRK"/>
                                         <constraint firstItem="aKb-qS-v6d" firstAttribute="leading" secondItem="FBx-vg-wYE" secondAttribute="leading" constant="8" id="ajB-uW-9DW"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="6rv-AP-E6n" secondAttribute="trailing" id="bxd-Qm-tdO"/>
-                                        <constraint firstItem="sZF-9F-QgH" firstAttribute="top" secondItem="FBx-vg-wYE" secondAttribute="topMargin" constant="124" id="mEf-El-d4e"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="sZF-9F-QgH" secondAttribute="trailing" id="ngM-YA-eRv"/>
-                                        <constraint firstAttribute="leadingMargin" secondItem="sZF-9F-QgH" secondAttribute="leading" id="sKR-bI-qyM"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -944,8 +1131,9 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                     </tableView>
                     <navigationItem key="navigationItem" id="5A7-Ag-vQG"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HyD-qh-zLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2055.1999999999998" y="103.89805097451276"/>
+            <point key="canvasLocation" x="-2167.1999999999998" y="62.518740629685162"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mu7-Sw-L0t">
@@ -958,6 +1146,10 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Xq1-KE-mwa">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="Vt6-en-CnC" kind="relationship" relationship="rootViewController" id="1my-ey-wuY"/>
                     </connections>
@@ -969,7 +1161,7 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
         <!--Navigation Controller-->
         <scene sceneID="pRZ-2I-W2i">
             <objects>
-                <navigationController id="LIB-Px-fJq" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="LIB-Px-fJq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="icon-map" selectedImage="icon-map" id="g2p-eA-0CV">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-4"/>
@@ -994,41 +1186,111 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                         <viewControllerLayoutGuide type="top" id="cvI-0G-CsI"/>
                         <viewControllerLayoutGuide type="bottom" id="WaO-Zi-70l"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="J65-b7-vov">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="J65-b7-vov">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ip-M1-68u">
-                                <rect key="frame" x="186" y="358" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmR-1y-Ivl">
-                                <rect key="frame" x="16" y="349" width="343" height="261"/>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EuropeMap.jpg.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="TtR-cy-YXP">
+                                <rect key="frame" x="3" y="221.5" width="369" height="224"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="zmR-1y-Ivl" secondAttribute="height" multiplier="343:261" id="RwS-uN-aeC"/>
+                                    <constraint firstAttribute="width" secondItem="TtR-cy-YXP" secondAttribute="height" multiplier="369:224" id="s65-Hl-UMO"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="i0u-m1-66T">
+                                <rect key="frame" x="265" y="312" width="15" height="15"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzd-kf-UE3">
+                                <rect key="frame" x="221" y="300" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
                                 <connections>
-                                    <action selector="button:" destination="aoO-Cq-QiZ" eventType="touchUpInside" id="lis-se-Zkz"/>
+                                    <segue destination="gPe-to-hgH" kind="presentation" id="ABd-WR-tw2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMn-cp-Px2">
+                                <rect key="frame" x="272" y="307" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
+                                <connections>
+                                    <segue destination="Atr-VN-guq" kind="presentation" id="fCz-LO-OIG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rzd-aE-IFJ">
+                                <rect key="frame" x="42" y="345" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
+                                <connections>
+                                    <segue destination="2M9-BK-wkf" kind="presentation" id="JL5-OS-TmO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEN-4D-58r">
+                                <rect key="frame" x="163" y="345" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
+                                <connections>
+                                    <segue destination="U9c-Mt-ow5" kind="presentation" id="6Y8-ZA-pbC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCQ-aO-UKJ">
+                                <rect key="frame" x="129" y="345" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
+                                <connections>
+                                    <segue destination="Ogq-L8-8jv" kind="presentation" id="kZX-7D-SN9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Za9-m9-v4b">
+                                <rect key="frame" x="135" y="300" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
+                                <connections>
+                                    <segue destination="oev-Uh-BtR" kind="presentation" id="n2K-1K-uFQ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDY-nF-dAk">
+                                <rect key="frame" x="10" y="60" width="356" height="161"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">As the Nazis moved to conquer Europe, they set up ghettos and concentration camps in those areas that they took over.  Thousands were established. Use the interactive map to learn about just a few of these camps. </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHQ-B9-AXE">
+                                <rect key="frame" x="260" y="250" width="20" height="20"/>
+                                <state key="normal" image="MapButton.png"/>
+                                <connections>
+                                    <segue destination="GJJ-gf-2cD" kind="presentation" id="gvD-HZ-247"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zmR-1y-Ivl" firstAttribute="leading" secondItem="J65-b7-vov" secondAttribute="leadingMargin" id="Uce-5w-5ll"/>
-                            <constraint firstItem="2ip-M1-68u" firstAttribute="leading" secondItem="J65-b7-vov" secondAttribute="leading" constant="186" id="Uvc-pz-5OD"/>
-                            <constraint firstItem="WaO-Zi-70l" firstAttribute="top" secondItem="2ip-M1-68u" secondAttribute="bottom" constant="239" id="grh-0U-EXg"/>
-                            <constraint firstItem="zmR-1y-Ivl" firstAttribute="trailing" secondItem="J65-b7-vov" secondAttribute="trailingMargin" id="qEA-j9-EyJ"/>
-                            <constraint firstItem="WaO-Zi-70l" firstAttribute="top" secondItem="zmR-1y-Ivl" secondAttribute="bottom" constant="8" id="wv9-aH-qId"/>
+                            <constraint firstItem="Rzd-aE-IFJ" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="21.5" id="0vd-HY-oUR"/>
+                            <constraint firstItem="pEN-4D-58r" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="21.5" id="1An-Po-dm5"/>
+                            <constraint firstItem="Za9-m9-v4b" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="-23.5" id="3G0-ee-hM3"/>
+                            <constraint firstItem="RHQ-B9-AXE" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="82.5" id="4hs-lD-s3a"/>
+                            <constraint firstAttribute="trailing" secondItem="TtR-cy-YXP" secondAttribute="trailing" constant="3" id="7Oi-sK-4w6"/>
+                            <constraint firstItem="cCQ-aO-UKJ" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="21.5" id="CHn-8q-fyU"/>
+                            <constraint firstItem="i0u-m1-66T" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="85" id="Er3-fX-l3e"/>
+                            <constraint firstItem="OMn-cp-Px2" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="94.5" id="IhS-FW-Y4L"/>
+                            <constraint firstItem="Rzd-aE-IFJ" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="-135.5" id="NTc-sS-tmh"/>
+                            <constraint firstItem="pEN-4D-58r" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="-14.5" id="Ozo-s2-g4o"/>
+                            <constraint firstItem="TtR-cy-YXP" firstAttribute="leading" secondItem="J65-b7-vov" secondAttribute="leading" constant="3" id="Pbe-zy-RMC"/>
+                            <constraint firstItem="EDY-nF-dAk" firstAttribute="top" secondItem="cvI-0G-CsI" secondAttribute="bottom" constant="40" id="XbY-3R-lsZ"/>
+                            <constraint firstItem="cCQ-aO-UKJ" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="-48.5" id="bmp-LP-xle"/>
+                            <constraint firstItem="xzd-kf-UE3" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="43.5" id="cY3-X6-S0b"/>
+                            <constraint firstItem="i0u-m1-66T" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="-14" id="eom-wd-Duw"/>
+                            <constraint firstItem="EDY-nF-dAk" firstAttribute="leading" secondItem="J65-b7-vov" secondAttribute="leading" constant="8" id="hcS-Fv-RK1"/>
+                            <constraint firstItem="xzd-kf-UE3" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="-23.5" id="i3q-32-bXs"/>
+                            <constraint firstItem="RHQ-B9-AXE" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="-73.5" id="mdj-GL-GTD"/>
+                            <constraint firstItem="OMn-cp-Px2" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" constant="-16.5" id="psi-ED-6ng"/>
+                            <constraint firstItem="TtR-cy-YXP" firstAttribute="centerY" secondItem="J65-b7-vov" secondAttribute="centerY" id="rdH-oF-rLB"/>
+                            <constraint firstItem="Za9-m9-v4b" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" constant="-42.5" id="ruZ-n3-ltu"/>
+                            <constraint firstItem="TtR-cy-YXP" firstAttribute="top" secondItem="EDY-nF-dAk" secondAttribute="bottom" id="tYE-M5-qyZ"/>
+                            <constraint firstAttribute="trailing" secondItem="EDY-nF-dAk" secondAttribute="trailing" constant="8" id="vMU-2J-yrg"/>
+                            <constraint firstItem="TtR-cy-YXP" firstAttribute="centerX" secondItem="J65-b7-vov" secondAttribute="centerX" id="yI7-nE-ux9"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <navigationItem key="navigationItem" id="NTW-yw-AkX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CY-RY-TTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1007" y="1102"/>
+            <point key="canvasLocation" x="-959" y="1105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u19-bW-34u">
@@ -1045,29 +1307,86 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pgJ-Kd-5PG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seal-faces-of-the-holocaust.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmS-HJ-2SL">
-                                <rect key="frame" x="56" y="228" width="264" height="211"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="seal-faces-of-the-holocaust.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmS-HJ-2SL">
+                                <rect key="frame" x="82" y="228" width="211" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RmS-HJ-2SL" secondAttribute="height" multiplier="1:1" id="Pce-A0-rUw"/>
+                                </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmm-w0-jC8">
+                                <rect key="frame" x="0.0" y="20" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="0.33669181034482759" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="LZX-2J-uqD"/>
+                                    <constraint firstAttribute="height" constant="30" id="TgL-F8-ZSy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="i">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="w3G-Fu-3OH" kind="presentation" id="N8b-Ce-Gr5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="RmS-HJ-2SL" firstAttribute="leading" secondItem="XoS-XS-kVX" secondAttribute="leadingMargin" constant="40" id="P9e-u3-5Pj"/>
+                            <constraint firstItem="RmS-HJ-2SL" firstAttribute="centerX" secondItem="XoS-XS-kVX" secondAttribute="centerX" id="NI8-n5-wHL"/>
                             <constraint firstItem="pgJ-Kd-5PG" firstAttribute="bottom" secondItem="9k3-3o-K1F" secondAttribute="top" id="PZD-Jz-t99"/>
                             <constraint firstItem="pgJ-Kd-5PG" firstAttribute="top" secondItem="XoS-XS-kVX" secondAttribute="top" id="Ym7-Xb-Tn7"/>
                             <constraint firstItem="pgJ-Kd-5PG" firstAttribute="leading" secondItem="XoS-XS-kVX" secondAttribute="leading" id="Z5g-m3-1eW"/>
                             <constraint firstAttribute="trailing" secondItem="pgJ-Kd-5PG" secondAttribute="trailing" id="dt2-NM-wOP"/>
-                            <constraint firstItem="RmS-HJ-2SL" firstAttribute="centerY" secondItem="XoS-XS-kVX" secondAttribute="centerY" id="kLJ-dX-xRf"/>
-                            <constraint firstItem="9k3-3o-K1F" firstAttribute="top" secondItem="RmS-HJ-2SL" secondAttribute="bottom" constant="179" id="nZn-i8-bra"/>
-                            <constraint firstItem="RmS-HJ-2SL" firstAttribute="centerX" secondItem="pgJ-Kd-5PG" secondAttribute="centerX" id="zsV-gB-jpV"/>
+                            <constraint firstItem="Qmm-w0-jC8" firstAttribute="top" secondItem="6sI-bA-Gdo" secondAttribute="bottom" constant="30" id="fjM-m8-QBX"/>
+                            <constraint firstItem="Qmm-w0-jC8" firstAttribute="leading" secondItem="XoS-XS-kVX" secondAttribute="leading" id="h64-fN-ojE"/>
+                            <constraint firstItem="RmS-HJ-2SL" firstAttribute="centerY" secondItem="XoS-XS-kVX" secondAttribute="centerY" id="mR1-dA-847"/>
+                            <constraint firstItem="RmS-HJ-2SL" firstAttribute="leading" secondItem="XoS-XS-kVX" secondAttribute="leadingMargin" constant="40" id="nyi-JZ-cVN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RmS-HJ-2SL" secondAttribute="trailing" constant="40" id="oaG-mj-fkd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="icon-home.png" selectedImage="icon-home-filled.png" id="eZJ-kc-mRF">
-                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="dxZ-ES-XV6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ypn-0M-jMl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-539" y="-932"/>
+            <point key="canvasLocation" x="212" y="-1181"/>
+        </scene>
+        <!--Credits-->
+        <scene sceneID="B1w-A6-ieo">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="w3G-Fu-3OH" customClass="Credits" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Ao-i7-Teu"/>
+                        <viewControllerLayoutGuide type="bottom" id="pz7-GS-rZd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pE8-qc-EGL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEF-9l-ab8">
+                                <rect key="frame" x="0.0" y="20" width="31" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="10r-7W-ZE8"/>
+                                    <constraint firstAttribute="width" constant="31" id="kkN-rF-H2n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeWindow:" destination="w3G-Fu-3OH" eventType="touchUpInside" id="EIW-Sn-Kk3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91294070512820502" green="0.91294070512820502" blue="0.91294070512820502" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fEF-9l-ab8" firstAttribute="leading" secondItem="pE8-qc-EGL" secondAttribute="leading" id="O0f-nj-2Tx"/>
+                            <constraint firstItem="fEF-9l-ab8" firstAttribute="top" secondItem="7Ao-i7-Teu" secondAttribute="bottom" constant="30" id="Qwn-Hw-a8U"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E4v-1f-lSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="-1180.6596701649175"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xuK-eQ-Tu4">
@@ -1092,8 +1411,511 @@ As part of an effort to align German arts and culture with Nazi ideas (Gleichsch
             </objects>
             <point key="canvasLocation" x="-539" y="-263"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jga-3u-IbN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8eG-pl-Bpc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-home.png" selectedImage="icon-home-filled.png" id="eZJ-kc-mRF">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="leL-9J-86P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tII-1R-vuW" kind="relationship" relationship="rootViewController" id="Ina-pF-zhK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rb-5B-nQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-505" y="-1181"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="IPK-Hz-VK5">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="Ogq-L8-8jv" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MF3-yU-e9C"/>
+                        <viewControllerLayoutGuide type="bottom" id="tJw-BH-hMF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C82-vN-m2z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4i2-rj-BQ3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QY7-TP-ci4">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DACHAU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK6-hw-PyY">
+                                            <rect key="frame" x="55" y="36" width="266" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="wK6-hw-PyY" firstAttribute="top" secondItem="QY7-TP-ci4" secondAttribute="top" constant="25" id="iE4-ro-dzQ"/>
+                                        <constraint firstItem="wK6-hw-PyY" firstAttribute="centerX" secondItem="QY7-TP-ci4" secondAttribute="centerX" id="oPW-af-OIl"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageDachau.jpg.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aEx-qW-c0r">
+                                <rect key="frame" x="19" y="72" width="337" height="242"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aEx-qW-c0r" secondAttribute="height" multiplier="337:242" id="D9T-7w-udB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koe-tv-fyf">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="29" id="BdK-en-LXd"/>
+                                    <constraint firstAttribute="height" constant="29" id="VEW-HM-veN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup3:" destination="Ogq-L8-8jv" eventType="touchUpInside" id="Fj9-40-a9s"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmt-XB-wsl">
+                                <rect key="frame" x="19" y="345" width="337" height="334"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Outside the town of Dachau, Germany, the SS (Schutzstaffel, Protection Squads) establishes its first concentration camp to incarcerate political opponents.
+
+Between 1933 and 1945, concentration camps (Konzentrationslager; KL or KZ) were an integral feature of the Nazi regime. The number of prisoners incarcerated in Dachau during these years exceeded 188,000. The number of prisoners who died in the camp and its subcamps between January 1940 and May 1945 was at least 28,000, to which must be added more who died there between 1933 and the end of 1939, as well as an undetermined number of unregistered prisoners. Dachau was the only concentration camp to remain in operation during the entire period of Nazi power. It is unlikely that the total number of victims who died in Dachau will ever be known.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A section of the Dachau Concentration Camp  - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ad-G9-1DV">
+                                <rect key="frame" x="19" y="316" width="340" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zmt-XB-wsl" firstAttribute="top" secondItem="5ad-G9-1DV" secondAttribute="bottom" constant="8" id="39G-IP-MQu"/>
+                            <constraint firstAttribute="bottom" secondItem="zmt-XB-wsl" secondAttribute="bottom" constant="25" id="7aY-pF-dxv"/>
+                            <constraint firstAttribute="trailing" secondItem="zmt-XB-wsl" secondAttribute="trailing" constant="12" id="CYH-IN-lY7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aEx-qW-c0r" secondAttribute="trailing" constant="3" id="LND-3R-6Xq"/>
+                            <constraint firstItem="5ad-G9-1DV" firstAttribute="leading" secondItem="C82-vN-m2z" secondAttribute="leadingMargin" constant="3" id="Qjf-HH-Eih"/>
+                            <constraint firstItem="4i2-rj-BQ3" firstAttribute="leading" secondItem="C82-vN-m2z" secondAttribute="leading" id="Qyh-Rl-ci1"/>
+                            <constraint firstItem="Koe-tv-fyf" firstAttribute="leading" secondItem="C82-vN-m2z" secondAttribute="leadingMargin" id="RE2-oU-jDF"/>
+                            <constraint firstItem="Koe-tv-fyf" firstAttribute="top" secondItem="MF3-yU-e9C" secondAttribute="bottom" id="TGC-0n-aJs"/>
+                            <constraint firstItem="5ad-G9-1DV" firstAttribute="top" secondItem="aEx-qW-c0r" secondAttribute="bottom" constant="2" id="dMa-cC-6id"/>
+                            <constraint firstAttribute="trailing" secondItem="4i2-rj-BQ3" secondAttribute="trailing" id="eG3-Re-JHG"/>
+                            <constraint firstItem="tJw-BH-hMF" firstAttribute="top" secondItem="4i2-rj-BQ3" secondAttribute="bottom" id="j8U-8l-H3o"/>
+                            <constraint firstItem="aEx-qW-c0r" firstAttribute="top" secondItem="Koe-tv-fyf" secondAttribute="bottom" constant="23" id="jg2-9U-Pn6"/>
+                            <constraint firstItem="zmt-XB-wsl" firstAttribute="leading" secondItem="C82-vN-m2z" secondAttribute="leading" constant="12" id="ktU-MH-W8s"/>
+                            <constraint firstItem="aEx-qW-c0r" firstAttribute="leading" secondItem="C82-vN-m2z" secondAttribute="leadingMargin" constant="3" id="llw-2F-YfL"/>
+                            <constraint firstItem="4i2-rj-BQ3" firstAttribute="top" secondItem="C82-vN-m2z" secondAttribute="top" id="xrd-b5-sWb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cX-nQ-1Ry" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1599.2" y="1942.5787106446778"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="zHi-CZ-5EO">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="oev-Uh-BtR" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nxT-bk-tQi"/>
+                        <viewControllerLayoutGuide type="bottom" id="lF8-IN-DTm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dc8-V4-swP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qm6-6K-3lM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zBy-aP-vxD">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BUCHENWALD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUR-g3-cnP">
+                                            <rect key="frame" x="55" y="36" width="266" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="zUR-g3-cnP" firstAttribute="centerX" secondItem="zBy-aP-vxD" secondAttribute="centerX" id="44r-b6-mah"/>
+                                        <constraint firstItem="zUR-g3-cnP" firstAttribute="top" secondItem="zBy-aP-vxD" secondAttribute="top" constant="25" id="OiG-I5-dFZ"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageBuchenwals.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="rd3-e6-yuF">
+                                <rect key="frame" x="19" y="72" width="337" height="242"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rd3-e6-yuF" secondAttribute="height" multiplier="337:242" id="aQg-Um-pUd"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDJ-7C-lG3">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Teu-lZ-Bzh"/>
+                                    <constraint firstAttribute="width" constant="29" id="WMy-jB-UrT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup4:" destination="oev-Uh-BtR" eventType="touchUpInside" id="Lbr-nk-p6A"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOv-KR-m3s">
+                                <rect key="frame" x="19" y="345" width="337" height="334"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">SS authorities open the Buchenwald concentration camp for male prisoners in east-central Germany.
+
+Together with its many satellite camps, Buchenwald was one of the largest concentration camps established within German borders. Women were not part of the Buchenwald camp system until late 1943 or early 1944. An electrified barbed-wire fence, watchtowers, and a chain of sentries outfitted with automatic machine guns, surrounded the main camp. The SS often shot prisoners in the camp stables and hanged other prisoners in the crematorium area.
+
+Most of the early inmates at Buchenwald were political prisoners. However, in 1938, in the aftermath of Kristallnacht, German SS and police sent almost 10,000 Jews to Buchenwald where the camp authorities subjected them to extraordinarily cruel treatment and many died. The SS also interned recidivist criminals, Jehovah's Witnesses, Roma and Sinti (Gypsies), and German military deserters at Buchenwald.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Prisoners during a roll call at the Buchenwald Camp - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyt-ny-GD4">
+                                <rect key="frame" x="19" y="316" width="345" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Uyt-ny-GD4" firstAttribute="leading" secondItem="Dc8-V4-swP" secondAttribute="leadingMargin" constant="3" id="4qf-Yt-4M3"/>
+                            <constraint firstItem="Uyt-ny-GD4" firstAttribute="top" secondItem="rd3-e6-yuF" secondAttribute="bottom" constant="2" id="DoC-DY-b2L"/>
+                            <constraint firstItem="lF8-IN-DTm" firstAttribute="top" secondItem="qm6-6K-3lM" secondAttribute="bottom" id="E3U-nR-08O"/>
+                            <constraint firstAttribute="trailing" secondItem="qm6-6K-3lM" secondAttribute="trailing" id="F6p-dI-szM"/>
+                            <constraint firstItem="gOv-KR-m3s" firstAttribute="leading" secondItem="Dc8-V4-swP" secondAttribute="leading" constant="12" id="FrH-Bj-70Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rd3-e6-yuF" secondAttribute="trailing" constant="3" id="GQk-6P-zfI"/>
+                            <constraint firstItem="rd3-e6-yuF" firstAttribute="leading" secondItem="Dc8-V4-swP" secondAttribute="leadingMargin" constant="3" id="HKB-qB-pLq"/>
+                            <constraint firstItem="qm6-6K-3lM" firstAttribute="leading" secondItem="Dc8-V4-swP" secondAttribute="leading" id="Sqd-Ur-Vat"/>
+                            <constraint firstAttribute="bottom" secondItem="gOv-KR-m3s" secondAttribute="bottom" constant="20" id="egZ-ed-kJc"/>
+                            <constraint firstItem="CDJ-7C-lG3" firstAttribute="leading" secondItem="Dc8-V4-swP" secondAttribute="leadingMargin" id="fZN-yL-Wl0"/>
+                            <constraint firstItem="CDJ-7C-lG3" firstAttribute="top" secondItem="nxT-bk-tQi" secondAttribute="bottom" id="rDm-4K-eaZ"/>
+                            <constraint firstItem="rd3-e6-yuF" firstAttribute="top" secondItem="CDJ-7C-lG3" secondAttribute="bottom" constant="23" id="rk2-e2-hRK"/>
+                            <constraint firstAttribute="trailing" secondItem="gOv-KR-m3s" secondAttribute="trailing" constant="12" id="sWt-bW-bWO"/>
+                            <constraint firstItem="gOv-KR-m3s" firstAttribute="top" secondItem="Uyt-ny-GD4" secondAttribute="bottom" constant="8" id="wYq-wA-BSC"/>
+                            <constraint firstItem="qm6-6K-3lM" firstAttribute="top" secondItem="Dc8-V4-swP" secondAttribute="top" id="wbk-KU-ePe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LTu-wh-Gkj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1599" y="2609"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="Kmg-mH-PUp">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="U9c-Mt-ow5" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XXr-Nf-MHJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wDm-e1-FMm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nwt-0l-5ry">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07c-g8-Nmc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7RH-bU-snf">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MAUTHAUSEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOt-YM-I9G">
+                                            <rect key="frame" x="55" y="36" width="266" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="xOt-YM-I9G" firstAttribute="top" secondItem="7RH-bU-snf" secondAttribute="top" constant="25" id="5aL-A4-YuW"/>
+                                        <constraint firstItem="xOt-YM-I9G" firstAttribute="centerX" secondItem="7RH-bU-snf" secondAttribute="centerX" id="lkG-ZM-fVr"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Imagemauthausen.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="GFY-y2-5Sl">
+                                <rect key="frame" x="19" y="72" width="337" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GFY-y2-5Sl" secondAttribute="height" multiplier="337:215" id="5dH-1V-ZXZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCD-xA-qsp">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Ehx-zo-WKJ"/>
+                                    <constraint firstAttribute="width" constant="29" id="XSW-9n-qiB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup5:" destination="U9c-Mt-ow5" eventType="touchUpInside" id="NB3-pG-hxD"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHf-kh-9Zb">
+                                <rect key="frame" x="19" y="345" width="337" height="334"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Trapped behind the vicious barbwire of Mauthausen concentration camp in Austria, over 197,000 Jehovah Witnesses, criminals, outcasts, and Jewish prisoners suffered from extreme dehumanization. Mauthausen was built by 300 prisoners from Auschwitz and was the home of the “Wiener Graben” stone quarry where men and women were treacherously forced to carry enormous loads of rock up the 186 “Stairs of Death.” Thousands met their deaths in this way. Former Staff Sgt. Albert J. Kosiek later recounted his memory of the day he helped liberate Mauthausen: “Behind that fence were hundreds of people who went wild with joy when they first sighted us. It's a sight I'll never forget….the most emaciated looking mob I have ever had the displeasure to look upon. I still shake my head in disbelief when that picture comes before me, for they hardly resembled human beings...” Liberation day was a day of great joy, the start of a new life…
+
+
+</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="View of Mauthausen Concentration Camp  - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0N-r6-wS3">
+                                <rect key="frame" x="19" y="316" width="340" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LCD-xA-qsp" firstAttribute="leading" secondItem="nwt-0l-5ry" secondAttribute="leadingMargin" id="3KM-RG-6DN"/>
+                            <constraint firstItem="LCD-xA-qsp" firstAttribute="top" secondItem="XXr-Nf-MHJ" secondAttribute="bottom" id="68k-oC-xAK"/>
+                            <constraint firstItem="a0N-r6-wS3" firstAttribute="leading" secondItem="nwt-0l-5ry" secondAttribute="leadingMargin" constant="3" id="CWR-70-CKX"/>
+                            <constraint firstItem="a0N-r6-wS3" firstAttribute="top" secondItem="GFY-y2-5Sl" secondAttribute="bottom" constant="2" id="Dca-bm-p57"/>
+                            <constraint firstItem="GFY-y2-5Sl" firstAttribute="leading" secondItem="nwt-0l-5ry" secondAttribute="leadingMargin" constant="3" id="EqA-fz-3Hm"/>
+                            <constraint firstItem="wHf-kh-9Zb" firstAttribute="top" secondItem="a0N-r6-wS3" secondAttribute="bottom" constant="8" id="Lev-0Q-IQz"/>
+                            <constraint firstItem="07c-g8-Nmc" firstAttribute="top" secondItem="nwt-0l-5ry" secondAttribute="top" id="NWw-76-kar"/>
+                            <constraint firstAttribute="trailing" secondItem="wHf-kh-9Zb" secondAttribute="trailing" constant="12" id="P8D-Cg-8s0"/>
+                            <constraint firstItem="GFY-y2-5Sl" firstAttribute="top" secondItem="LCD-xA-qsp" secondAttribute="bottom" constant="25" id="Qgb-gY-wmJ"/>
+                            <constraint firstItem="07c-g8-Nmc" firstAttribute="leading" secondItem="nwt-0l-5ry" secondAttribute="leading" id="RWB-uo-hJ7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GFY-y2-5Sl" secondAttribute="trailing" constant="3" id="YFT-BS-kov"/>
+                            <constraint firstItem="wHf-kh-9Zb" firstAttribute="leading" secondItem="nwt-0l-5ry" secondAttribute="leading" constant="12" id="Zxl-AW-Zs5"/>
+                            <constraint firstAttribute="bottom" secondItem="wHf-kh-9Zb" secondAttribute="bottom" constant="20" id="eAq-3a-k3t"/>
+                            <constraint firstAttribute="trailing" secondItem="07c-g8-Nmc" secondAttribute="trailing" id="kUu-pd-l75"/>
+                            <constraint firstItem="wDm-e1-FMm" firstAttribute="top" secondItem="07c-g8-Nmc" secondAttribute="bottom" id="yJZ-GO-gGt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENf-lB-Oiy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959" y="2608"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="pOD-hC-lLW">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="Atr-VN-guq" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gtm-Z2-SW6"/>
+                        <viewControllerLayoutGuide type="bottom" id="O1T-jL-1V3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="me2-Ge-zH4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Bx-gl-Dbf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QVQ-8B-KF2">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BELZEC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zt2-tb-LSN">
+                                            <rect key="frame" x="55" y="36" width="266" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="View after the obliteration of the Belzec killing center  - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9R9-Ki-D2h">
+                                            <rect key="frame" x="18" y="297" width="349" height="39"/>
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUi-SP-27f">
+                                            <rect key="frame" x="18" y="344" width="337" height="323"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <mutableString key="text">In November 1941, SS and police authorities in Lublin District began construction of a killing center on the site of the former Belzec labor camp. The choice of location was dictated by good rail connections and proximity to significant Jewish populations in the Lvov, Krakow, and Lublin districts of the Generalgouvernement. The facility was finished in the late winter of 1942 as part of what later would be called Operation Reinhard (also called Aktion Reinhard), the plan implemented by the SS and Police Leader in Lublin to murder the Jews of the Generalgouvernement.
+
+Belzec began operations on March 17, 1942. The first Jewish communities deported to Belzec were those of Lublin and Lvov. Belzec was the second German killing center, and the first of the Operation Reinhard killing centers, to begin operation.</mutableString>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ImageBelzec.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Bm5-ks-WTW">
+                                            <rect key="frame" x="19" y="74" width="337" height="215"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Bm5-ks-WTW" secondAttribute="height" multiplier="337:215" id="lez-tP-ItI"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="mUi-SP-27f" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="12" id="2y6-te-dKW"/>
+                                        <constraint firstAttribute="bottom" secondItem="mUi-SP-27f" secondAttribute="bottom" constant="20" id="5Kw-Yh-4Qh"/>
+                                        <constraint firstAttribute="trailing" secondItem="Bm5-ks-WTW" secondAttribute="trailing" constant="3" id="BZN-7w-0xp"/>
+                                        <constraint firstItem="9R9-Ki-D2h" firstAttribute="top" secondItem="Bm5-ks-WTW" secondAttribute="bottom" constant="2" id="GCJ-jP-bx5"/>
+                                        <constraint firstAttribute="trailing" secondItem="9R9-Ki-D2h" secondAttribute="trailing" constant="3" id="SXs-CO-daw"/>
+                                        <constraint firstItem="9R9-Ki-D2h" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="3" id="Snh-qg-w6h"/>
+                                        <constraint firstItem="zt2-tb-LSN" firstAttribute="centerX" secondItem="QVQ-8B-KF2" secondAttribute="centerX" id="TO4-Cp-9JT"/>
+                                        <constraint firstItem="Bm5-ks-WTW" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="3" id="d87-JP-a6A"/>
+                                        <constraint firstAttribute="trailing" secondItem="mUi-SP-27f" secondAttribute="trailing" constant="12" id="eKw-Ug-hCJ"/>
+                                        <constraint firstItem="zt2-tb-LSN" firstAttribute="top" secondItem="QVQ-8B-KF2" secondAttribute="top" constant="25" id="jAm-b7-stp"/>
+                                        <constraint firstItem="mUi-SP-27f" firstAttribute="top" secondItem="9R9-Ki-D2h" secondAttribute="bottom" constant="8" id="llj-mo-pMQ"/>
+                                        <constraint firstItem="Bm5-ks-WTW" firstAttribute="top" secondItem="zt2-tb-LSN" secondAttribute="bottom" constant="17" id="q5i-Gf-9FR"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsl-CS-dLk">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Jdl-Z2-uwk"/>
+                                    <constraint firstAttribute="width" constant="29" id="qrk-Y3-Xek"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup6:" destination="Atr-VN-guq" eventType="touchUpInside" id="XJY-VI-0ZI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O1T-jL-1V3" firstAttribute="top" secondItem="3Bx-gl-Dbf" secondAttribute="bottom" id="JBZ-vd-Flv"/>
+                            <constraint firstItem="Dsl-CS-dLk" firstAttribute="leading" secondItem="me2-Ge-zH4" secondAttribute="leadingMargin" id="Wit-Uo-pRV"/>
+                            <constraint firstItem="3Bx-gl-Dbf" firstAttribute="top" secondItem="me2-Ge-zH4" secondAttribute="top" id="ZTe-q4-Hqv"/>
+                            <constraint firstAttribute="trailing" secondItem="3Bx-gl-Dbf" secondAttribute="trailing" id="akQ-AA-heE"/>
+                            <constraint firstItem="Dsl-CS-dLk" firstAttribute="top" secondItem="gtm-Z2-SW6" secondAttribute="bottom" id="ujq-Xy-n5w"/>
+                            <constraint firstItem="3Bx-gl-Dbf" firstAttribute="leading" secondItem="me2-Ge-zH4" secondAttribute="leading" id="zfS-T8-cpe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lcu-V7-rUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-330.39999999999998" y="2606.4467766116945"/>
+        </scene>
+        <!--PopupVC1-->
+        <scene sceneID="f8u-gr-o30">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="GJJ-gf-2cD" customClass="PopupVC1" customModule="Faces_of_the_Holocaust_Photographic_History" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Md-n0-lau"/>
+                        <viewControllerLayoutGuide type="bottom" id="2x1-Gb-0sh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2GQ-p5-46X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkg-hW-bGa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sZR-QB-SUN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TREBLINKA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDF-My-1mk">
+                                            <rect key="frame" x="55" y="36" width="266" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="aDF-My-1mk" firstAttribute="top" secondItem="sZR-QB-SUN" secondAttribute="top" constant="25" id="aOb-fR-87g"/>
+                                        <constraint firstItem="aDF-My-1mk" firstAttribute="centerX" secondItem="sZR-QB-SUN" secondAttribute="centerX" id="v3h-Ph-7q0"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ImageTreblinka.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wtT-mn-Gf2">
+                                <rect key="frame" x="19" y="72" width="337" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wtT-mn-Gf2" secondAttribute="height" multiplier="337:215" id="7yh-D0-Idd"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwz-EM-Ykt">
+                                <rect key="frame" x="16" y="20" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="5fj-nf-j2R"/>
+                                    <constraint firstAttribute="width" constant="29" id="LH8-PW-jhm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closePopup7:" destination="GJJ-gf-2cD" eventType="touchUpInside" id="mOK-eF-199"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxN-BY-KLw">
+                                <rect key="frame" x="19" y="345" width="337" height="334"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The Treblinka II killing center was located near the Polish village of Wolka Okraglik along the Malkinia-Siedlce railway line. The Germans built a rail spur that led from the labor camp, Treblinka I, to the killing center, Treblinka II, and that connected as well to the Malkinia station. The site of the killing center was heavily wooded and hidden from view.
+
+The camp was laid out in a trapezoid of 1,312 by 1,968 feet. Branches woven into the barbed-wire fence and trees planted around the perimeter served as camouflage, blocking any view into the camp from the outside. Watchtowers 26 feet high were placed along the fence and at each of the four corners.
+
+The camp was divided into three parts: the reception area, the living area, and the killing area. The living area contained housing for German staff and the guard unit. It also contained administrative offices, a clinic, storerooms, and workshops. One section contained barracks that housed those Jewish prisoners selected from incoming transports to provide forced labor to support the camp’s function: mass murder.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Train Station near the Treblinka killing center -USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEd-se-cCe">
+                                <rect key="frame" x="19" y="316" width="357" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wtT-mn-Gf2" firstAttribute="top" secondItem="gwz-EM-Ykt" secondAttribute="bottom" constant="25" id="9oR-sM-1cc"/>
+                            <constraint firstItem="hEd-se-cCe" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leadingMargin" constant="3" id="IT4-II-au9"/>
+                            <constraint firstItem="gwz-EM-Ykt" firstAttribute="top" secondItem="5Md-n0-lau" secondAttribute="bottom" id="KdF-1M-3Fp"/>
+                            <constraint firstItem="hkg-hW-bGa" firstAttribute="top" secondItem="2GQ-p5-46X" secondAttribute="top" id="Nak-38-CVT"/>
+                            <constraint firstItem="gxN-BY-KLw" firstAttribute="top" secondItem="wtT-mn-Gf2" secondAttribute="bottom" constant="8" id="Pa2-dr-d1f"/>
+                            <constraint firstItem="gwz-EM-Ykt" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leadingMargin" id="SfU-fv-cUF"/>
+                            <constraint firstAttribute="bottom" secondItem="gxN-BY-KLw" secondAttribute="bottom" constant="20" id="TBV-f0-hFG"/>
+                            <constraint firstItem="2x1-Gb-0sh" firstAttribute="top" secondItem="hkg-hW-bGa" secondAttribute="bottom" id="YcO-8k-AMT"/>
+                            <constraint firstAttribute="trailing" secondItem="hEd-se-cCe" secondAttribute="trailing" constant="3" id="aVb-X1-itl"/>
+                            <constraint firstItem="hkg-hW-bGa" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leading" id="cwu-ZB-nbO"/>
+                            <constraint firstItem="wtT-mn-Gf2" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leadingMargin" constant="3" id="d6U-p7-Z2H"/>
+                            <constraint firstItem="hEd-se-cCe" firstAttribute="top" secondItem="wtT-mn-Gf2" secondAttribute="bottom" constant="2" id="lfM-gL-xmH"/>
+                            <constraint firstItem="gxN-BY-KLw" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leading" constant="12" id="mqb-bh-Zgg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wtT-mn-Gf2" secondAttribute="trailing" constant="3" id="qpd-t0-4HX"/>
+                            <constraint firstAttribute="trailing" secondItem="hkg-hW-bGa" secondAttribute="trailing" id="sUw-BP-dCx"/>
+                            <constraint firstAttribute="trailing" secondItem="gxN-BY-KLw" secondAttribute="trailing" constant="12" id="vwR-FP-c70"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vw7-fH-mz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959" y="3259"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="AuschwitzGate.jpeg" width="800" height="577"/>
+        <image name="EuropeMap.jpg.jpeg" width="1600" height="979"/>
+        <image name="ImageBelzec.jpeg" width="480" height="312"/>
+        <image name="ImageBuchenwals.jpeg" width="480" height="303"/>
+        <image name="ImageDachau.jpg.jpeg" width="800" height="623"/>
+        <image name="ImageDrancy.jpg.jpeg" width="640" height="362"/>
+        <image name="ImageTreblinka.jpeg" width="480" height="303"/>
+        <image name="Imagemauthausen.jpeg" width="480" height="314"/>
+        <image name="MapButton.png" width="18" height="18"/>
+        <image name="Por Alex gross" width="900" height="856"/>
         <image name="background austria.jpg" width="448" height="700"/>
         <image name="background czechoslovakia.jpg" width="725" height="910"/>
         <image name="background germany.jpg" width="725" height="761"/>

@@ -18,6 +18,7 @@ class VideoPlayerViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .black
         
+        
         avPlayerLayer = AVPlayerLayer(player: avPlayer)
         view.layer.insertSublayer(avPlayerLayer, at: 0)
         
@@ -31,9 +32,10 @@ class VideoPlayerViewController: UIViewController {
         let playerItem = AVPlayerItem(url: url as! URL)
         avPlayer.replaceCurrentItem(with: playerItem)
         
+        
+
     }
-    
-    
+   
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         avPlayer.play()
@@ -47,10 +49,13 @@ class VideoPlayerViewController: UIViewController {
         
         avPlayerLayer.frame = view.bounds
         invisibleButton.frame = view.bounds
-        
+               
         view.bringSubview(toFront: theButton)
 
     }
+    
+    
+    
     
     func invisibleButtonTapped(sender: UIButton) {
         let playerIsPlaying = avPlayer.rate > 0

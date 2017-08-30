@@ -15,12 +15,11 @@ struct postStruct {
     let title : String!
     let message : String!
     let url : URL!
-    //let image : UIImage!
+    let image : UIImage!
 }
 
 
 class FirebaseVidoes: UITableViewController {
-    
     
     var posts = [postStruct]()
     
@@ -41,10 +40,14 @@ class FirebaseVidoes: UITableViewController {
             let snapshotValue = snapshot.value as? NSDictionary
             let title = snapshotValue?["title"] as? String
             let message = snapshotValue?["message"] as? String
-            let url = snapshotValue?["url"] as? URL
-            //let image = snapshotValue?["image"] as? UIImage
+            let urlString = snapshotValue?["url"] as? String
+            let url = URL(string: urlString!)
+            let imageName = snapshotValue?["image"] as? String
+            let image3 = UIImage(named: imageName!)
             
-            self.posts.insert(postStruct(title: title, message: message, url: url) , at: 0)
+            
+            
+            self.posts.insert(postStruct(title: title, message: message, url: url, image: image3) , at: 0)
             self.tableView.reloadData()
             
             
@@ -62,11 +65,11 @@ class FirebaseVidoes: UITableViewController {
         
         let title = "Title"
         let message = "Message"
-        
+    
         
         let post : [String : AnyObject] = ["title": title as AnyObject,
                                             "message": message as AnyObject]
-        
+    
         
         let databaseRef = Database.database().reference()
         
@@ -93,18 +96,17 @@ class FirebaseVidoes: UITableViewController {
         
         var cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         
-        let label1 =  cell?.viewWithTag(1) as! UILabel
+        let label1 = cell?.viewWithTag(1) as! UILabel
             label1.text = posts[indexPath.row].title
         
         let label2 = cell?.viewWithTag(2) as! UILabel
             label2.text = posts[indexPath.row].message
         
+        let image4 = cell?.viewWithTag(3) as! UIImageView
+            image4.image = posts[indexPath.row].image
         
-        
-        //let image1 = cell?.viewWithTag(3) as! UIImage
-            //image1.UIimage = posts[indexPath.row].image
-        
-        
+        cell?.selectionStyle = .none
+
         
         return cell!
         
@@ -113,7 +115,7 @@ class FirebaseVidoes: UITableViewController {
 
     }
     
-    func tableView(_tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         var selectedIndex = indexPath
         
@@ -124,6 +126,8 @@ class FirebaseVidoes: UITableViewController {
         self.present(playerViewController, animated: true) {
             playerViewController.player!.play()
         }
+        
+        
         
     }
     

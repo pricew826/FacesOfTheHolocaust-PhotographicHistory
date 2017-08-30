@@ -10,6 +10,15 @@
 		248F35F01EE19E7238A4CA55 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3138535273AB67529E26DC9 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryUITests.framework */; };
 		6216C64A32A5BB54BD228A2F /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F2768C9874B8CA4C9DBDF8 /* Pods_Faces_of_the_Holocaust_Photographic_HistoryTests.framework */; };
 		8C3C72E47DC636965BEB090F /* Pods_Faces_of_the_Holocaust_Photographic_History.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADFE4093C8F69004090DD8E /* Pods_Faces_of_the_Holocaust_Photographic_History.framework */; };
+		B229F7E01F5519F700527442 /* wwiihol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7DF1F5519F700527442 /* wwiihol.jpg */; };
+		B229F7E21F551B0A00527442 /* buttonMap.png in Resources */ = {isa = PBXBuildFile; fileRef = B229F7E11F551B0A00527442 /* buttonMap.png */; };
+		B229F7E41F56574C00527442 /* EuropeMap.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7E31F56574C00527442 /* EuropeMap.jpg.jpeg */; };
+		B229F7E61F56589500527442 /* MapButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B229F7E51F56589500527442 /* MapButton.png */; };
+		B229F7E81F565E0F00527442 /* ImageDrancy.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7E71F565E0F00527442 /* ImageDrancy.jpg.jpeg */; };
+		B229F7EA1F56671900527442 /* PopupVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B229F7E91F56671900527442 /* PopupVC1.swift */; };
+		B229F7EC1F5669AB00527442 /* AuschwitzGate.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */; };
+		B229F7EE1F566D7000527442 /* ImageDachau.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7ED1F566D7000527442 /* ImageDachau.jpg.jpeg */; };
+		B229F7F01F566FFE00527442 /* ImageBuchenwals.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7EF1F566FFE00527442 /* ImageBuchenwals.jpeg */; };
 		B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */; };
 		B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBC71F4D1B3900EBED0D /* face1.jpg */; };
 		B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */; };
@@ -19,6 +28,10 @@
 		B2C8BBD21F4FB9AB00EBED0D /* icon-video.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */; };
 		B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */; };
 		B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */; };
+		B2D6878E1F567148008E63E4 /* Imagemauthausen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2D6878D1F567148008E63E4 /* Imagemauthausen.jpeg */; };
+		B2D687901F5672BB008E63E4 /* ImageBelzec.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2D6878F1F5672BB008E63E4 /* ImageBelzec.jpeg */; };
+		B2D687921F56747D008E63E4 /* ImageTreblinka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2D687911F56747D008E63E4 /* ImageTreblinka.jpeg */; };
+		B2D687941F5675F6008E63E4 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D687931F5675F6008E63E4 /* Credits.swift */; };
 		B2F330D41F4FCC9200B766D5 /* image-book-burning.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */; };
 		B2F330D61F50564100B766D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F330D51F50564100B766D5 /* GoogleService-Info.plist */; };
 		B2F330DC1F51146100B766D5 /* FirebaseVidoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F330DB1F51146100B766D5 /* FirebaseVidoes.swift */; };
@@ -75,6 +88,15 @@
 		397058280D4E8D15F7BE080F /* Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryUITests/Pods-Faces of the Holocaust Photographic HistoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5ADFE4093C8F69004090DD8E /* Pods_Faces_of_the_Holocaust_Photographic_History.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faces_of_the_Holocaust_Photographic_History.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5F01C40186CF42FC9ECE4F /* Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faces of the Holocaust Photographic HistoryUITests/Pods-Faces of the Holocaust Photographic HistoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B229F7DF1F5519F700527442 /* wwiihol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wwiihol.jpg; sourceTree = "<group>"; };
+		B229F7E11F551B0A00527442 /* buttonMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonMap.png; sourceTree = "<group>"; };
+		B229F7E31F56574C00527442 /* EuropeMap.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EuropeMap.jpg.jpeg; sourceTree = "<group>"; };
+		B229F7E51F56589500527442 /* MapButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapButton.png; sourceTree = "<group>"; };
+		B229F7E71F565E0F00527442 /* ImageDrancy.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageDrancy.jpg.jpeg; sourceTree = "<group>"; };
+		B229F7E91F56671900527442 /* PopupVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC1.swift; sourceTree = "<group>"; };
+		B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AuschwitzGate.jpeg; sourceTree = "<group>"; };
+		B229F7ED1F566D7000527442 /* ImageDachau.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageDachau.jpg.jpeg; sourceTree = "<group>"; };
+		B229F7EF1F566FFE00527442 /* ImageBuchenwals.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageBuchenwals.jpeg; sourceTree = "<group>"; };
 		B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolandViewController.swift; sourceTree = "<group>"; };
 		B2C8BBC71F4D1B3900EBED0D /* face1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face1.jpg; sourceTree = "<group>"; };
 		B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -84,6 +106,10 @@
 		B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-video.png"; sourceTree = "<group>"; };
 		B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-timeline.png"; sourceTree = "<group>"; };
 		B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-dachau.jpeg"; sourceTree = "<group>"; };
+		B2D6878D1F567148008E63E4 /* Imagemauthausen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Imagemauthausen.jpeg; sourceTree = "<group>"; };
+		B2D6878F1F5672BB008E63E4 /* ImageBelzec.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageBelzec.jpeg; sourceTree = "<group>"; };
+		B2D687911F56747D008E63E4 /* ImageTreblinka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageTreblinka.jpeg; sourceTree = "<group>"; };
+		B2D687931F5675F6008E63E4 /* Credits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
 		B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-book-burning.jpeg"; sourceTree = "<group>"; };
 		B2F330D51F50564100B766D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2F330DB1F51146100B766D5 /* FirebaseVidoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseVidoes.swift; sourceTree = "<group>"; };
@@ -188,6 +214,8 @@
 				B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */,
 				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
 				B2F8DF621F4206A60065DFBE /* Main.storyboard */,
+				B2D687931F5675F6008E63E4 /* Credits.swift */,
+				B229F7E91F56671900527442 /* PopupVC1.swift */,
 				B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */,
 				B2F330DB1F51146100B766D5 /* FirebaseVidoes.swift */,
 				B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */,
@@ -198,10 +226,14 @@
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
 				B2F330E31F51C15300B766D5 /* hol.mp4.mov */,
 				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
-				B2C8BBCD1F4FB23100EBED0D /* icon-home-trans.png */,
+				B229F7DF1F5519F700527442 /* wwiihol.jpg */,
+				B229F7E31F56574C00527442 /* EuropeMap.jpg.jpeg */,
 				B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */,
+				B2D687911F56747D008E63E4 /* ImageTreblinka.jpeg */,
+				B2D6878F1F5672BB008E63E4 /* ImageBelzec.jpeg */,
 				B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */,
 				B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */,
+				B2C8BBCD1F4FB23100EBED0D /* icon-home-trans.png */,
 				B2F8DF971F4225150065DFBE /* icon-home@3x.png */,
 				B2F330DF1F51277C00B766D5 /* polandBackgroundBlur.jpg */,
 				B2F8DF9D1F4225E40065DFBE /* icon-home-filled@3x.png */,
@@ -238,7 +270,14 @@
 		B2F8DF901F421F7E0065DFBE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */,
+				B2D6878D1F567148008E63E4 /* Imagemauthausen.jpeg */,
+				B229F7E71F565E0F00527442 /* ImageDrancy.jpg.jpeg */,
+				B229F7ED1F566D7000527442 /* ImageDachau.jpg.jpeg */,
+				B229F7EF1F566FFE00527442 /* ImageBuchenwals.jpeg */,
 				B2C8BBC71F4D1B3900EBED0D /* face1.jpg */,
+				B229F7E11F551B0A00527442 /* buttonMap.png */,
+				B229F7E51F56589500527442 /* MapButton.png */,
 				B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */,
 				B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */,
 				B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */,
@@ -397,33 +436,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B229F7E41F56574C00527442 /* EuropeMap.jpg.jpeg in Resources */,
 				B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */,
 				B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */,
 				B2C8BBCE1F4FB23100EBED0D /* icon-home-trans.png in Resources */,
 				B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */,
 				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
+				B229F7E61F56589500527442 /* MapButton.png in Resources */,
 				B2F8DF9F1F4225E40065DFBE /* icon-home-filled@2x.png in Resources */,
 				B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */,
 				B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */,
 				B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */,
 				B2F8DFA41F4227E90065DFBE /* icon-map-filled.png in Resources */,
+				B2D687921F56747D008E63E4 /* ImageTreblinka.jpeg in Resources */,
 				B2F8DFA81F422D4B0065DFBE /* seal-faces-of-the-holocaust.png in Resources */,
 				B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */,
+				B229F7E81F565E0F00527442 /* ImageDrancy.jpg.jpeg in Resources */,
+				B229F7E01F5519F700527442 /* wwiihol.jpg in Resources */,
+				B229F7F01F566FFE00527442 /* ImageBuchenwals.jpeg in Resources */,
 				B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */,
+				B2D6878E1F567148008E63E4 /* Imagemauthausen.jpeg in Resources */,
 				B2F330E41F51C15300B766D5 /* hol.mp4.mov in Resources */,
 				B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */,
 				B2C8BBD01F4FB7D100EBED0D /* icon-people.png in Resources */,
 				B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */,
 				B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */,
 				B2F330D61F50564100B766D5 /* GoogleService-Info.plist in Resources */,
+				B2D687901F5672BB008E63E4 /* ImageBelzec.jpeg in Resources */,
 				B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */,
 				B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */,
 				B2F8E0061F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg in Resources */,
+				B229F7EC1F5669AB00527442 /* AuschwitzGate.jpeg in Resources */,
 				B2C8BBD21F4FB9AB00EBED0D /* icon-video.png in Resources */,
+				B229F7E21F551B0A00527442 /* buttonMap.png in Resources */,
 				B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */,
 				B2F330E01F51277C00B766D5 /* polandBackgroundBlur.jpg in Resources */,
 				B2F330D41F4FCC9200B766D5 /* image-book-burning.jpeg in Resources */,
 				B2F8DFA61F422A380065DFBE /* background.jpg in Resources */,
+				B229F7EE1F566D7000527442 /* ImageDachau.jpg.jpeg in Resources */,
 				B2F8DFB01F425AC40065DFBE /* background hungary.jpg in Resources */,
 				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
 				B2F8E0041F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg in Resources */,
@@ -614,8 +664,10 @@
 				B2F8DFC41F4629D90065DFBE /* RootPageViewController.swift in Sources */,
 				B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */,
 				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
+				B229F7EA1F56671900527442 /* PopupVC1.swift in Sources */,
 				B2F330EA1F520A5C00B766D5 /* VideoPlayerViewController.swift in Sources */,
 				B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */,
+				B2D687941F5675F6008E63E4 /* Credits.swift in Sources */,
 				B2F8DF5F1F4206A60065DFBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -776,7 +828,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -792,7 +844,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wporiginals.Faces-of-the-Holocaust-Photographic-History";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
