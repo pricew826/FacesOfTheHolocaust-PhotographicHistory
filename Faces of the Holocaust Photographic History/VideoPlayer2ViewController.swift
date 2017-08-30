@@ -1,10 +1,10 @@
 import UIKit
 import AVFoundation
 
-class VideoPlayerViewController: UIViewController {
+class VideoPlayer2ViewController: UIViewController {
+    
     
     @IBOutlet weak var theButton: UIButton!
-    
     
     
     let avPlayer = AVPlayer()
@@ -12,7 +12,7 @@ class VideoPlayerViewController: UIViewController {
     let invisibleButton = UIButton()
     
     
-  
+    
     
     override func viewDidLoad() {
         
@@ -20,7 +20,7 @@ class VideoPlayerViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .black
         
-
+        
         
         
         
@@ -39,9 +39,9 @@ class VideoPlayerViewController: UIViewController {
         avPlayer.replaceCurrentItem(with: playerItem)
         
         
-
+        
     }
-   
+    
     override func viewWillAppear(_ animated: Bool) {
         
         
@@ -67,9 +67,9 @@ class VideoPlayerViewController: UIViewController {
         
         avPlayerLayer.frame = view.bounds
         invisibleButton.frame = view.bounds
-               
+        
         view.bringSubview(toFront: theButton)
-
+        
     }
     
     
@@ -86,8 +86,8 @@ class VideoPlayerViewController: UIViewController {
     }
     
     
-   
-
+    
+    
     
     
 }
