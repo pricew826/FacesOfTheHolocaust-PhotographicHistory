@@ -28,6 +28,16 @@
 		B2C8BBD21F4FB9AB00EBED0D /* icon-video.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */; };
 		B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */; };
 		B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */; };
+		B2CDC22E1F583BCC005327BB /* PolandResourceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC22D1F583BCC005327BB /* PolandResourceList.plist */; };
+		B2CDC2301F5847AF005327BB /* AustriaProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC22F1F5847AF005327BB /* AustriaProperty List.plist */; };
+		B2CDC2321F584898005327BB /* CzechProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC2311F584898005327BB /* CzechProperty List.plist */; };
+		B2CDC2341F5849DF005327BB /* GermanyProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC2331F5849DF005327BB /* GermanyProperty List.plist */; };
+		B2CDC2361F584AB5005327BB /* BelarusProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC2351F584AB5005327BB /* BelarusProperty List.plist */; };
+		B2CDC2381F584B45005327BB /* UkraineProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC2371F584B45005327BB /* UkraineProperty List.plist */; };
+		B2CDC23A1F584BCD005327BB /* RomainiaProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC2391F584BCD005327BB /* RomainiaProperty List.plist */; };
+		B2CDC23C1F584C76005327BB /* FranceProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC23B1F584C76005327BB /* FranceProperty List.plist */; };
+		B2CDC23E1F584D00005327BB /* RussiaProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC23D1F584D00005327BB /* RussiaProperty List.plist */; };
+		B2CDC2401F584E41005327BB /* LithuaniaProperty List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC23F1F584E41005327BB /* LithuaniaProperty List.plist */; };
 		B2CDF8401F573A12006B3B6F /* VideoPlayer2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CDF83F1F573A12006B3B6F /* VideoPlayer2ViewController.swift */; };
 		B2CDF8421F5743A1006B3B6F /* PopupVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CDF8411F5743A0006B3B6F /* PopupVC3.swift */; };
 		B2CDF84A1F574821006B3B6F /* PopupVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CDF8491F574821006B3B6F /* PopupVC4.swift */; };
@@ -122,6 +132,16 @@
 		B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-video.png"; sourceTree = "<group>"; };
 		B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-timeline.png"; sourceTree = "<group>"; };
 		B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-dachau.jpeg"; sourceTree = "<group>"; };
+		B2CDC22D1F583BCC005327BB /* PolandResourceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PolandResourceList.plist; sourceTree = "<group>"; };
+		B2CDC22F1F5847AF005327BB /* AustriaProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AustriaProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC2311F584898005327BB /* CzechProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CzechProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC2331F5849DF005327BB /* GermanyProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GermanyProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC2351F584AB5005327BB /* BelarusProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BelarusProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC2371F584B45005327BB /* UkraineProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UkraineProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC2391F584BCD005327BB /* RomainiaProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RomainiaProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC23B1F584C76005327BB /* FranceProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FranceProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC23D1F584D00005327BB /* RussiaProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RussiaProperty List.plist"; sourceTree = "<group>"; };
+		B2CDC23F1F584E41005327BB /* LithuaniaProperty List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LithuaniaProperty List.plist"; sourceTree = "<group>"; };
 		B2CDF83F1F573A12006B3B6F /* VideoPlayer2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer2ViewController.swift; sourceTree = "<group>"; };
 		B2CDF8411F5743A0006B3B6F /* PopupVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC3.swift; sourceTree = "<group>"; };
 		B2CDF8491F574821006B3B6F /* PopupVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC4.swift; sourceTree = "<group>"; };
@@ -263,6 +283,45 @@
 				B2F8DFC31F4629D90065DFBE /* RootPageViewController.swift */,
 				B2F330D51F50564100B766D5 /* GoogleService-Info.plist */,
 				B2F8DF651F4206A60065DFBE /* Assets.xcassets */,
+				B2F8DF901F421F7E0065DFBE /* Images */,
+				B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */,
+				B2F8DF6A1F4206A60065DFBE /* Info.plist */,
+				B2F8DFBB1F448B100065DFBE /* ResourceList.plist */,
+				B2CDC22F1F5847AF005327BB /* AustriaProperty List.plist */,
+				B2CDC2311F584898005327BB /* CzechProperty List.plist */,
+				B2CDC2331F5849DF005327BB /* GermanyProperty List.plist */,
+				B2CDC2351F584AB5005327BB /* BelarusProperty List.plist */,
+				B2CDC2371F584B45005327BB /* UkraineProperty List.plist */,
+				B2CDC2391F584BCD005327BB /* RomainiaProperty List.plist */,
+				B2CDC23B1F584C76005327BB /* FranceProperty List.plist */,
+				B2CDC23D1F584D00005327BB /* RussiaProperty List.plist */,
+				B2CDC23F1F584E41005327BB /* LithuaniaProperty List.plist */,
+				B2CDC22D1F583BCC005327BB /* PolandResourceList.plist */,
+			);
+			path = "Faces of the Holocaust Photographic History";
+			sourceTree = "<group>";
+		};
+		B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */,
+				B2F8DF751F4206A60065DFBE /* Info.plist */,
+			);
+			path = "Faces of the Holocaust Photographic HistoryTests";
+			sourceTree = "<group>";
+		};
+		B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */,
+				B2F8DF801F4206A60065DFBE /* Info.plist */,
+			);
+			path = "Faces of the Holocaust Photographic HistoryUITests";
+			sourceTree = "<group>";
+		};
+		B2F8DF901F421F7E0065DFBE /* Images */ = {
+			isa = PBXGroup;
+			children = (
 				B2F8DFA71F422D4B0065DFBE /* seal-faces-of-the-holocaust.png */,
 				B2F330E31F51C15300B766D5 /* hol.mp4.mov */,
 				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
@@ -290,35 +349,6 @@
 				B2C8BBCF1F4FB7D100EBED0D /* icon-people.png */,
 				B2F8DFA11F42272E0065DFBE /* icon-map.png */,
 				B2F8DF9C1F4225E40065DFBE /* icon-home-filled@2x.png */,
-				B2F8DF901F421F7E0065DFBE /* Images */,
-				B2F8DF671F4206A60065DFBE /* LaunchScreen.storyboard */,
-				B2F8DF6A1F4206A60065DFBE /* Info.plist */,
-				B2F8DFBB1F448B100065DFBE /* ResourceList.plist */,
-			);
-			path = "Faces of the Holocaust Photographic History";
-			sourceTree = "<group>";
-		};
-		B2F8DF721F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2F8DF731F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryTests.swift */,
-				B2F8DF751F4206A60065DFBE /* Info.plist */,
-			);
-			path = "Faces of the Holocaust Photographic HistoryTests";
-			sourceTree = "<group>";
-		};
-		B2F8DF7D1F4206A60065DFBE /* Faces of the Holocaust Photographic HistoryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2F8DF7E1F4206A60065DFBE /* Faces_of_the_Holocaust_Photographic_HistoryUITests.swift */,
-				B2F8DF801F4206A60065DFBE /* Info.plist */,
-			);
-			path = "Faces of the Holocaust Photographic HistoryUITests";
-			sourceTree = "<group>";
-		};
-		B2F8DF901F421F7E0065DFBE /* Images */ = {
-			isa = PBXGroup;
-			children = (
 				B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */,
 				B2D6878D1F567148008E63E4 /* Imagemauthausen.jpeg */,
 				B229F7E71F565E0F00527442 /* ImageDrancy.jpg.jpeg */,
@@ -487,6 +517,7 @@
 				B229F7E41F56574C00527442 /* EuropeMap.jpg.jpeg in Resources */,
 				B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */,
 				B2F8DFA01F4225E40065DFBE /* icon-home-filled@3x.png in Resources */,
+				B2CDC2321F584898005327BB /* CzechProperty List.plist in Resources */,
 				B2C8BBCE1F4FB23100EBED0D /* icon-home-trans.png in Resources */,
 				B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */,
 				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
@@ -508,15 +539,23 @@
 				B2D687A01F570A09008E63E4 /* Icon-87.png in Resources */,
 				B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */,
 				B2D6878E1F567148008E63E4 /* Imagemauthausen.jpeg in Resources */,
+				B2CDC23A1F584BCD005327BB /* RomainiaProperty List.plist in Resources */,
+				B2CDC23E1F584D00005327BB /* RussiaProperty List.plist in Resources */,
 				B2F330E41F51C15300B766D5 /* hol.mp4.mov in Resources */,
+				B2CDC2361F584AB5005327BB /* BelarusProperty List.plist in Resources */,
 				B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */,
 				B2C8BBD01F4FB7D100EBED0D /* icon-people.png in Resources */,
 				B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */,
+				B2CDC2301F5847AF005327BB /* AustriaProperty List.plist in Resources */,
 				B2F8DF641F4206A60065DFBE /* Main.storyboard in Resources */,
 				B2F330D61F50564100B766D5 /* GoogleService-Info.plist in Resources */,
+				B2CDC2341F5849DF005327BB /* GermanyProperty List.plist in Resources */,
+				B2CDC2381F584B45005327BB /* UkraineProperty List.plist in Resources */,
 				B2D687901F5672BB008E63E4 /* ImageBelzec.jpeg in Resources */,
+				B2CDC2401F584E41005327BB /* LithuaniaProperty List.plist in Resources */,
 				B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */,
 				B2D6879A1F570114008E63E4 /* Icon-29.png in Resources */,
+				B2CDC23C1F584C76005327BB /* FranceProperty List.plist in Resources */,
 				B2F8DF991F4225150065DFBE /* icon-home@2x.png in Resources */,
 				B2F8E0061F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg in Resources */,
 				B229F7EC1F5669AB00527442 /* AuschwitzGate.jpeg in Resources */,
@@ -534,6 +573,7 @@
 				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
 				B2D687A21F570A1B008E63E4 /* Icon-80.png in Resources */,
 				B2F8E0041F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg in Resources */,
+				B2CDC22E1F583BCC005327BB /* PolandResourceList.plist in Resources */,
 				B2F8DFA21F42272E0065DFBE /* icon-map.png in Resources */,
 				B2F8DFAC1F423B600065DFBE /* polanfd background.jpg in Resources */,
 			);

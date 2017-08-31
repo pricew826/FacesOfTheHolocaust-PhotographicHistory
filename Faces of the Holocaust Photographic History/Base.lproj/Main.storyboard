@@ -374,7 +374,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mSn-uA-9Ua" id="0GC-58-wl8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -382,7 +382,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TQR-fu-PUk" id="n5Y-YA-e1O">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.53846982758620687" colorSpace="calibratedWhite"/>
@@ -719,7 +719,6 @@
         <!--View Controller-->
         <scene sceneID="yBD-7b-whE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Nk-xm-TFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="3sh-ty-8yp" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Olx-IN-eSt"/>
@@ -731,6 +730,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Nk-xm-TFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="874" y="1871"/>
         </scene>
@@ -782,7 +782,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="546"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l5P-LV-Nxa" id="kl6-qo-gXM">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="545.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adolf Hitler Appointed Chancellor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKq-7Q-2Ik">
@@ -840,7 +840,7 @@
                                         <rect key="frame" x="0.0" y="546" width="375" height="665"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rhi-ZS-i6o" id="3Th-Wt-T5L">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Establishment of Dachau Concentration Camp" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atF-hR-hss">
@@ -900,7 +900,7 @@ Between 1933 and 1945, concentration camps (Konzentrationslager; KL or KZ) were 
                                         <rect key="frame" x="0.0" y="1211" width="375" height="665"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O1G-5E-d6E" id="Kyc-Go-xW5">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Burning" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTR-qc-0Qa">
@@ -1680,21 +1680,24 @@ Most of the early inmates at Buchenwald were political prisoners. However, in 19
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BELZEC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zt2-tb-LSN">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="BELZEC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zt2-tb-LSN">
                                             <rect key="frame" x="55" y="36" width="266" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="View after the obliteration of the Belzec killing center  - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9R9-Ki-D2h">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="View after the obliteration of the Belzec killing center  - USHMM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9R9-Ki-D2h">
                                             <rect key="frame" x="18" y="297" width="349" height="39"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUi-SP-27f">
-                                            <rect key="frame" x="18" y="344" width="337" height="323"/>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUi-SP-27f">
+                                            <rect key="frame" x="18" y="344" width="337" height="300"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="300" id="93r-2c-NcU"/>
+                                            </constraints>
                                             <string key="text">In November 1941, SS and police authorities in Lublin District began construction of a killing center on the site of the former Belzec labor camp. The choice of location was dictated by good rail connections and proximity to significant Jewish populations in the Lvov, Krakow, and Lublin districts of the Generalgouvernement. The facility was finished in the late winter of 1942 as part of what later would be called Operation Reinhard (also called Aktion Reinhard), the plan implemented by the SS and Police Leader in Lublin to murder the Jews of the Generalgouvernement.
 
 Belzec began operations on March 17, 1942. The first Jewish communities deported to Belzec were those of Lublin and Lvov. Belzec was the second German killing center, and the first of the Operation Reinhard killing centers, to begin operation.</string>
@@ -1702,7 +1705,7 @@ Belzec began operations on March 17, 1942. The first Jewish communities deported
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ImageBelzec.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Bm5-ks-WTW">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ImageBelzec.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Bm5-ks-WTW">
                                             <rect key="frame" x="19" y="74" width="337" height="215"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="Bm5-ks-WTW" secondAttribute="height" multiplier="337:215" id="lez-tP-ItI"/>
@@ -1710,18 +1713,20 @@ Belzec began operations on March 17, 1942. The first Jewish communities deported
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="mUi-SP-27f" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="12" id="2y6-te-dKW"/>
-                                        <constraint firstAttribute="bottom" secondItem="mUi-SP-27f" secondAttribute="bottom" constant="20" id="5Kw-Yh-4Qh"/>
+                                        <constraint firstItem="mUi-SP-27f" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="18" id="7uj-kp-hat"/>
                                         <constraint firstAttribute="trailing" secondItem="Bm5-ks-WTW" secondAttribute="trailing" constant="3" id="BZN-7w-0xp"/>
                                         <constraint firstItem="9R9-Ki-D2h" firstAttribute="top" secondItem="Bm5-ks-WTW" secondAttribute="bottom" constant="2" id="GCJ-jP-bx5"/>
                                         <constraint firstAttribute="trailing" secondItem="9R9-Ki-D2h" secondAttribute="trailing" constant="3" id="SXs-CO-daw"/>
                                         <constraint firstItem="9R9-Ki-D2h" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="3" id="Snh-qg-w6h"/>
+                                        <constraint firstItem="mUi-SP-27f" firstAttribute="leading" secondItem="9R9-Ki-D2h" secondAttribute="leading" id="T1z-rE-FdF"/>
                                         <constraint firstItem="zt2-tb-LSN" firstAttribute="centerX" secondItem="QVQ-8B-KF2" secondAttribute="centerX" id="TO4-Cp-9JT"/>
+                                        <constraint firstAttribute="bottom" secondItem="mUi-SP-27f" secondAttribute="bottom" constant="23" id="U0e-Vp-ccg"/>
                                         <constraint firstItem="Bm5-ks-WTW" firstAttribute="leading" secondItem="QVQ-8B-KF2" secondAttribute="leading" constant="3" id="d87-JP-a6A"/>
-                                        <constraint firstAttribute="trailing" secondItem="mUi-SP-27f" secondAttribute="trailing" constant="12" id="eKw-Ug-hCJ"/>
+                                        <constraint firstAttribute="trailing" secondItem="mUi-SP-27f" secondAttribute="trailing" constant="20" id="hKp-Vp-rnB"/>
                                         <constraint firstItem="zt2-tb-LSN" firstAttribute="top" secondItem="QVQ-8B-KF2" secondAttribute="top" constant="25" id="jAm-b7-stp"/>
-                                        <constraint firstItem="mUi-SP-27f" firstAttribute="top" secondItem="9R9-Ki-D2h" secondAttribute="bottom" constant="8" id="llj-mo-pMQ"/>
                                         <constraint firstItem="Bm5-ks-WTW" firstAttribute="top" secondItem="zt2-tb-LSN" secondAttribute="bottom" constant="17" id="q5i-Gf-9FR"/>
+                                        <constraint firstItem="mUi-SP-27f" firstAttribute="top" secondItem="9R9-Ki-D2h" secondAttribute="bottom" constant="8" symbolic="YES" id="qtF-aL-IEy"/>
+                                        <constraint firstItem="mUi-SP-27f" firstAttribute="top" secondItem="9R9-Ki-D2h" secondAttribute="bottom" constant="8" id="yjV-3s-V0a"/>
                                     </constraints>
                                 </view>
                                 <blurEffect style="dark"/>
@@ -1836,7 +1841,7 @@ The camp was divided into three parts: the reception area, the living area, and 
                             <constraint firstItem="hEd-se-cCe" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leadingMargin" constant="3" id="IT4-II-au9"/>
                             <constraint firstItem="gwz-EM-Ykt" firstAttribute="top" secondItem="5Md-n0-lau" secondAttribute="bottom" id="KdF-1M-3Fp"/>
                             <constraint firstItem="hkg-hW-bGa" firstAttribute="top" secondItem="2GQ-p5-46X" secondAttribute="top" id="Nak-38-CVT"/>
-                            <constraint firstItem="gxN-BY-KLw" firstAttribute="top" secondItem="wtT-mn-Gf2" secondAttribute="bottom" constant="8" id="Pa2-dr-d1f"/>
+                            <constraint firstItem="gxN-BY-KLw" firstAttribute="top" secondItem="wtT-mn-Gf2" secondAttribute="bottom" constant="16" id="Pa2-dr-d1f"/>
                             <constraint firstItem="gwz-EM-Ykt" firstAttribute="leading" secondItem="2GQ-p5-46X" secondAttribute="leadingMargin" id="SfU-fv-cUF"/>
                             <constraint firstAttribute="bottom" secondItem="gxN-BY-KLw" secondAttribute="bottom" constant="20" id="TBV-f0-hFG"/>
                             <constraint firstItem="2x1-Gb-0sh" firstAttribute="top" secondItem="hkg-hW-bGa" secondAttribute="bottom" id="YcO-8k-AMT"/>

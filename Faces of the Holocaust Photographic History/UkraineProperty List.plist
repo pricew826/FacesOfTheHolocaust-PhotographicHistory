@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Ellen Kardanow</string>
+		<key>short</key>
+		<string>Ukrainian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Ellen Kardanow was born in 1936 in the Poland/Ukraine area. She survived by hiding with a Christian family of five. She was the only one left alive in her family until an aunt from Russia found her and took her to Siberia, Poland, Germany, and then to the United States. She came to the United States in 1948, and here she produced a Jewish newspaper.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mikhail Esties</string>
+		<key>short</key>
+		<string>Ukrainian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Mikhail Esties was evacuated from Odessa in the Ukraine when he was 4 years old. He lived in the Ural Mountains from 1941-44. Those of his family who did not go did not survive. Mikhail’s father died in the Red Army, but his mother survived the war. In 1978, the government opened the door for Russian Jews to leave the Ukraine and Mikhail made his way to the United States. In the United States, he married Polina Feldmus who he had known in Odessa. His mother died in the United States when she was 100 years old.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Polina Feldmus</string>
+		<key>short</key>
+		<string>Ukrainian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Polina Feldmus was born in Odessa, Ukraine in 1938. Her family fled when German soldiers were coming and went to the Ural Mountains. There her mom picked potatoes on a collective farm and made soup for the family. Her grandfather died from starvation. She ate pig’s fat to survive. After the war, she returned to Odessa. She came to New York in 1980, and after her first husband died, she married Mikhail Esties.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Anna Mann</string>
+		<key>short</key>
+		<string>Ukrainian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Anna Mann was born in the Ukraine in 1930. She left the Ukraine across a bridge just before the Russians burned it down. She came to the United States in 1962 and has visited Israel many times.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+</array>
+</plist>

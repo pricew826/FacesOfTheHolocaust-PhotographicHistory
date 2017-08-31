@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Malka Schmulovitz</string>
+		<key>short</key>
+		<string>Lithuanian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Malka Schmulovitz is 102 years old and is the mother of Phillip Godur. Malka miraculously survived the Vilna Ghetto in Lithuania, where she lived from 1941-43. She went to the woods where she gave her two-year-old son to a lady to keep him safe. She lived with partisans for two and a half years. Christian people helped them and came to tell them when the war was over. Malka was eventually reunited with her son.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Philip Godur</string>
+		<key>short</key>
+		<string>Lithuanian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Phillip escaped the Vilna Ghetto with his family, and he testifies that God saved him many times. Phillip stayed in the homes of different Christian people and hid in holes dug in the ground. When Phillip was six years old, he says he was like a twenty-year old. He lived in Cuba for some time before settling in the United States.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+</array>
+</plist>

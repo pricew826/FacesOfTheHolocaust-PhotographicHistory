@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Doris Safirstein</string>
+		<key>short</key>
+		<string>Russian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Doris Safirstein was the only survivor in her family. She was hidden in Russia, the land of her birth, and eventually evacuated to Tashkent in Uzbekistan. She got married in 1943, and her husband was a Polish Jew and part of the resistance during the Holocaust.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Eria Lux</string>
+		<key>short</key>
+		<string>Russian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Eria Lux was born in Odessa, Russia. She went with her mother and two sisters to Siberia where they stayed in a one room apartment. Once Odessa was liberated, they returned there and Eria stayed in Odessa until 1974 when she moved to the United States.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Irving Dembling</string>
+		<key>short</key>
+		<string>Russian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Irving Dembling fought in the Soviet Army. He was taken captive by the Germans and seriously injured, but he recovered. He then wore a German uniform. After the war, he reported to the Russians and told them his story.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+</array>
+</plist>

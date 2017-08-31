@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Michael Stoll</string>
+		<key>short</key>
+		<string>Belarussian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Michael Stoll was deported from the Lida Ghetto with his family to be taken to Majdanek. Michael jumped off the train and hid in the woods. At sixteen years old, he joined the Bielski Brigade. In the woods, he was reunited with his mother who had been helped by Russian partisans. After the war, Michael wanted to join the Haganah underground in Palestine. His mother would not let him go, as she said he did not survive the war to die in Palestine. He came to the United States in 1949 and fought in the Korean War. Michael has been interviewed by Steven Spielberg and is on the History Channel.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Maria Borenstein</string>
+		<key>short</key>
+		<string>Belarussian Holocaust Survivor</string>
+		<key>long</key>
+		<string>Maria Borenstein was born in Belarus in 1930. She left when she was ten years old, and was fired on by Germans as her family fled. They traveled seven weeks by horse and buggy, and her father, mother, brother, and sister survived deep in Russia. She was liberated in Russia and came to the United States in 1965. Her husband came from Poland. She speaks very strongly about the United States as “the best democracy in the world.” She speaks five different languages.</string>
+		<key>image</key>
+		<string>face1</string>
+	</dict>
+</array>
+</plist>

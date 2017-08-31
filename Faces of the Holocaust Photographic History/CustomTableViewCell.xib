@@ -15,13 +15,13 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="662"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="661.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="661"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vn1-3b-qXB">
                         <rect key="frame" x="0.0" y="8" width="319" height="379"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="FD28D03F-5E83-4B62-8492-F59E6C9944B3" translatesAutoresizingMaskIntoConstraints="NO" id="hPi-L7-b0n">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="CA651FD2-6973-4111-851B-1FCA94215FCB" translatesAutoresizingMaskIntoConstraints="NO" id="hPi-L7-b0n">
                                 <rect key="frame" x="0.0" y="0.0" width="105" height="99"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="3v2-Gu-euA"/>
@@ -31,7 +31,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Polish Holocaust Survivor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5c-Uk-0n0">
                                 <rect key="frame" x="113" y="49" width="195" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,29 +49,29 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Survivor Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yV-Uc-Sxk">
                                 <rect key="frame" x="113" y="20" width="179" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Por Alex gross" translatesAutoresizingMaskIntoConstraints="NO" id="QlG-4c-Llb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Por Alex gross" translatesAutoresizingMaskIntoConstraints="NO" id="QlG-4c-Llb">
                                 <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="105" id="Mgy-QK-KBR"/>
-                                    <constraint firstAttribute="width" constant="105" id="waJ-7Q-Kio"/>
+                                    <constraint firstAttribute="width" constant="105" id="Vbn-97-cut"/>
+                                    <constraint firstAttribute="height" constant="100" id="ahA-4Y-OUF"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="QlG-4c-Llb" firstAttribute="leading" secondItem="Vn1-3b-qXB" secondAttribute="leading" id="7wy-3P-dw9"/>
                             <constraint firstItem="kmE-YG-bgK" firstAttribute="top" secondItem="hPi-L7-b0n" secondAttribute="bottom" constant="25" id="E6z-Kq-JCz"/>
                             <constraint firstAttribute="bottom" secondItem="kmE-YG-bgK" secondAttribute="bottom" constant="14" id="QQS-OZ-W2p"/>
                             <constraint firstAttribute="trailing" secondItem="kmE-YG-bgK" secondAttribute="trailing" constant="8" id="Rzd-qN-zxh"/>
                             <constraint firstItem="kmE-YG-bgK" firstAttribute="leading" secondItem="Vn1-3b-qXB" secondAttribute="leading" constant="8" id="W2z-KN-pxx"/>
                             <constraint firstItem="hPi-L7-b0n" firstAttribute="top" secondItem="Vn1-3b-qXB" secondAttribute="top" id="Xm2-Qm-IOR"/>
-                            <constraint firstItem="QlG-4c-Llb" firstAttribute="leading" secondItem="Vn1-3b-qXB" secondAttribute="leading" id="ZC4-NQ-aez"/>
                             <constraint firstItem="hPi-L7-b0n" firstAttribute="leading" secondItem="Vn1-3b-qXB" secondAttribute="leading" id="ZqY-Rp-a4q"/>
                             <constraint firstItem="kmE-YG-bgK" firstAttribute="centerX" secondItem="Vn1-3b-qXB" secondAttribute="centerX" id="a8M-QX-8G8"/>
-                            <constraint firstItem="QlG-4c-Llb" firstAttribute="top" secondItem="Vn1-3b-qXB" secondAttribute="top" id="gek-Ko-SuF"/>
+                            <constraint firstItem="QlG-4c-Llb" firstAttribute="top" secondItem="Vn1-3b-qXB" secondAttribute="top" id="flQ-cv-hW8"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -93,11 +93,11 @@
                 <outlet property="thumbImage" destination="hPi-L7-b0n" id="mNZ-YC-TrE"/>
                 <outlet property="titleLabel" destination="9yV-Uc-Sxk" id="Ywr-JN-X8e"/>
             </connections>
-            <point key="canvasLocation" x="-389" y="-357"/>
+            <point key="canvasLocation" x="-225" y="-350"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="FD28D03F-5E83-4B62-8492-F59E6C9944B3" width="200" height="200">
+        <image name="CA651FD2-6973-4111-851B-1FCA94215FCB" width="200" height="200">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
