@@ -21,8 +21,11 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDataSour
         let vc1 = sb.instantiateViewController(withIdentifier: "firstVC")
         let vc2 = sb.instantiateViewController(withIdentifier: "secondVC")
         let vc3 = sb.instantiateViewController(withIdentifier: "thirdVC")
+        let vc4 = sb.instantiateViewController(withIdentifier: "fourthVC")
+        let vc5 = sb.instantiateViewController(withIdentifier: "fifthVC")
 
-            return [vc1, vc2, vc3]
+            return [vc1, vc2, vc3, vc4, vc5]
+        
     
     
     }()

@@ -10,7 +10,7 @@
 		<key>long</key>
 		<string>XXXX</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>WilliamLiberman.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -20,17 +20,17 @@
 		<key>long</key>
 		<string>Erika Leib was born in Vienna, Austria, in 1924. In December 1938, she went to an internment camp in England where she and her parents were interned for six months, and she was regarded as an enemy by the British. In October 1940, she came to Chicago with her family.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>ErikaLeib.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>William Liberman</string>
+		<string>Vera Brody</string>
 		<key>short</key>
 		<string>Austrian Holocaust Survivor</string>
 		<key>long</key>
 		<string>Vera Brody, born in 1925, and Paula Weiss, born in 1932, lived in a forced labor camp in Austria. In 1944-45, they were moved in cattle cars. They were eventually liberated by Russian partisans. They came to the United States during the Hungarian Revolution.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>VeraBrody.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -40,7 +40,7 @@
 		<key>long</key>
 		<string>Henry Flescher was born in Vienna in 1924. He survived Auschwitz, Buchenwald, and Drancy concentration camps where he was involved in slave labor and was part of a death march. His prisoner number was 1771753. He was liberated in April 1945 in Waldenburg, Germany. He came to the United States in 1950 where he worked as a furrier. He is the only survivor in his family. He visited Israel in 1968.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>HenryFlescher.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -50,7 +50,7 @@
 		<key>long</key>
 		<string>Harriet Mehl-Rottenberg was born in Vienna, Austria, in 1922. She scrubbed streets and received much persecution. She came to the United States with her parents in 1939 when she was seventeen years old. Her daughter Carol Goodman works at United States Holocaust Memorial Museum.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>HarrietMehkRottenberg.jpg</string>
 	</dict>
 </array>
 </plist>

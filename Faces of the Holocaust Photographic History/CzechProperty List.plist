@@ -4,23 +4,23 @@
 <array>
 	<dict>
 		<key>title</key>
-		<string>Alex Gross</string>
-		<key>short</key>
-		<string>Czech Holocaust Survivor</string>
-		<key>long</key>
-		<string>Alex Gross was born in Czechoslovakia in 1928. He was deported from the Munkachevo Ghetto to Hungary. He survived Auschwitz, and for eight months he made weapons in Buna slave labor camp before being moved to Gleiwitz subcamp of Auschwitz. In the death march from Buna to Gleiwitz, only 1,000 of 20,000 survived. He was then moved by open cattle car at winter temperatures of 20 to 30 degrees Fahrenheit to Buchenwald. Only 2 of 120 survived this death march, and Alex was liberated there. He found two other brothers at liberation. Alex came to the United States on the Queen Mary in December 1949 after living in in three orphanages in England. He served in the United States’ army in the Korean War, and he speaks eight languages. He lost his mother and father in Auschwitz and his eldest brother in Bergen-Belsen, along with many cousins, aunts, and uncles. His three older brothers were liberated by Russians, and he had a sister who survived. He visits Yad Vashem every year.</string>
-		<key>image</key>
-		<string>face1</string>
-	</dict>
-	<dict>
-		<key>title</key>
 		<string>David Mermelstein</string>
 		<key>short</key>
 		<string>Czech Holocaust Survivor</string>
 		<key>long</key>
 		<string>XXXX</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>DavidMermelstein.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Alex Gross</string>
+		<key>short</key>
+		<string>Czech Holocaust Survivor</string>
+		<key>long</key>
+		<string>Alex Gross was born in Czechoslovakia in 1928. He was deported from the Munkachevo Ghetto to Hungary. He survived Auschwitz, and for eight months he made weapons in Buna slave labor camp before being moved to Gleiwitz subcamp of Auschwitz. In the death march from Buna to Gleiwitz, only 1,000 of 20,000 survived. He was then moved by open cattle car at winter temperatures of 20 to 30 degrees Fahrenheit to Buchenwald. Only 2 of 120 survived this death march, and Alex was liberated there. He found two other brothers at liberation. Alex came to the United States on the Queen Mary in December 1949 after living in in three orphanages in England. He served in the United States’ army in the Korean War, and he speaks eight languages. He lost his mother and father in Auschwitz and his eldest brother in Bergen-Belsen, along with many cousins, aunts, and uncles. His three older brothers were liberated by Russians, and he had a sister who survived. He visits Yad Vashem every year.</string>
+		<key>image</key>
+		<string>AlexGross.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -30,7 +30,7 @@
 		<key>long</key>
 		<string>Leah Roth was born in Czechoslovakia in 1925. She survived Auschwitz-Birkenau, Brano, and Stutthof camps, and she survived a death march from Auschwitz to Stutthof for three months in the winter. Leah used a dead person’s shoes to be able to walk. She built bombs in a factory and at one point was destined to be gassed, but was taken out of the gas chamber and put back to work. She was liberated during the death march at the end of March 1945. She came to the United States in 1959 to Miami and became a wig maker. Her husband is a Torah scholar and she has two children. She went to Israel but was recaptured by the British before she made it to the Atlit Gesher Kibbutz.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>LeahRoth.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -40,7 +40,7 @@
 		<key>long</key>
 		<string>Lea Politzer was born in Czechoslovakia and deported from the ghetto to Auschwitz. She went on a death march to Weisswasser, Germany, where she was liberated by the Russians. She has visited Israel, and she came to the United States in 1960.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>LeaPolitzer.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -50,7 +50,7 @@
 		<key>long</key>
 		<string>Sarah Radzeli was born in Czechoslovakia in 1929.  She lived in the Isa Ghetto before going to Auschwitz-Birkenau in 1944 with her twelve-year old sister Sabi. After four months in Auschwitz, she worked in the Lawrence factory in Vrchlabi, Czechoslovakia. She was liberated by the Russians in 1945. She lived in displaced persons camps before trying to go to Israel in 1946, though the ship “Latroon” was sent to Cyprus. She got to Israel in 1947 and joined a kibbutz. She came to the United States in 1960 to Philadelphia. Her late husband and brother were in the Israeli Army. Sarah remarried in 1971.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>LouisSarahRadzeli.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -60,17 +60,17 @@
 		<key>long</key>
 		<string>Fred Mulbauer was born in Stavna, Czechoslovakia in December 1929.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>FredMulbauer.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Magdalen bader</string>
+		<string>Magdalen Bader</string>
 		<key>short</key>
 		<string>Czech Holocaust Survivor</string>
 		<key>long</key>
 		<string>Magdalen Bader was born in Czechoslovakia in 1930. She survived Auschwitz, Bergen-Belsen, and its satellite camp Tannenberg. Her mother, father, and 3-year old sister were killed. She escaped into the woods from Tannenberg and was liberated from there. Four of her sisters managed to stay together in the camps, although one was killed. Three of her brothers were used as forced laborers. She came to the United States in 1949 and obtained a Masters in Arts and became an art teacher. Only one of her sisters still survives.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>MagdalenBader.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -80,7 +80,7 @@
 		<key>long</key>
 		<string>Adolph Zelmanovitch was born in Czechoslovakia in 1925. He lived in a ghetto for one week before spending thirteen to fourteen months in Ebenezer forced labor camp in Austria. He was forty kilograms when liberated at seventeen years old. His wife Rosa survived Auschwitz and his three sisters survived the Holocaust.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>AdolfRosaZelmanovitch.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -90,7 +90,7 @@
 		<key>long</key>
 		<string>Joseph Markowitz</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>JosephMarkowitz.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -100,7 +100,7 @@
 		<key>long</key>
 		<string>Rachel Steinberger was born in Czechoslovakia and deported from a ghetto in Hungary in 1944 when she was seventeen years old. In Auschwitz concentration camp, her parents were killed and she and her sister survived. She was transported to Brano camp in Poland. She was on a death march before the Russians liberated her. After the war, she and her husband and sister lived in a displaced persons camp. She lived in Israel for thirteen years from 1948 and came to the United States in 1964.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>RachelSteingerger.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -110,7 +110,7 @@
 		<key>long</key>
 		<string>Toby Prince was born in Czechoslovakia in 1926. He and all his sisters survived the war.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>TobyPrince.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -120,7 +120,7 @@
 		<key>long</key>
 		<string>Violet Sloan was born in Czechoslovakia in 1928. She was imprisoned at Auschwitz and Bergen-Belsen where she worked in the munitions factory. She went on the death march from Auschwitz to Christianstadt to Bergen-Belsen, from where she was liberated. She went to Sweden with the Red Cross for two years before coming to the United States with her sister Aranka in 1948. She has visited Israel.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>VioletSloan.jpg</string>
 	</dict>
 </array>
 </plist>

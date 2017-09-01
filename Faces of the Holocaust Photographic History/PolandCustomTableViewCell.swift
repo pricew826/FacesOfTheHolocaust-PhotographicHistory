@@ -8,9 +8,8 @@
 
 import UIKit
 
-class CustomTableViewCell: UITableViewCell {
+class PolandCustomTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var closeButton: UIImageView!
     
     @IBOutlet weak var otherImage: UIImageView!
     
@@ -24,7 +23,7 @@ class CustomTableViewCell: UITableViewCell {
     
     @IBOutlet weak var longLabel: UITextView!
     
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -37,13 +36,13 @@ class CustomTableViewCell: UITableViewCell {
         //thumbImage.frame.size.height = height * 0.19
         
         
-        }
+    }
     
     
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
         
         

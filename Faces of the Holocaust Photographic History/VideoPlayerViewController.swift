@@ -61,6 +61,7 @@ class VideoPlayerViewController: UIViewController {
     
     
     
+    
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         

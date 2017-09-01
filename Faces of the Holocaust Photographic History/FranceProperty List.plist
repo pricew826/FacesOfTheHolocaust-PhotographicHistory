@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Herbie Karliner</string>
+		<key>short</key>
+		<string>French Holocaust Survivor</string>
+		<key>long</key>
+		<string>XXX</string>
+		<key>image</key>
+		<string>HerbieKarliner.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fernande Frankovitz</string>
+		<key>short</key>
+		<string>French Holocaust Survivor</string>
+		<key>long</key>
+		<string>Fernande Frankovitz was born in Paris, France. From 1942-45, she was taken care of in a country home by a lady called Lancon. Her mother and sister did not survive the war, but her father came and got her in 1945. Her brother also survived. She came to the United States in 1945.</string>
+		<key>image</key>
+		<string>FernandeFrankkovitz.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Bernadette Wacholder</string>
+		<key>short</key>
+		<string>Hidden Child Survivor</string>
+		<key>long</key>
+		<string>As an infant, Bernadette Wacholder was in hiding with her mother on a farm in France. She and her mother survived on the farm and met her father in Belgium after the war. She went to Israel in 1949 where she lived for four years. She came to the United States in 1957.</string>
+		<key>image</key>
+		<string>BernadetteWacholder.jpg</string>
+	</dict>
+</array>
+</plist>

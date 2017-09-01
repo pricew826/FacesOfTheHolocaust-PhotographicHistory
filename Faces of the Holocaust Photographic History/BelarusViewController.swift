@@ -8,8 +8,8 @@
 
 import UIKit
 
-class PolandViewController: UIViewController {
-
+class BelarusViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
     
     var items = [[String:String]]()
@@ -20,23 +20,21 @@ class PolandViewController: UIViewController {
         let nib = UINib.init(nibName: "CustomTableViewCell", bundle: nil)
         self.tableView.register(nib, forCellReuseIdentifier: "cell")
         
-
+        
         self.items = loadPlist()
-        
-        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     func loadPlist()->[[String:String]]{
-        let path = Bundle.main.path(forResource: "ResourceList", ofType: "plist")
+        let path = Bundle.main.path(forResource: "BelarusProperty List", ofType: "plist")
         
         return NSArray.init(contentsOf: URL.init(fileURLWithPath: path!)) as! [[String:String]]
     }
-
+    
     var selectedIndex:IndexPath?
     var isExpanded = false
     
@@ -50,10 +48,10 @@ class PolandViewController: UIViewController {
     
     
     
-
+    
 }
 
-extension PolandViewController:UITableViewDataSource, UITableViewDelegate{
+extension BelarusViewController:UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -69,7 +67,7 @@ extension PolandViewController:UITableViewDataSource, UITableViewDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         
         cell.selectionStyle = .none
-
+        
         
         let item = self.items[indexPath.row]
         
@@ -79,7 +77,7 @@ extension PolandViewController:UITableViewDataSource, UITableViewDelegate{
         cell.thumbImage.image = UIImage.init(named: item["image"]!)
         cell.longLabel.text = item["long"]
         
-                
+        
         
         
         return cell
@@ -99,7 +97,7 @@ extension PolandViewController:UITableViewDataSource, UITableViewDelegate{
         }
         
         return 110
-         //return height * 0.2
+        //return height * 0.2
         
     }
 }

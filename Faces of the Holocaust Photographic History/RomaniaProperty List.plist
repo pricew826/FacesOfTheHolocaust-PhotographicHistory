@@ -10,7 +10,7 @@
 		<key>long</key>
 		<string>Miriam Brejt was born in Romania in 1935. She survived a concentration camp in the Ukraine and her family went through many hardships living in a ghetto. After her father had typhus, her family lived with a Christian family for some time. Miriam said, “You lose hope, you lose everything.” After the war, Miriam took the first ship going from there to Israel, and she was there for Israel’s independence.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>MiriamBrejt.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -20,7 +20,7 @@
 		<key>long</key>
 		<string>Eva Weider was born in Romania in 1936. She and her mother lived in one of Raoul Wallenberg’s safe houses in Budapest and thus survived the war.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>EvaWeider.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -30,7 +30,7 @@
 		<key>long</key>
 		<string>Zoltan Wieder was born in Transylvania in 1925. He was sent from the Warsaw Ghetto to Auschwitz  He then went to Dachau and Allach, a sub-camp of Dachau. He lost his mother in Auschwitz and his father in Dachau, and he lost over fifty family members in the Holocaust. He was liberated from Allach by American troops. He came to the United States in May 1967 and worked as an industrial engineer. He has visited Israel ten times. His message is to tell young people what happened in the Holocaust and to give strong support for the state of Israel.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>ZoltanWieder.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -40,7 +40,7 @@
 		<key>long</key>
 		<string>Arnold Buxbaum survived four camps in Romania where he was born. He was part of a death march when he was deported to Transnistria in 1941. He was liberated by the Russian army in 1944 and came to live in Toronto, Canada, in 1962.</string>
 		<key>image</key>
-		<string>face1</string>
+		<string>ArnoldBuxbaum.jpg</string>
 	</dict>
 </array>
 </plist>
