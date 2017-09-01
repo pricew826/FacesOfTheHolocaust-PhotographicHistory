@@ -1,6 +1,7 @@
 import UIKit
 import AVFoundation
 
+
 class VideoPlayerViewController: UIViewController {
     
     @IBOutlet weak var theButton: UIButton!
@@ -11,7 +12,6 @@ class VideoPlayerViewController: UIViewController {
     var avPlayerLayer: AVPlayerLayer!
     let invisibleButton = UIButton()
     
-    
   
     
     override func viewDidLoad() {
@@ -19,9 +19,6 @@ class VideoPlayerViewController: UIViewController {
         
         super.viewDidLoad()
         view.backgroundColor = .black
-        
-
-        
         
         
         
@@ -41,11 +38,16 @@ class VideoPlayerViewController: UIViewController {
         
 
     }
+    
+    
+    
+    
    
     override func viewWillAppear(_ animated: Bool) {
         
         
         super.viewWillAppear(animated)
+        
         count += 1
         
         if count <= 1 {
@@ -57,7 +59,14 @@ class VideoPlayerViewController: UIViewController {
         
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        avPlayer.pause()
+        
+    }
     
+   
     
     
     
@@ -70,6 +79,7 @@ class VideoPlayerViewController: UIViewController {
         invisibleButton.frame = view.bounds
                
         view.bringSubview(toFront: theButton)
+       
 
     }
     
