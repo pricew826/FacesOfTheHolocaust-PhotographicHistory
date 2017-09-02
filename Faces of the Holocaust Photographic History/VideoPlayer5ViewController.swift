@@ -2,7 +2,7 @@ import UIKit
 import AVFoundation
 
 
-class VideoPlayerViewController: UIViewController {
+class VideoPlayer5ViewController: UIViewController {
     
     @IBOutlet weak var theButton: UIButton!
     
@@ -15,11 +15,11 @@ class VideoPlayerViewController: UIViewController {
     let timeRemainingLabel = UILabel()
     //let seekSlider = UISlider()
     //var playerRateBeforeSeek: Float = 0
-  
+    
     
     override func viewDidLoad() {
         
-
+        
         
         super.viewDidLoad()
         view.backgroundColor = .black
@@ -35,7 +35,8 @@ class VideoPlayerViewController: UIViewController {
                                   for: .touchUpInside)
         
         
-        let url = NSURL(string: "https://firebasestorage.googleapis.com/v0/b/faces-of-the-holocaust.appspot.com/o/hol.mp4.mov?alt=media&token=baf9bdb3-d3eb-4f0f-adfb-c3dc67d10744")
+        let url = NSURL(string: "https://firebasestorage.googleapis.com/v0/b/faces-of-the-holocaust.appspot.com/o/liberate.mp4?alt=media&token=42397e4c-c2b3-453b-9dc7-987645a3d4d8")
+        
         let playerItem = AVPlayerItem(url: url as! URL)
         avPlayer.replaceCurrentItem(with: playerItem)
         
@@ -51,18 +52,18 @@ class VideoPlayerViewController: UIViewController {
         timeRemainingLabel.textColor = .white
         view.addSubview(timeRemainingLabel)
         
-       /* view.addSubview(seekSlider)
-        seekSlider.addTarget(self, action: #selector(sliderBeganTracking),
-                             for: .touchDown)
-        seekSlider.addTarget(self, action: #selector(sliderEndedTracking), for:
-                            [.touchUpInside, .touchUpOutside])
-        seekSlider.addTarget(self, action: #selector(sliderValueChanged),
-                             for: .valueChanged)*/
+        /* view.addSubview(seekSlider)
+         seekSlider.addTarget(self, action: #selector(sliderBeganTracking),
+         for: .touchDown)
+         seekSlider.addTarget(self, action: #selector(sliderEndedTracking), for:
+         [.touchUpInside, .touchUpOutside])
+         seekSlider.addTarget(self, action: #selector(sliderValueChanged),
+         for: .valueChanged)*/
         
         
-        }
+    }
     
-
+    
     deinit {
         
         avPlayer.removeTimeObserver(timeObserver)
@@ -70,7 +71,7 @@ class VideoPlayerViewController: UIViewController {
     }
     
     
-   
+    
     override func viewWillAppear(_ animated: Bool) {
         
         
@@ -94,7 +95,7 @@ class VideoPlayerViewController: UIViewController {
         
     }
     
-   
+    
     
     
     
@@ -111,41 +112,41 @@ class VideoPlayerViewController: UIViewController {
         timeRemainingLabel.frame = CGRect(x: 5, y: controlsY, width: 60, height: controlsHeight)
         timeRemainingLabel.font = UIFont(name: "Avenir", size: 11.0)
         view.bringSubview(toFront: theButton)
-       
+        
         /*seekSlider.frame = CGRect(x: timeRemainingLabel.frame.origin.x + timeRemainingLabel.bounds.size.width, y: controlsY, width: view.bounds.size.width - timeRemainingLabel.bounds.size.width - 5, height: controlsHeight)*/
         
-
-    }
-    
-   /* func sliderBeganTracking(slider: UISlider) {
-        playerRateBeforeSeek = avPlayer.rate
-        avPlayer.pause()
         
     }
     
-    
-    func sliderEndedTracking(slider: UISlider) {
-        let videoDuration = CMTimeGetSeconds(avPlayer.currentItem!.duration)
-        let elapsedTime: Float64 = videoDuration * Float64(seekSlider.value)
-        updateTimeLabel(elapsedTime: elapsedTime, duration: videoDuration)
-        
-        avPlayer.seek(to: CMTimeMakeWithSeconds(elapsedTime, 100)) {
-            (completed: Bool) -> Void in
-            if self.playerRateBeforeSeek > 0 {
-                self.avPlayer.play()
-            }
-        }
-        
-    }
-    
-    
-    func sliderValueChanged(slider: UISlider) {
-        let videoDuration = CMTimeGetSeconds(avPlayer.currentItem!.duration)
-        let elapsedTime: Float64 = videoDuration * Float64(seekSlider.value)
-        updateTimeLabel(elapsedTime: elapsedTime, duration: videoDuration)
-        
-        
-    } */
+    /* func sliderBeganTracking(slider: UISlider) {
+     playerRateBeforeSeek = avPlayer.rate
+     avPlayer.pause()
+     
+     }
+     
+     
+     func sliderEndedTracking(slider: UISlider) {
+     let videoDuration = CMTimeGetSeconds(avPlayer.currentItem!.duration)
+     let elapsedTime: Float64 = videoDuration * Float64(seekSlider.value)
+     updateTimeLabel(elapsedTime: elapsedTime, duration: videoDuration)
+     
+     avPlayer.seek(to: CMTimeMakeWithSeconds(elapsedTime, 100)) {
+     (completed: Bool) -> Void in
+     if self.playerRateBeforeSeek > 0 {
+     self.avPlayer.play()
+     }
+     }
+     
+     }
+     
+     
+     func sliderValueChanged(slider: UISlider) {
+     let videoDuration = CMTimeGetSeconds(avPlayer.currentItem!.duration)
+     let elapsedTime: Float64 = videoDuration * Float64(seekSlider.value)
+     updateTimeLabel(elapsedTime: elapsedTime, duration: videoDuration)
+     
+     
+     } */
     
     
     
@@ -183,8 +184,8 @@ class VideoPlayerViewController: UIViewController {
     }
     
     
-   
-
+    
+    
     
     
 }

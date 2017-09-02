@@ -19,6 +19,37 @@
 		B229F7EC1F5669AB00527442 /* AuschwitzGate.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */; };
 		B229F7EE1F566D7000527442 /* ImageDachau.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7ED1F566D7000527442 /* ImageDachau.jpg.jpeg */; };
 		B229F7F01F566FFE00527442 /* ImageBuchenwals.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B229F7EF1F566FFE00527442 /* ImageBuchenwals.jpeg */; };
+		B22F554E1F5A0DD7007D00E9 /* VeraGoldsmith.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F554D1F5A0DD7007D00E9 /* VeraGoldsmith.jpg.jpeg */; };
+		B22F55501F5A0DE0007D00E9 /* VeraKarliner.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F554F1F5A0DE0007D00E9 /* VeraKarliner.jpg.jpeg */; };
+		B22F55521F5A0DEB007D00E9 /* DavidMermelstein.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55511F5A0DEB007D00E9 /* DavidMermelstein.jpg.jpeg */; };
+		B22F55541F5A0E22007D00E9 /* Romania-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55531F5A0E22007D00E9 /* Romania-Background.jpg.jpeg */; };
+		B22F55561F5A0E2C007D00E9 /* France-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55551F5A0E2C007D00E9 /* France-Background.jpg.jpeg */; };
+		B22F55581F5A0E36007D00E9 /* LIthuania-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55571F5A0E36007D00E9 /* LIthuania-Background.jpg.jpeg */; };
+		B22F555A1F5A352E007D00E9 /* Blur-France-Background-Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F55591F5A352E007D00E9 /* Blur-France-Background-Blur.png */; };
+		B22F555C1F5A3544007D00E9 /* Blur-LIthuania-Background.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F555B1F5A3544007D00E9 /* Blur-LIthuania-Background.jpg.png */; };
+		B22F555E1F5A3558007D00E9 /* Blur-Romania-Background.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F555D1F5A3558007D00E9 /* Blur-Romania-Background.jpg.png */; };
+		B22F55601F5A36E7007D00E9 /* Blur-germany.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F555F1F5A36E7007D00E9 /* Blur-germany.png */; };
+		B22F55621F5A36EE007D00E9 /* Blur--austria.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F55611F5A36EE007D00E9 /* Blur--austria.png */; };
+		B22F55641F5A36F5007D00E9 /* Blur-hungary.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F55631F5A36F5007D00E9 /* Blur-hungary.png */; };
+		B22F55661F5A36FE007D00E9 /* Blur-czechoslovakia.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F55651F5A36FE007D00E9 /* Blur-czechoslovakia.png */; };
+		B22F55681F5A37D9007D00E9 /* Blur-Belarus.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F55671F5A37D9007D00E9 /* Blur-Belarus.png */; };
+		B22F556A1F5A37E0007D00E9 /* Blur-Russia-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F55691F5A37E0007D00E9 /* Blur-Russia-Background.png */; };
+		B22F556C1F5A4E3E007D00E9 /* VideoPlayer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F556B1F5A4E3E007D00E9 /* VideoPlayer3ViewController.swift */; };
+		B22F556E1F5A4E75007D00E9 /* VideoPlayer4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F556D1F5A4E75007D00E9 /* VideoPlayer4ViewController.swift */; };
+		B22F55701F5A4E8F007D00E9 /* VideoPlayer5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F556F1F5A4E8F007D00E9 /* VideoPlayer5ViewController.swift */; };
+		B22F55721F5A6494007D00E9 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F55711F5A6494007D00E9 /* TimelineViewController.swift */; };
+		B22F55741F5A7223007D00E9 /* NaziPartyPlatform.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55731F5A7223007D00E9 /* NaziPartyPlatform.jpg.jpeg */; };
+		B22F55761F5AFC56007D00E9 /* Kristallnacht.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55751F5AFC56007D00E9 /* Kristallnacht.jpg.jpeg */; };
+		B22F55781F5B0254007D00E9 /* St-Louis.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55771F5B0254007D00E9 /* St-Louis.jpg.jpeg */; };
+		B22F557A1F5B02D0007D00E9 /* Invasion.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55791F5B02D0007D00E9 /* Invasion.jpg.jpeg */; };
+		B22F557C1F5B0458007D00E9 /* Warsaq Ghetto.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F557B1F5B0458007D00E9 /* Warsaq Ghetto.jpg.jpeg */; };
+		B22F557E1F5B079C007D00E9 /* Chelmno.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F557D1F5B079C007D00E9 /* Chelmno.jpg.jpeg */; };
+		B22F55801F5B0A37007D00E9 /* Wansee.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F557F1F5B0A37007D00E9 /* Wansee.jpg.jpeg */; };
+		B22F55821F5B0CA8007D00E9 /* Raoul Wakkenberg.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55811F5B0CA8007D00E9 /* Raoul Wakkenberg.jpg.jpeg */; };
+		B22F55841F5B103C007D00E9 /* Ravensbruck.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55831F5B103C007D00E9 /* Ravensbruck.jpg.jpeg */; };
+		B22F55861F5B129B007D00E9 /* Nuremberg.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55851F5B129B007D00E9 /* Nuremberg.jpg.jpeg */; };
+		B22F55881F5B1656007D00E9 /* Exodus.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55871F5B1656007D00E9 /* Exodus.jpg.jpeg */; };
+		B22F558A1F5B171F007D00E9 /* Adolf Eichman.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22F55891F5B171F007D00E9 /* Adolf Eichman.jpg.jpeg */; };
 		B25202121F58899C005A6289 /* SecondPolandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25202111F58899C005A6289 /* SecondPolandViewController.swift */; };
 		B25202141F588A82005A6289 /* PolandCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25202131F588A82005A6289 /* PolandCustomTableViewCell.xib */; };
 		B25202181F588B76005A6289 /* PolandCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25202171F588B76005A6289 /* PolandCustomTableViewCell.swift */; };
@@ -31,8 +62,6 @@
 		B25202291F58B794005A6289 /* FranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25202281F58B794005A6289 /* FranceViewController.swift */; };
 		B252022B1F58B817005A6289 /* LithuaniaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252022A1F58B817005A6289 /* LithuaniaViewController.swift */; };
 		B252022D1F58B849005A6289 /* RussiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252022C1F58B849005A6289 /* RussiaViewController.swift */; };
-		B252022F1F58BDE4005A6289 /* iconCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B252022E1F58BDE4005A6289 /* iconCloseButton.png */; };
-		B25202311F58D400005A6289 /* victorFarkus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202301F58D400005A6289 /* victorFarkus.jpeg */; };
 		B25202891F58F8DA005A6289 /* AdeleBesserman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202321F58F8DA005A6289 /* AdeleBesserman.jpg */; };
 		B252028A1F58F8DA005A6289 /* AdolfRosaZelmanovitch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202331F58F8DA005A6289 /* AdolfRosaZelmanovitch.jpg */; };
 		B252028B1F58F8DA005A6289 /* AlexGross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202341F58F8DA005A6289 /* AlexGross.jpg */; };
@@ -120,21 +149,22 @@
 		B25202DD1F58F8DB005A6289 /* WilliamLiberman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202861F58F8DA005A6289 /* WilliamLiberman.jpg */; };
 		B25202DE1F58F8DB005A6289 /* YaffaEisner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202871F58F8DA005A6289 /* YaffaEisner.jpg */; };
 		B25202DF1F58F8DB005A6289 /* YonaBromberg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202881F58F8DA005A6289 /* YonaBromberg.jpg */; };
-		B25202E31F58FA9F005A6289 /* VeraGoldsmith.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202E21F58FA9F005A6289 /* VeraGoldsmith.jpg.jpeg */; };
-		B25202E51F58FADB005A6289 /* VeraGoldsmith.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202E41F58FADB005A6289 /* VeraGoldsmith.jpg.jpeg */; };
 		B25202E81F590558005A6289 /* Belarus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202E71F590558005A6289 /* Belarus.jpg */; };
 		B25202EA1F5905B1005A6289 /* Ukraine-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202E91F5905B1005A6289 /* Ukraine-Background.jpg */; };
 		B25202EC1F5905F4005A6289 /* Russia-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202EB1F5905F4005A6289 /* Russia-Background.jpg */; };
-		B25202EE1F590851005A6289 /* France-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202ED1F590851005A6289 /* France-Background.jpg.jpeg */; };
-		B25202F01F590A00005A6289 /* LIthuania-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202EF1F590A00005A6289 /* LIthuania-Background.jpg.jpeg */; };
-		B25202F21F590B42005A6289 /* Romania-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202F11F590B42005A6289 /* Romania-Background.jpg.jpeg */; };
-		B25202F41F590BC3005A6289 /* DavidMermelstein.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202F31F590BC3005A6289 /* DavidMermelstein.jpg.jpeg */; };
 		B25202F61F590C61005A6289 /* background czechoslovakia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202F51F590C61005A6289 /* background czechoslovakia.jpg */; };
 		B25202F81F590C6B005A6289 /* background austria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202F71F590C6B005A6289 /* background austria.jpg */; };
 		B25202FA1F590C7C005A6289 /* poland background blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202F91F590C7C005A6289 /* poland background blur.jpg */; };
 		B25202FC1F590CBC005A6289 /* background hungary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25202FB1F590CBC005A6289 /* background hungary.jpg */; };
 		B25202FE1F590E3A005A6289 /* IconPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = B25202FD1F590E3A005A6289 /* IconPlay.png */; };
-		B25203001F5918E6005A6289 /* VeraKarliner.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B25202FF1F5918E6005A6289 /* VeraKarliner.jpg.jpeg */; };
+		B29E6ED91F59D62100EB8459 /* victorFarkus.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6ED81F59D62100EB8459 /* victorFarkus.jpg.jpeg */; };
+		B29E6EDB1F59D62E00EB8459 /* VeraKarliner.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EDA1F59D62E00EB8459 /* VeraKarliner.jpg.jpeg */; };
+		B29E6EDD1F59D63300EB8459 /* DavidMermelstein.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EDC1F59D63300EB8459 /* DavidMermelstein.jpg.jpeg */; };
+		B29E6EDF1F59D63800EB8459 /* VeraGoldsmith.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EDE1F59D63800EB8459 /* VeraGoldsmith.jpg.jpeg */; };
+		B29E6EE11F59D66600EB8459 /* Romania-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EE01F59D66600EB8459 /* Romania-Background.jpg.jpeg */; };
+		B29E6EE31F59D68800EB8459 /* LIthuania-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EE21F59D68800EB8459 /* LIthuania-Background.jpg.jpeg */; };
+		B29E6EE51F59D69500EB8459 /* France-Background.jpg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EE41F59D69500EB8459 /* France-Background.jpg.jpeg */; };
+		B29E6EE71F59D78E00EB8459 /* iconCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B29E6EE61F59D78E00EB8459 /* iconCloseButton.png */; };
 		B2C8BBC61F4D158B00EBED0D /* PolandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */; };
 		B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C8BBC71F4D1B3900EBED0D /* face1.jpg */; };
 		B2C8BBCB1F4D270D00EBED0D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */; };
@@ -239,6 +269,37 @@
 		B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AuschwitzGate.jpeg; sourceTree = "<group>"; };
 		B229F7ED1F566D7000527442 /* ImageDachau.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageDachau.jpg.jpeg; sourceTree = "<group>"; };
 		B229F7EF1F566FFE00527442 /* ImageBuchenwals.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageBuchenwals.jpeg; sourceTree = "<group>"; };
+		B22F554D1F5A0DD7007D00E9 /* VeraGoldsmith.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraGoldsmith.jpg.jpeg; path = ../../VeraGoldsmith.jpg.jpeg; sourceTree = "<group>"; };
+		B22F554F1F5A0DE0007D00E9 /* VeraKarliner.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraKarliner.jpg.jpeg; path = ../../VeraKarliner.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55511F5A0DEB007D00E9 /* DavidMermelstein.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DavidMermelstein.jpg.jpeg; path = ../../DavidMermelstein.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55531F5A0E22007D00E9 /* Romania-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Romania-Background.jpg.jpeg"; path = "../../Romania-Background.jpg.jpeg"; sourceTree = "<group>"; };
+		B22F55551F5A0E2C007D00E9 /* France-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "France-Background.jpg.jpeg"; path = "../../France-Background.jpg.jpeg"; sourceTree = "<group>"; };
+		B22F55571F5A0E36007D00E9 /* LIthuania-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "LIthuania-Background.jpg.jpeg"; path = "../../LIthuania-Background.jpg.jpeg"; sourceTree = "<group>"; };
+		B22F55591F5A352E007D00E9 /* Blur-France-Background-Blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-France-Background-Blur.png"; sourceTree = "<group>"; };
+		B22F555B1F5A3544007D00E9 /* Blur-LIthuania-Background.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-LIthuania-Background.jpg.png"; sourceTree = "<group>"; };
+		B22F555D1F5A3558007D00E9 /* Blur-Romania-Background.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-Romania-Background.jpg.png"; sourceTree = "<group>"; };
+		B22F555F1F5A36E7007D00E9 /* Blur-germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-germany.png"; sourceTree = "<group>"; };
+		B22F55611F5A36EE007D00E9 /* Blur--austria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur--austria.png"; sourceTree = "<group>"; };
+		B22F55631F5A36F5007D00E9 /* Blur-hungary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-hungary.png"; sourceTree = "<group>"; };
+		B22F55651F5A36FE007D00E9 /* Blur-czechoslovakia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-czechoslovakia.png"; sourceTree = "<group>"; };
+		B22F55671F5A37D9007D00E9 /* Blur-Belarus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-Belarus.png"; sourceTree = "<group>"; };
+		B22F55691F5A37E0007D00E9 /* Blur-Russia-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur-Russia-Background.png"; sourceTree = "<group>"; };
+		B22F556B1F5A4E3E007D00E9 /* VideoPlayer3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer3ViewController.swift; sourceTree = "<group>"; };
+		B22F556D1F5A4E75007D00E9 /* VideoPlayer4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer4ViewController.swift; sourceTree = "<group>"; };
+		B22F556F1F5A4E8F007D00E9 /* VideoPlayer5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer5ViewController.swift; sourceTree = "<group>"; };
+		B22F55711F5A6494007D00E9 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineViewController.swift; path = ../TimelineViewController.swift; sourceTree = "<group>"; };
+		B22F55731F5A7223007D00E9 /* NaziPartyPlatform.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NaziPartyPlatform.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55751F5AFC56007D00E9 /* Kristallnacht.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kristallnacht.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55771F5B0254007D00E9 /* St-Louis.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St-Louis.jpg.jpeg"; sourceTree = "<group>"; };
+		B22F55791F5B02D0007D00E9 /* Invasion.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Invasion.jpg.jpeg; sourceTree = "<group>"; };
+		B22F557B1F5B0458007D00E9 /* Warsaq Ghetto.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warsaq Ghetto.jpg.jpeg"; sourceTree = "<group>"; };
+		B22F557D1F5B079C007D00E9 /* Chelmno.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chelmno.jpg.jpeg; sourceTree = "<group>"; };
+		B22F557F1F5B0A37007D00E9 /* Wansee.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wansee.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55811F5B0CA8007D00E9 /* Raoul Wakkenberg.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Raoul Wakkenberg.jpg.jpeg"; sourceTree = "<group>"; };
+		B22F55831F5B103C007D00E9 /* Ravensbruck.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ravensbruck.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55851F5B129B007D00E9 /* Nuremberg.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nuremberg.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55871F5B1656007D00E9 /* Exodus.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Exodus.jpg.jpeg; sourceTree = "<group>"; };
+		B22F55891F5B171F007D00E9 /* Adolf Eichman.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adolf Eichman.jpg.jpeg"; sourceTree = "<group>"; };
 		B25202111F58899C005A6289 /* SecondPolandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPolandViewController.swift; sourceTree = "<group>"; };
 		B25202131F588A82005A6289 /* PolandCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolandCustomTableViewCell.xib; sourceTree = "<group>"; };
 		B25202171F588B76005A6289 /* PolandCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolandCustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -251,8 +312,6 @@
 		B25202281F58B794005A6289 /* FranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FranceViewController.swift; sourceTree = "<group>"; };
 		B252022A1F58B817005A6289 /* LithuaniaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LithuaniaViewController.swift; sourceTree = "<group>"; };
 		B252022C1F58B849005A6289 /* RussiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussiaViewController.swift; sourceTree = "<group>"; };
-		B252022E1F58BDE4005A6289 /* iconCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconCloseButton.png; path = ../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/iconCloseButton.png; sourceTree = "<group>"; };
-		B25202301F58D400005A6289 /* victorFarkus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = victorFarkus.jpeg; path = ../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/victorFarkus.jpeg; sourceTree = "<group>"; };
 		B25202321F58F8DA005A6289 /* AdeleBesserman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AdeleBesserman.jpg; path = "../../../Downloads/Cropped8:31/AdeleBesserman.jpg"; sourceTree = "<group>"; };
 		B25202331F58F8DA005A6289 /* AdolfRosaZelmanovitch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AdolfRosaZelmanovitch.jpg; path = "../../../Downloads/Cropped8:31/AdolfRosaZelmanovitch.jpg"; sourceTree = "<group>"; };
 		B25202341F58F8DA005A6289 /* AlexGross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AlexGross.jpg; path = "../../../Downloads/Cropped8:31/AlexGross.jpg"; sourceTree = "<group>"; };
@@ -340,21 +399,22 @@
 		B25202861F58F8DA005A6289 /* WilliamLiberman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WilliamLiberman.jpg; path = "../../../Downloads/Cropped8:31/WilliamLiberman.jpg"; sourceTree = "<group>"; };
 		B25202871F58F8DA005A6289 /* YaffaEisner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = YaffaEisner.jpg; path = "../../../Downloads/Cropped8:31/YaffaEisner.jpg"; sourceTree = "<group>"; };
 		B25202881F58F8DA005A6289 /* YonaBromberg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = YonaBromberg.jpg; path = "../../../Downloads/Cropped8:31/YonaBromberg.jpg"; sourceTree = "<group>"; };
-		B25202E21F58FA9F005A6289 /* VeraGoldsmith.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraGoldsmith.jpg.jpeg; path = ../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/VeraGoldsmith.jpg.jpeg; sourceTree = "<group>"; };
-		B25202E41F58FADB005A6289 /* VeraGoldsmith.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraGoldsmith.jpg.jpeg; path = ../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/VeraGoldsmith.jpg.jpeg; sourceTree = "<group>"; };
 		B25202E71F590558005A6289 /* Belarus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Belarus.jpg; path = "../../FACES OF THE HOLOCAUST copy/FACES OF THE HOLOCAUST/Belarus.jpg"; sourceTree = "<group>"; };
 		B25202E91F5905B1005A6289 /* Ukraine-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ukraine-Background.jpg"; path = "../../FACES OF THE HOLOCAUST copy/FACES OF THE HOLOCAUST/Ukraine-Background.jpg"; sourceTree = "<group>"; };
 		B25202EB1F5905F4005A6289 /* Russia-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Russia-Background.jpg"; path = "../../FACES OF THE HOLOCAUST copy/FACES OF THE HOLOCAUST/Russia-Background.jpg"; sourceTree = "<group>"; };
-		B25202ED1F590851005A6289 /* France-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "France-Background.jpg.jpeg"; path = "../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/France-Background.jpg.jpeg"; sourceTree = "<group>"; };
-		B25202EF1F590A00005A6289 /* LIthuania-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "LIthuania-Background.jpg.jpeg"; path = "../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/LIthuania-Background.jpg.jpeg"; sourceTree = "<group>"; };
-		B25202F11F590B42005A6289 /* Romania-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Romania-Background.jpg.jpeg"; path = "../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/Romania-Background.jpg.jpeg"; sourceTree = "<group>"; };
-		B25202F31F590BC3005A6289 /* DavidMermelstein.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DavidMermelstein.jpg.jpeg; path = ../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/DavidMermelstein.jpg.jpeg; sourceTree = "<group>"; };
 		B25202F51F590C61005A6289 /* background czechoslovakia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background czechoslovakia.jpg"; path = "../../FACES OF THE HOLOCAUST copy/FACES OF THE HOLOCAUST/background czechoslovakia.jpg"; sourceTree = "<group>"; };
 		B25202F71F590C6B005A6289 /* background austria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background austria.jpg"; path = "../../FACES OF THE HOLOCAUST copy/FACES OF THE HOLOCAUST/background austria.jpg"; sourceTree = "<group>"; };
 		B25202F91F590C7C005A6289 /* poland background blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "poland background blur.jpg"; path = "../../FACES OF THE HOLOCAUST copy/Images/poland background blur.jpg"; sourceTree = "<group>"; };
 		B25202FB1F590CBC005A6289 /* background hungary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background hungary.jpg"; path = "../../FACES OF THE HOLOCAUST copy/FACES OF THE HOLOCAUST/background hungary.jpg"; sourceTree = "<group>"; };
 		B25202FD1F590E3A005A6289 /* IconPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconPlay.png; path = ../../IconPlay.png; sourceTree = "<group>"; };
-		B25202FF1F5918E6005A6289 /* VeraKarliner.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraKarliner.jpg.jpeg; path = ../../../../../var/folders/wh/t_l38nfx0cg9xr0cs2t9r8qw0000gp/T/com.apple.iChat/Messages/Transfers/VeraKarliner.jpg.jpeg; sourceTree = "<group>"; };
+		B29E6ED81F59D62100EB8459 /* victorFarkus.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = victorFarkus.jpg.jpeg; path = ../../victorFarkus.jpg.jpeg; sourceTree = "<group>"; };
+		B29E6EDA1F59D62E00EB8459 /* VeraKarliner.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraKarliner.jpg.jpeg; path = ../../VeraKarliner.jpg.jpeg; sourceTree = "<group>"; };
+		B29E6EDC1F59D63300EB8459 /* DavidMermelstein.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DavidMermelstein.jpg.jpeg; path = ../../DavidMermelstein.jpg.jpeg; sourceTree = "<group>"; };
+		B29E6EDE1F59D63800EB8459 /* VeraGoldsmith.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VeraGoldsmith.jpg.jpeg; path = ../../VeraGoldsmith.jpg.jpeg; sourceTree = "<group>"; };
+		B29E6EE01F59D66600EB8459 /* Romania-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Romania-Background.jpg.jpeg"; path = "../../Romania-Background.jpg.jpeg"; sourceTree = "<group>"; };
+		B29E6EE21F59D68800EB8459 /* LIthuania-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "LIthuania-Background.jpg.jpeg"; path = "../../LIthuania-Background.jpg.jpeg"; sourceTree = "<group>"; };
+		B29E6EE41F59D69500EB8459 /* France-Background.jpg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "France-Background.jpg.jpeg"; path = "../../France-Background.jpg.jpeg"; sourceTree = "<group>"; };
+		B29E6EE61F59D78E00EB8459 /* iconCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconCloseButton.png; path = ../../iconCloseButton.png; sourceTree = "<group>"; };
 		B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolandViewController.swift; sourceTree = "<group>"; };
 		B2C8BBC71F4D1B3900EBED0D /* face1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face1.jpg; sourceTree = "<group>"; };
 		B2C8BBC91F4D270D00EBED0D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -472,8 +532,8 @@
 		B252021F1F589534005A6289 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B252021B1F589086005A6289 /* AustriaViewController.swift */,
 				B25202261F58B6F7005A6289 /* RomaniaViewController.swift */,
+				B252021B1F589086005A6289 /* AustriaViewController.swift */,
 				B25202191F588D95005A6289 /* CzechoslovakiaViewController.swift */,
 				B25202111F58899C005A6289 /* SecondPolandViewController.swift */,
 				B2C8BBC51F4D158B00EBED0D /* PolandViewController.swift */,
@@ -523,13 +583,13 @@
 		B25202E61F590548005A6289 /* Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				B25202F11F590B42005A6289 /* Romania-Background.jpg.jpeg */,
 				B25202F91F590C7C005A6289 /* poland background blur.jpg */,
-				B25202ED1F590851005A6289 /* France-Background.jpg.jpeg */,
+				B22F55551F5A0E2C007D00E9 /* France-Background.jpg.jpeg */,
 				B25202F51F590C61005A6289 /* background czechoslovakia.jpg */,
 				B25202F71F590C6B005A6289 /* background austria.jpg */,
+				B22F55531F5A0E22007D00E9 /* Romania-Background.jpg.jpeg */,
 				B25202FB1F590CBC005A6289 /* background hungary.jpg */,
-				B25202EF1F590A00005A6289 /* LIthuania-Background.jpg.jpeg */,
+				B22F55571F5A0E36007D00E9 /* LIthuania-Background.jpg.jpeg */,
 				B25202E91F5905B1005A6289 /* Ukraine-Background.jpg */,
 				B25202E71F590558005A6289 /* Belarus.jpg */,
 				B25202EB1F5905F4005A6289 /* Russia-Background.jpg */,
@@ -562,8 +622,12 @@
 		B2F8DF5D1F4206A60065DFBE /* Faces of the Holocaust Photographic History */ = {
 			isa = PBXGroup;
 			children = (
+				B22F55711F5A6494007D00E9 /* TimelineViewController.swift */,
 				B2F330E91F520A5C00B766D5 /* VideoPlayerViewController.swift */,
 				B2CDF83F1F573A12006B3B6F /* VideoPlayer2ViewController.swift */,
+				B22F556B1F5A4E3E007D00E9 /* VideoPlayer3ViewController.swift */,
+				B22F556D1F5A4E75007D00E9 /* VideoPlayer4ViewController.swift */,
+				B22F556F1F5A4E8F007D00E9 /* VideoPlayer5ViewController.swift */,
 				B2F8DF5E1F4206A60065DFBE /* AppDelegate.swift */,
 				B2F8DF601F4206A60065DFBE /* ViewController.swift */,
 				B25202211F589687005A6289 /* Map Popups */,
@@ -607,18 +671,31 @@
 		B2F8DF901F421F7E0065DFBE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B22F555D1F5A3558007D00E9 /* Blur-Romania-Background.jpg.png */,
+				B22F55651F5A36FE007D00E9 /* Blur-czechoslovakia.png */,
+				B22F55611F5A36EE007D00E9 /* Blur--austria.png */,
+				B22F55591F5A352E007D00E9 /* Blur-France-Background-Blur.png */,
+				B22F55631F5A36F5007D00E9 /* Blur-hungary.png */,
+				B22F555F1F5A36E7007D00E9 /* Blur-germany.png */,
+				B22F555B1F5A3544007D00E9 /* Blur-LIthuania-Background.jpg.png */,
+				B29E6EE61F59D78E00EB8459 /* iconCloseButton.png */,
 				B25202E61F590548005A6289 /* Backgrounds */,
 				B25202321F58F8DA005A6289 /* AdeleBesserman.jpg */,
 				B25202FD1F590E3A005A6289 /* IconPlay.png */,
+				B22F55731F5A7223007D00E9 /* NaziPartyPlatform.jpg.jpeg */,
 				B25202331F58F8DA005A6289 /* AdolfRosaZelmanovitch.jpg */,
 				B25202341F58F8DA005A6289 /* AlexGross.jpg */,
+				B29E6EE21F59D68800EB8459 /* LIthuania-Background.jpg.jpeg */,
+				B29E6EE41F59D69500EB8459 /* France-Background.jpg.jpeg */,
 				B25202351F58F8DA005A6289 /* AnnaKrakowsky.jpg */,
-				B25202F31F590BC3005A6289 /* DavidMermelstein.jpg.jpeg */,
-				B25202FF1F5918E6005A6289 /* VeraKarliner.jpg.jpeg */,
+				B22F554F1F5A0DE0007D00E9 /* VeraKarliner.jpg.jpeg */,
+				B22F55511F5A0DEB007D00E9 /* DavidMermelstein.jpg.jpeg */,
+				B22F554D1F5A0DD7007D00E9 /* VeraGoldsmith.jpg.jpeg */,
 				B25202361F58F8DA005A6289 /* ArankaSiegel.jpg */,
 				B25202371F58F8DA005A6289 /* ArnoldBuxbaum.jpg */,
 				B25202381F58F8DA005A6289 /* BellaLandau.jpg */,
 				B25202391F58F8DA005A6289 /* BellaSchwartzberg.jpg */,
+				B29E6EE01F59D66600EB8459 /* Romania-Background.jpg.jpeg */,
 				B252023A1F58F8DA005A6289 /* BenHanaBiegelersen.jpg */,
 				B252023B1F58F8DA005A6289 /* BernadetteWacholder.jpg */,
 				B252023C1F58F8DA005A6289 /* BernardBrown.jpg */,
@@ -634,7 +711,9 @@
 				B25202461F58F8DA005A6289 /* EugeniaRosen.jpg */,
 				B25202471F58F8DA005A6289 /* FernandeFrankkovitz.jpg */,
 				B25202481F58F8DA005A6289 /* FlorenceBraunHershkowitz.jpg */,
+				B22F55691F5A37E0007D00E9 /* Blur-Russia-Background.png */,
 				B25202491F58F8DA005A6289 /* FrancisSaulBlau.jpg */,
+				B22F55671F5A37D9007D00E9 /* Blur-Belarus.png */,
 				B252024A1F58F8DA005A6289 /* FredMulbauer.jpg */,
 				B252024B1F58F8DA005A6289 /* FriedaRosenbaum.jpg */,
 				B252024C1F58F8DA005A6289 /* GaborFarkus.jpg */,
@@ -693,31 +772,39 @@
 				B25202811F58F8DA005A6289 /* StellaSonnenschein.jpg */,
 				B25202821F58F8DA005A6289 /* SusanBergman.jpg */,
 				B25202831F58F8DA005A6289 /* VeraBrody.jpg */,
-				B25202E41F58FADB005A6289 /* VeraGoldsmith.jpg.jpeg */,
 				B25202841F58F8DA005A6289 /* VioletSloan.jpg */,
 				B25202851F58F8DA005A6289 /* WilliamBernheim.jpg */,
 				B25202861F58F8DA005A6289 /* WilliamLiberman.jpg */,
 				B25202871F58F8DA005A6289 /* YaffaEisner.jpg */,
 				B25202881F58F8DA005A6289 /* YonaBromberg.jpg */,
 				B2F8DFA71F422D4B0065DFBE /* seal-faces-of-the-holocaust.png */,
-				B252022E1F58BDE4005A6289 /* iconCloseButton.png */,
 				B2F330E31F51C15300B766D5 /* hol.mp4.mov */,
 				B2F8DF961F4225150065DFBE /* icon-home@2x.png */,
 				B229F7DF1F5519F700527442 /* wwiihol.jpg */,
-				B25202301F58D400005A6289 /* victorFarkus.jpeg */,
+				B29E6ED81F59D62100EB8459 /* victorFarkus.jpg.jpeg */,
 				B229F7E31F56574C00527442 /* EuropeMap.jpg.jpeg */,
 				B2C8BBD11F4FB9AB00EBED0D /* icon-video.png */,
 				B2D6879D1F5709DF008E63E4 /* Icon-58.png */,
+				B22F557D1F5B079C007D00E9 /* Chelmno.jpg.jpeg */,
+				B22F55891F5B171F007D00E9 /* Adolf Eichman.jpg.jpeg */,
+				B22F55871F5B1656007D00E9 /* Exodus.jpg.jpeg */,
 				B2D687951F570114008E63E4 /* Icon-20.png */,
+				B22F55791F5B02D0007D00E9 /* Invasion.jpg.jpeg */,
+				B22F55831F5B103C007D00E9 /* Ravensbruck.jpg.jpeg */,
 				B2D687A31F570A27008E63E4 /* Icon-120.png */,
 				B2D687A51F570A41008E63E4 /* Icon-180.png */,
+				B22F557B1F5B0458007D00E9 /* Warsaq Ghetto.jpg.jpeg */,
+				B22F55851F5B129B007D00E9 /* Nuremberg.jpg.jpeg */,
+				B22F55771F5B0254007D00E9 /* St-Louis.jpg.jpeg */,
+				B22F557F1F5B0A37007D00E9 /* Wansee.jpg.jpeg */,
 				B2D6879F1F570A09008E63E4 /* Icon-87.png */,
 				B2D687961F570114008E63E4 /* Icon-29.png */,
+				B22F55811F5B0CA8007D00E9 /* Raoul Wakkenberg.jpg.jpeg */,
 				B2D687971F570114008E63E4 /* Icon-40.png */,
+				B22F55751F5AFC56007D00E9 /* Kristallnacht.jpg.jpeg */,
 				B2D687981F570114008E63E4 /* Icon-60.png */,
 				B2D687A11F570A1B008E63E4 /* Icon-80.png */,
 				B2D687911F56747D008E63E4 /* ImageTreblinka.jpeg */,
-				B25202E21F58FA9F005A6289 /* VeraGoldsmith.jpg.jpeg */,
 				B2D6878F1F5672BB008E63E4 /* ImageBelzec.jpeg */,
 				B2F330D31F4FCC9200B766D5 /* image-book-burning.jpeg */,
 				B2C8BBD31F4FBBED00EBED0D /* icon-timeline.png */,
@@ -732,6 +819,8 @@
 				B229F7EB1F5669AB00527442 /* AuschwitzGate.jpeg */,
 				B2D6878D1F567148008E63E4 /* Imagemauthausen.jpeg */,
 				B229F7E71F565E0F00527442 /* ImageDrancy.jpg.jpeg */,
+				B29E6EDE1F59D63800EB8459 /* VeraGoldsmith.jpg.jpeg */,
+				B29E6EDC1F59D63300EB8459 /* DavidMermelstein.jpg.jpeg */,
 				B229F7ED1F566D7000527442 /* ImageDachau.jpg.jpeg */,
 				B229F7EF1F566FFE00527442 /* ImageBuchenwals.jpeg */,
 				B2C8BBC71F4D1B3900EBED0D /* face1.jpg */,
@@ -740,6 +829,7 @@
 				B2F8E0011F4767F40065DFBE /* hitler-hindenburg.jpg */,
 				B2F8E0031F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg */,
 				B2C8BBD51F4FCA8300EBED0D /* image-dachau.jpeg */,
+				B29E6EDA1F59D62E00EB8459 /* VeraKarliner.jpg.jpeg */,
 				B2F8E0051F478AD40065DFBE /* RetrieveAsset-1.aspx.jpeg */,
 				B2F8DF9B1F4225E40065DFBE /* icon-home-filled.png */,
 				B2F8DFB51F425DD70065DFBE /* background germany.jpg */,
@@ -897,7 +987,6 @@
 				B25202B51F58F8DA005A6289 /* LeahRoth.jpg in Resources */,
 				B25202A81F58F8DA005A6289 /* HenryGlenn.jpg in Resources */,
 				B229F7E41F56574C00527442 /* EuropeMap.jpg.jpeg in Resources */,
-				B25202E31F58FA9F005A6289 /* VeraGoldsmith.jpg.jpeg in Resources */,
 				B25202BC1F58F8DA005A6289 /* MalkaSchmulovitz.jpg in Resources */,
 				B2C8BBC81F4D1B3900EBED0D /* face1.jpg in Resources */,
 				B252029D1F58F8DA005A6289 /* EugeniaRosen.jpg in Resources */,
@@ -905,25 +994,28 @@
 				B2CDC2321F584898005327BB /* CzechProperty List.plist in Resources */,
 				B25202CC1F58F8DB005A6289 /* PhylisTalit.jpg in Resources */,
 				B25202D21F58F8DB005A6289 /* RoseGross.jpg in Resources */,
-				B25203001F5918E6005A6289 /* VeraKarliner.jpg.jpeg in Resources */,
+				B29E6EDB1F59D62E00EB8459 /* VeraKarliner.jpg.jpeg in Resources */,
 				B25202BE1F58F8DA005A6289 /* MarshGurwitz.jpg in Resources */,
 				B25202CE1F58F8DB005A6289 /* RachelSteingerger.jpg in Resources */,
+				B22F55521F5A0DEB007D00E9 /* DavidMermelstein.jpg.jpeg in Resources */,
 				B25202BF1F58F8DA005A6289 /* MarvinZborowski.jpg in Resources */,
+				B22F557C1F5B0458007D00E9 /* Warsaq Ghetto.jpg.jpeg in Resources */,
 				B25202FE1F590E3A005A6289 /* IconPlay.png in Resources */,
 				B25202C51F58F8DA005A6289 /* MiriamSchwartz.jpg in Resources */,
 				B25202891F58F8DA005A6289 /* AdeleBesserman.jpg in Resources */,
 				B2C8BBCE1F4FB23100EBED0D /* icon-home-trans.png in Resources */,
+				B22F555E1F5A3558007D00E9 /* Blur-Romania-Background.jpg.png in Resources */,
 				B25202B01F58F8DA005A6289 /* JospehPoslun.jpg in Resources */,
 				B25202921F58F8DA005A6289 /* BernadetteWacholder.jpg in Resources */,
 				B25202A51F58F8DA005A6289 /* GerardMoss.jpg in Resources */,
 				B25202951F58F8DA005A6289 /* DorisSaferstein.jpg in Resources */,
+				B22F55601F5A36E7007D00E9 /* Blur-germany.png in Resources */,
 				B25202D11F58F8DB005A6289 /* RosalieSteinweis.jpg in Resources */,
 				B25202F61F590C61005A6289 /* background czechoslovakia.jpg in Resources */,
 				B25202EC1F5905F4005A6289 /* Russia-Background.jpg in Resources */,
 				B2F8E0021F4767F40065DFBE /* hitler-hindenburg.jpg in Resources */,
 				B25202E81F590558005A6289 /* Belarus.jpg in Resources */,
 				B25202B31F58F8DA005A6289 /* LadislavIsaakKlein.jpg in Resources */,
-				B25202E51F58FADB005A6289 /* VeraGoldsmith.jpg.jpeg in Resources */,
 				B2F8DFB41F425C8D0065DFBE /* background austria.jpg in Resources */,
 				B229F7E61F56589500527442 /* MapButton.png in Resources */,
 				B25202DC1F58F8DB005A6289 /* WilliamBernheim.jpg in Resources */,
@@ -933,22 +1025,29 @@
 				B25202C81F58F8DB005A6289 /* PaulGast.jpg in Resources */,
 				B25202A31F58F8DA005A6289 /* GaborFarkus.jpg in Resources */,
 				B2F8DF9F1F4225E40065DFBE /* icon-home-filled@2x.png in Resources */,
+				B29E6EE11F59D66600EB8459 /* Romania-Background.jpg.jpeg in Resources */,
 				B25202B71F58F8DA005A6289 /* LeaZisserKronenberg.jpg in Resources */,
 				B25202DD1F58F8DB005A6289 /* WilliamLiberman.jpg in Resources */,
+				B22F55681F5A37D9007D00E9 /* Blur-Belarus.png in Resources */,
+				B22F55581F5A0E36007D00E9 /* LIthuania-Background.jpg.jpeg in Resources */,
+				B22F55621F5A36EE007D00E9 /* Blur--austria.png in Resources */,
+				B22F55561F5A0E2C007D00E9 /* France-Background.jpg.jpeg in Resources */,
 				B25202141F588A82005A6289 /* PolandCustomTableViewCell.xib in Resources */,
 				B2C8BBD61F4FCA8300EBED0D /* image-dachau.jpeg in Resources */,
 				B25202FC1F590CBC005A6289 /* background hungary.jpg in Resources */,
 				B25202DB1F58F8DB005A6289 /* VioletSloan.jpg in Resources */,
 				B25202A71F58F8DA005A6289 /* HenryFlescher.jpg in Resources */,
+				B22F554E1F5A0DD7007D00E9 /* VeraGoldsmith.jpg.jpeg in Resources */,
 				B2F8DFB21F425B8A0065DFBE /* background czechoslovakia.jpg in Resources */,
 				B25202A21F58F8DA005A6289 /* FriedaRosenbaum.jpg in Resources */,
+				B29E6EDD1F59D63300EB8459 /* DavidMermelstein.jpg.jpeg in Resources */,
 				B25202D41F58F8DB005A6289 /* SamSchwartzberg.jpg in Resources */,
 				B25202B61F58F8DA005A6289 /* LeaPolitzer.jpg in Resources */,
 				B25202A91F58F8DA005A6289 /* HerbieKarliner.jpg in Resources */,
 				B25202CF1F58F8DB005A6289 /* RenenTobol.jpg in Resources */,
+				B22F55841F5B103C007D00E9 /* Ravensbruck.jpg.jpeg in Resources */,
 				B2F8DF691F4206A60065DFBE /* LaunchScreen.storyboard in Resources */,
 				B25202C71F58F8DB005A6289 /* OlgaGunz.jpg in Resources */,
-				B25202F21F590B42005A6289 /* Romania-Background.jpg.jpeg in Resources */,
 				B25202B91F58F8DA005A6289 /* LouisSarahRadzeli.jpg in Resources */,
 				B2F8DFA41F4227E90065DFBE /* icon-map-filled.png in Resources */,
 				B252028D1F58F8DA005A6289 /* ArankaSiegel.jpg in Resources */,
@@ -959,7 +1058,10 @@
 				B252028F1F58F8DA005A6289 /* BellaLandau.jpg in Resources */,
 				B2F8DFA81F422D4B0065DFBE /* seal-faces-of-the-holocaust.png in Resources */,
 				B25202971F58F8DA005A6289 /* EllenKardanow.jpg in Resources */,
+				B22F55881F5B1656007D00E9 /* Exodus.jpg.jpeg in Resources */,
+				B29E6ED91F59D62100EB8459 /* victorFarkus.jpg.jpeg in Resources */,
 				B2D687991F570114008E63E4 /* Icon-20.png in Resources */,
+				B29E6EDF1F59D63800EB8459 /* VeraGoldsmith.jpg.jpeg in Resources */,
 				B2F8DF661F4206A60065DFBE /* Assets.xcassets in Resources */,
 				B2D6879E1F5709DF008E63E4 /* Icon-58.png in Resources */,
 				B229F7E81F565E0F00527442 /* ImageDrancy.jpg.jpeg in Resources */,
@@ -970,22 +1072,24 @@
 				B25202D81F58F8DB005A6289 /* StellaSonnenschein.jpg in Resources */,
 				B252029E1F58F8DA005A6289 /* FernandeFrankkovitz.jpg in Resources */,
 				B25202961F58F8DA005A6289 /* EdithAkerman.jpg in Resources */,
+				B29E6EE51F59D69500EB8459 /* France-Background.jpg.jpeg in Resources */,
 				B2D687A01F570A09008E63E4 /* Icon-87.png in Resources */,
 				B2F8DFBC1F448B100065DFBE /* ResourceList.plist in Resources */,
 				B2D6878E1F567148008E63E4 /* Imagemauthausen.jpeg in Resources */,
+				B22F55861F5B129B007D00E9 /* Nuremberg.jpg.jpeg in Resources */,
 				B2CDC23A1F584BCD005327BB /* RomaniaProperty List.plist in Resources */,
 				B2CDC23E1F584D00005327BB /* RussiaProperty List.plist in Resources */,
-				B25202F41F590BC3005A6289 /* DavidMermelstein.jpg.jpeg in Resources */,
 				B2F330E41F51C15300B766D5 /* hol.mp4.mov in Resources */,
 				B2CDC2361F584AB5005327BB /* BelarusProperty List.plist in Resources */,
 				B2F8DFB61F425DD70065DFBE /* background germany.jpg in Resources */,
 				B25202CB1F58F8DB005A6289 /* PhilipGodur.jpg in Resources */,
 				B2C8BBD01F4FB7D100EBED0D /* icon-people.png in Resources */,
 				B2C8BBD41F4FBBED00EBED0D /* icon-timeline.png in Resources */,
-				B252022F1F58BDE4005A6289 /* iconCloseButton.png in Resources */,
 				B252028C1F58F8DA005A6289 /* AnnaKrakowsky.jpg in Resources */,
+				B22F55641F5A36F5007D00E9 /* Blur-hungary.png in Resources */,
 				B25202981F58F8DA005A6289 /* EricaLux.jpg in Resources */,
 				B2CDC2301F5847AF005327BB /* AustriaProperty List.plist in Resources */,
+				B22F557A1F5B02D0007D00E9 /* Invasion.jpg.jpeg in Resources */,
 				B25202BB1F58F8DA005A6289 /* MagdalenBader.jpg in Resources */,
 				B25202C11F58F8DA005A6289 /* MikeGoldsmith.jpg in Resources */,
 				B25202D91F58F8DB005A6289 /* SusanBergman.jpg in Resources */,
@@ -998,7 +1102,9 @@
 				B2D687901F5672BB008E63E4 /* ImageBelzec.jpeg in Resources */,
 				B2CDC2401F584E41005327BB /* LithuaniaProperty List.plist in Resources */,
 				B25202C61F58F8DB005A6289 /* NaomiWeinfled.jpg in Resources */,
+				B22F557E1F5B079C007D00E9 /* Chelmno.jpg.jpeg in Resources */,
 				B2F8DF9E1F4225E40065DFBE /* icon-home-filled.png in Resources */,
+				B22F55541F5A0E22007D00E9 /* Romania-Background.jpg.jpeg in Resources */,
 				B2D6879A1F570114008E63E4 /* Icon-29.png in Resources */,
 				B25202D51F58F8DB005A6289 /* SharyArem.jpg in Resources */,
 				B252028A1F58F8DA005A6289 /* AdolfRosaZelmanovitch.jpg in Resources */,
@@ -1006,6 +1112,8 @@
 				B25202991F58F8DA005A6289 /* ErikaLeib.jpg in Resources */,
 				B2CDC23C1F584C76005327BB /* FranceProperty List.plist in Resources */,
 				B25202941F58F8DA005A6289 /* CharlotteHirschGarfield.jpg in Resources */,
+				B22F55821F5B0CA8007D00E9 /* Raoul Wakkenberg.jpg.jpeg in Resources */,
+				B22F55801F5B0A37007D00E9 /* Wansee.jpg.jpeg in Resources */,
 				B252029B1F58F8DA005A6289 /* EsterRoss.jpg in Resources */,
 				B25202DF1F58F8DB005A6289 /* YonaBromberg.jpg in Resources */,
 				B25202F81F590C6B005A6289 /* background austria.jpg in Resources */,
@@ -1022,14 +1130,16 @@
 				B2D6879B1F570114008E63E4 /* Icon-40.png in Resources */,
 				B229F7E21F551B0A00527442 /* buttonMap.png in Resources */,
 				B25202AE1F58F8DA005A6289 /* JerryKainanow.jpg in Resources */,
+				B22F555C1F5A3544007D00E9 /* Blur-LIthuania-Background.jpg.png in Resources */,
 				B25202C21F58F8DA005A6289 /* MikhailEstes.jpg in Resources */,
+				B22F55661F5A36FE007D00E9 /* Blur-czechoslovakia.png in Resources */,
+				B22F556A1F5A37E0007D00E9 /* Blur-Russia-Background.png in Resources */,
+				B22F55741F5A7223007D00E9 /* NaziPartyPlatform.jpg.jpeg in Resources */,
 				B25202A11F58F8DA005A6289 /* FredMulbauer.jpg in Resources */,
 				B2C8BBCC1F4D270D00EBED0D /* CustomTableViewCell.xib in Resources */,
 				B2F330E01F51277C00B766D5 /* polandBackgroundBlur.jpg in Resources */,
-				B25202F01F590A00005A6289 /* LIthuania-Background.jpg.jpeg in Resources */,
 				B2D687A61F570A41008E63E4 /* Icon-180.png in Resources */,
 				B25202DE1F58F8DB005A6289 /* YaffaEisner.jpg in Resources */,
-				B25202311F58D400005A6289 /* victorFarkus.jpeg in Resources */,
 				B25202BD1F58F8DA005A6289 /* MariaBorenstein.jpg in Resources */,
 				B25202CA1F58F8DB005A6289 /* PepaBronman.jpg in Resources */,
 				B252029F1F58F8DA005A6289 /* FlorenceBraunHershkowitz.jpg in Resources */,
@@ -1042,22 +1152,28 @@
 				B2F8DF9A1F4225150065DFBE /* icon-home@3x.png in Resources */,
 				B25202BA1F58F8DA005A6289 /* LyaQuitt.jpg in Resources */,
 				B2D687A21F570A1B008E63E4 /* Icon-80.png in Resources */,
+				B22F555A1F5A352E007D00E9 /* Blur-France-Background-Blur.png in Resources */,
 				B25202A41F58F8DA005A6289 /* GeorgeFreshman.jpg in Resources */,
+				B22F558A1F5B171F007D00E9 /* Adolf Eichman.jpg.jpeg in Resources */,
 				B25202D71F58F8DB005A6289 /* SheilaSpringer.jpg in Resources */,
+				B22F55501F5A0DE0007D00E9 /* VeraKarliner.jpg.jpeg in Resources */,
 				B25202C31F58F8DA005A6289 /* MiriamBrejt.jpg in Resources */,
 				B2F8E0041F477E7B0065DFBE /* RetrieveAsset.aspx.jpeg in Resources */,
 				B25202B81F58F8DA005A6289 /* LeoRosner.jpg in Resources */,
 				B25202D31F58F8DB005A6289 /* SallyDauman.jpg in Resources */,
+				B29E6EE31F59D68800EB8459 /* LIthuania-Background.jpg.jpeg in Resources */,
 				B25202901F58F8DA005A6289 /* BellaSchwartzberg.jpg in Resources */,
 				B25202EA1F5905B1005A6289 /* Ukraine-Background.jpg in Resources */,
 				B25202DA1F58F8DB005A6289 /* VeraBrody.jpg in Resources */,
+				B29E6EE71F59D78E00EB8459 /* iconCloseButton.png in Resources */,
+				B22F55761F5AFC56007D00E9 /* Kristallnacht.jpg.jpeg in Resources */,
 				B25202AC1F58F8DA005A6289 /* JackSeinfeld.jpg in Resources */,
-				B25202EE1F590851005A6289 /* France-Background.jpg.jpeg in Resources */,
 				B2CDC22E1F583BCC005327BB /* PolandResourceList.plist in Resources */,
 				B25202AF1F58F8DA005A6289 /* JonasRoth.jpg in Resources */,
 				B25202B41F58F8DA005A6289 /* LarryHershkowitz.jpg in Resources */,
 				B25202CD1F58F8DB005A6289 /* PolinaFeldmus.jpg in Resources */,
 				B25202A01F58F8DA005A6289 /* FrancisSaulBlau.jpg in Resources */,
+				B22F55781F5B0254007D00E9 /* St-Louis.jpg.jpeg in Resources */,
 				B2F8DFA21F42272E0065DFBE /* icon-map.png in Resources */,
 				B25202C01F58F8DA005A6289 /* MaryTitenfass.jpg in Resources */,
 				B2F8DFAC1F423B600065DFBE /* polanfd background.jpg in Resources */,
@@ -1242,6 +1358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F330DC1F51146100B766D5 /* FirebaseVidoes.swift in Sources */,
+				B22F55701F5A4E8F007D00E9 /* VideoPlayer5ViewController.swift in Sources */,
 				B2F330E21F51AF0D00B766D5 /* VideoTest.swift in Sources */,
 				B252021A1F588D95005A6289 /* CzechoslovakiaViewController.swift in Sources */,
 				B25202291F58B794005A6289 /* FranceViewController.swift in Sources */,
@@ -1253,7 +1370,10 @@
 				B2F8DF611F4206A60065DFBE /* ViewController.swift in Sources */,
 				B2CDF84C1F5748E9006B3B6F /* PopupVC2.swift in Sources */,
 				B2CDF8421F5743A1006B3B6F /* PopupVC3.swift in Sources */,
+				B22F55721F5A6494007D00E9 /* TimelineViewController.swift in Sources */,
 				B2CDF8401F573A12006B3B6F /* VideoPlayer2ViewController.swift in Sources */,
+				B22F556C1F5A4E3E007D00E9 /* VideoPlayer3ViewController.swift in Sources */,
+				B22F556E1F5A4E75007D00E9 /* VideoPlayer4ViewController.swift in Sources */,
 				B25202251F58B3FD005A6289 /* UkraineViewController.swift in Sources */,
 				B229F7EA1F56671900527442 /* PopupVC1.swift in Sources */,
 				B2F330EA1F520A5C00B766D5 /* VideoPlayerViewController.swift in Sources */,

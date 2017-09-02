@@ -1,34 +1,50 @@
-//
-//  PolandViewController.swift
-//  Faces of the Holocaust Photographic History
-//
-//  Created by New User on 8/22/17.
-//  Copyright © 2017 New User. All rights reserved.
-//
+
+
 
 import UIKit
 
 class SecondPolandViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+
+    //var customTableViewCell:CustomTableViewCell? = nil
+    
+    
     
     var items = [[String:String]]()
     
+    
     override func viewDidLoad() {
+
+
         
         super.viewDidLoad()
+        
+        //customTableViewCell = CustomTableViewCell()
+        
         
         let nib = UINib.init(nibName: "CustomTableViewCell", bundle: nil)
         self.tableView.register(nib, forCellReuseIdentifier: "cell")
         
         
         self.items = loadPlist()
+        
+
+      
+
+
     }
+    
+
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     func loadPlist()->[[String:String]]{
         let path = Bundle.main.path(forResource: "PolandResourceList", ofType: "plist")
@@ -44,17 +60,35 @@ class SecondPolandViewController: UIViewController {
         self.isExpanded = !isExpanded
         self.tableView.reloadRows(at: [selectedIndex!], with: .automatic)
         
+
+        
     }
+    
+    
+    
+
     
     
 }
 
 extension SecondPolandViewController:UITableViewDataSource, UITableViewDelegate{
     
+    
+    
+   // let button = customTableViewCell?.closeButton
+    
+   // button?.isHidden = true
+    
+    
+    
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         self.selectedIndex = indexPath
         self.didExpandCell()
+        
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -62,6 +96,7 @@ extension SecondPolandViewController:UITableViewDataSource, UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         
         cell.selectionStyle = .none
@@ -80,7 +115,8 @@ extension SecondPolandViewController:UITableViewDataSource, UITableViewDelegate{
         
         
         return cell
-        
+       
+
         
     }
     
