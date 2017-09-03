@@ -24,16 +24,6 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Allan hall</string>
-		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
-		<key>long</key>
-		<string></string>
-		<key>image</key>
-		<string>AllenHall.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
 		<string>Bella Lendau</string>
 		<key>short</key>
 		<string>Polish Holocaust Survivor</string>
@@ -154,16 +144,6 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Jack Rotmench</string>
-		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
-		<key>long</key>
-		<string>Jack Rotmench was born in Poland in 1920. He survived Bunzlau concentration camp.</string>
-		<key>image</key>
-		<string>JackRotmench.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
 		<string>Jack Senfield</string>
 		<key>short</key>
 		<string>Polish Holocaust Survivor</string>
@@ -204,9 +184,9 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Ladislav-Isaak Klein</string>
+		<string>Ladislav-Isaak Klein </string>
 		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
+		<string>1931-2016 - Polish Holocaust Survivor</string>
 		<key>long</key>
 		<string>XXXX</string>
 		<key>image</key>
@@ -260,7 +240,7 @@
 		<key>long</key>
 		<string>Lucille Bernheim was born in Poland in 1931. She is the sister of Sonia Lowenbraun.</string>
 		<key>image</key>
-		<string>LucilleBernheim.jpg</string>
+		<string>LucilleBerheim.jpg.jpeg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -271,16 +251,6 @@
 		<string>XXXX</string>
 		<key>image</key>
 		<string>MarshGurwitz.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>Mike Aplert</string>
-		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
-		<key>long</key>
-		<string>Mike Alpert was born in Poland in 1931. He lived in a ghetto from 1941-42. He then survived in the forestfourfrom 1942-44 and was liberated by the Russian army. Mike has gone to Israel about forty times from 1963-2014, sometimes going twice a year.</string>
-		<key>image</key>
-		<string>MikeAlpert.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -311,16 +281,6 @@
 		<string>Born in Poland in 1927, Miriam Rosenbaum survived a ghetto and a forced labor camp in Germany. After being liberated from Reichenbach by the Russians, she lived in Landsberg, Germany, in a displaced persons camp. She has visited Israel many times.</string>
 		<key>image</key>
 		<string>MiriamRosenbaum.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>Morris Friedlich</string>
-		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
-		<key>long</key>
-		<string>Morris Friedlich was born in Poland in 1925. His family’s shoe store was closed by the SS. His father took Morris and his brother across the border to Czechoslovakia when in danger to stay with an aunt. He and his brother then went to Hungary where an underground Zionist organization gave them money. They were given Christian papers and survived the war there.</string>
-		<key>image</key>
-		<string>MorrisFriedlich.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -364,16 +324,6 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Rose Rotmench </string>
-		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
-		<key>long</key>
-		<string>Rose Rotmench, born in Poland in 1925, survived several concentration camps including Bergen-Belsen. Her parents went on death marches.</string>
-		<key>image</key>
-		<string>RoseRotmench.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
 		<string>Sally Dauman</string>
 		<key>short</key>
 		<string>Polish Holocaust Survivor</string>
@@ -401,16 +351,6 @@
 		<string>Shelia Springer survived the Warsaw Ghetto. She also lived through four concentration camps including Majdanek, Auschwitz, and Ravensbruck. She came to the United States right after the war.</string>
 		<key>image</key>
 		<string>SheilaSpringer.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>Sonia Lowenbraun</string>
-		<key>short</key>
-		<string>Polish Holocaust Survivor</string>
-		<key>long</key>
-		<string>Sonia Lowenbraun was born in Poland. She was hidden with her mother and three sisters, and they all survived. Her mother and father took turns to go out of hiding to get food for their family.</string>
-		<key>image</key>
-		<string>SoniaLowenbraun.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>

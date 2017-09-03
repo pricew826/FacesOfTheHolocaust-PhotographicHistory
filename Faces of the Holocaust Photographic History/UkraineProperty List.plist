@@ -8,7 +8,7 @@
 		<key>short</key>
 		<string>Ukrainian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Ellen Kardanow was born in 1936 in the Poland/Ukraine area. She survived by hiding with a Christian family of five. She was the only one left alive in her family until an aunt from Russia found her and took her to Siberia, Poland, Germany, and then to the United States. She came to the United States in 1948, and here she produced a Jewish newspaper.</string>
+		<string>Ellen Kardanow was born in 1936 in the Poland/Ukraine area. She survived by hiding with a Christian family of five. She was the only one left alive in her family until an aunt from Russia found her and took her to Siberia, Poland, Germany, and then to the United States. She came to the United States in 1948. Here she produced a Jewish newspaper.</string>
 		<key>image</key>
 		<string>EllenKardanow.jpg</string>
 	</dict>
@@ -28,7 +28,7 @@
 		<key>short</key>
 		<string>Ukrainian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Polina Feldmus was born in Odessa, Ukraine in 1938. Her family fled when German soldiers were coming and went to the Ural Mountains. There her mom picked potatoes on a collective farm and made soup for the family. Her grandfather died from starvation. She ate pig’s fat to survive. After the war, she returned to Odessa. She came to New York in 1980, and after her first husband died, she married Mikhail Esties.</string>
+		<string>Polina Feldmus was born in Odessa, Ukraine in 1938. Her family fled when German soldiers were coming and went to the Ural Mountains. There her mom picked potatoes on a collective farm and made soup for the family.  She also ate pig’s fat to survive, but her grandfather died from starvation. After the war, she returned to Odessa. She came to New York in 1980, and after her first husband died, she married Mikhail Esties.</string>
 		<key>image</key>
 		<string>PolinaFeldmus.jpg</string>
 	</dict>
@@ -40,7 +40,7 @@
 		<key>long</key>
 		<string>Anna Mann was born in the Ukraine in 1930. She left the Ukraine across a bridge just before the Russians burned it down. She came to the United States in 1962 and has visited Israel many times.</string>
 		<key>image</key>
-		<string>AnnaMann.jpg</string>
+		<string>AnnaMann.jpg.jpeg</string>
 	</dict>
 </array>
 </plist>

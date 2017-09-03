@@ -12,10 +12,16 @@ class RomaniaViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    var customTableViewCell:CustomTableViewCell? = nil
+
+    
     var items = [[String:String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        customTableViewCell = CustomTableViewCell()
+
         
         let nib = UINib.init(nibName: "CustomTableViewCell", bundle: nil)
         self.tableView.register(nib, forCellReuseIdentifier: "cell")
@@ -77,8 +83,12 @@ extension RomaniaViewController:UITableViewDataSource, UITableViewDelegate{
         cell.thumbImage.image = UIImage.init(named: item["image"]!)
         cell.longLabel.text = item["long"]
         
-        
-        
+        if isExpanded && self.selectedIndex == indexPath {
+            cell.closeButton.isHidden = false
+        } else {
+            cell.closeButton.isHidden = true
+            
+        }
         
         return cell
     }

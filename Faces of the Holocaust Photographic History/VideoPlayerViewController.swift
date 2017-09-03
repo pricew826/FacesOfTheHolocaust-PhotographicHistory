@@ -1,11 +1,14 @@
 import UIKit
 import AVFoundation
+import AVKit
 
 
 class VideoPlayerViewController: UIViewController {
     
+    @IBOutlet weak var wholeView: UIView!
     @IBOutlet weak var theButton: UIButton!
     
+    @IBOutlet weak var dateLabel: UILabel!
     
     
     let avPlayer = AVPlayer()
@@ -22,6 +25,22 @@ class VideoPlayerViewController: UIViewController {
 
         
         super.viewDidLoad()
+        
+        
+       let dateWidth = dateLabel.bounds.size.width
+        let screenSize = UIScreen.main.bounds.size.width
+        
+        let path = UIBezierPath()
+        path.move(to: CGPoint(x: dateWidth + 20, y: 25))
+        path.addLine(to: CGPoint(x: screenSize , y: 25))
+        
+        let shapeLayer  = CAShapeLayer()
+        shapeLayer.path = path.cgPath
+        shapeLayer.strokeColor = UIColor.darkGray.cgColor
+        shapeLayer.lineWidth = 2.0
+        
+        view.layer.addSublayer(shapeLayer)
+        
         view.backgroundColor = .black
         
         

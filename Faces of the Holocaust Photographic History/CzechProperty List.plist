@@ -8,7 +8,7 @@
 		<key>short</key>
 		<string>Czech Holocaust Survivor</string>
 		<key>long</key>
-		<string>XXXX</string>
+		<string>David Mermelstein was born in Czechoslovakia. He survived Auschwitz Concentration Camp </string>
 		<key>image</key>
 		<string>DavidMermelstein.jpg.jpeg</string>
 	</dict>
@@ -90,7 +90,7 @@
 		<key>long</key>
 		<string>Joseph Markowitz</string>
 		<key>image</key>
-		<string>JosephMarkowitz.jpg</string>
+		<string>JosephMarkovitz.jpg.jpeg</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -101,16 +101,6 @@
 		<string>Rachel Steinberger was born in Czechoslovakia and deported from a ghetto in Hungary in 1944 when she was seventeen years old. In Auschwitz concentration camp, her parents were killed and she and her sister survived. She was transported to Brano camp in Poland. She was on a death march before the Russians liberated her. After the war, she and her husband and sister lived in a displaced persons camp. She lived in Israel for thirteen years from 1948 and came to the United States in 1964.</string>
 		<key>image</key>
 		<string>RachelSteingerger.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>Toby Prince</string>
-		<key>short</key>
-		<string>Czech Holocaust Survivor</string>
-		<key>long</key>
-		<string>Toby Prince was born in Czechoslovakia in 1926. He and all his sisters survived the war.</string>
-		<key>image</key>
-		<string>TobyPrince.jpg</string>
 	</dict>
 	<dict>
 		<key>title</key>

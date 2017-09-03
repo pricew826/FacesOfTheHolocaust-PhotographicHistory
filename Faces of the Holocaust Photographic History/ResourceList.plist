@@ -18,7 +18,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Eugenia Lebovitz survived four concentration camps. Most of his family died in Auschwitz. He hosts his own event in Las Vegas called Celebration of the Generation.</string>
+		<string>Eugene Lebovitz survived four concentration camps. Most of his family died in Auschwitz. He currently hosts his own event in Las Vegas called Celebration of the Generation.</string>
 		<key>image</key>
 		<string>EugeneLebovitz.jpg</string>
 	</dict>
@@ -38,7 +38,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Vera Goldsmith was born in Budapest, Hungary, in 1934.  She was rescued by Raoul Wallenberg and was protected before going into a ghetto for two months. She describes being scared all the time. Her mother died, but some other family members survived. She was liberated in Budapest and came to the United States in 1956 after the Hungarian Revolution. She married her husband Mike in Hungary in 1955. She has visited Israel.</string>
+		<string>Vera Goldsmith was born in Budapest, Hungary, in 1934.  She was rescued by Raoul Wallenberg and was protected before going into a ghetto for two months. She describes being scared all of the time. Her mother died, but some other family members survived. She was liberated in Budapest and came to the United States in 1956 after the Hungarian Revolution. She married her husband Mike in Hungary in 1955. She has visited Israel.</string>
 		<key>image</key>
 		<string>VeraGoldsmith.jpg.jpeg</string>
 	</dict>
@@ -88,7 +88,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Jonas Roth worked sorting clothes and jackets in a labor camp near Budapest. At the end of November 1944, he was taken to the railroad station and went to Austria and was put on a death march. He survived and was liberated from Mauthausen. He came to Montreal, Canada, in 1948 and then moved to New York where he met a friend who had provided food for him and hid him in a camp he was in.</string>
+		<string>Jonas Roth worked sorting clothes and jackets in a labor camp near Budapest. At the end of November 1944, he was taken to the railroad station and went to Austria and was put on a death march. He survived and was liberated from Mauthausen. He came to Montreal, Canada, in 1948 and then moved to New York where he met a friend who had provided food for him and had hidden him in a camp he was in.</string>
 		<key>image</key>
 		<string>JonasRoth.jpg</string>
 	</dict>
@@ -110,7 +110,7 @@
 		<key>long</key>
 		<string>Victor Farkas was born in 1927 in Debrecen, Hungary.</string>
 		<key>image</key>
-		<string>victorFarkus.jpeg</string>
+		<string>victorFarkus.jpg.jpeg</string>
 	</dict>
 	<dict>
 		<key>title</key>

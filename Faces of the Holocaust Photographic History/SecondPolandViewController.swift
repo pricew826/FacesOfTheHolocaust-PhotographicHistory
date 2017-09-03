@@ -7,7 +7,7 @@ class SecondPolandViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
-    //var customTableViewCell:CustomTableViewCell? = nil
+    var customTableViewCell:CustomTableViewCell? = nil
     
     
     
@@ -20,7 +20,7 @@ class SecondPolandViewController: UIViewController {
         
         super.viewDidLoad()
         
-        //customTableViewCell = CustomTableViewCell()
+        customTableViewCell = CustomTableViewCell()
         
         
         let nib = UINib.init(nibName: "CustomTableViewCell", bundle: nil)
@@ -75,9 +75,9 @@ extension SecondPolandViewController:UITableViewDataSource, UITableViewDelegate{
     
     
     
-   // let button = customTableViewCell?.closeButton
+    //let button = customTableViewCell?.closeButton
     
-   // button?.isHidden = true
+   //button?.isHidden = true
     
     
     
@@ -110,9 +110,20 @@ extension SecondPolandViewController:UITableViewDataSource, UITableViewDelegate{
         cell.thumbImage.image = UIImage.init(named: item["image"]!)
         cell.longLabel.text = item["long"]
         
-      
+        /*if indexPath == selectedIndex {
+            cell.closeButton.isHidden = false
         
+        }  else {
+            cell.closeButton.isHidden = true
+        }*/
+        //cell.closeButton.isHidden = true
         
+        if isExpanded {
+            cell.closeButton.isHidden = false
+        } else {
+            cell.closeButton.isHidden = true
+            
+        }
         
         return cell
        
@@ -123,15 +134,15 @@ extension SecondPolandViewController:UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
-        let height = UIScreen.main.bounds.height
+        //let height = UIScreen.main.bounds.height
+
         
-        
-        
-        
-        if isExpanded && self.selectedIndex == indexPath{
+        if isExpanded && self.selectedIndex == indexPath {
             //return self.view.frame.size.height * 0.6
+            
             return 400
         }
+        
         
         return 110
         //return height * 0.2
