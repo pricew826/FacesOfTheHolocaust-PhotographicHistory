@@ -8,7 +8,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Gabor Farkus was born in Budapest, Hungary, in 1938. He hid with his mother and sister in a nursing home, formerly a Jewish hospital. He was liberated from the nursing home. He also believes Wallenberg intervened on another occasion when he was marched to a race track. He came to the United States in 1963 and worked in electrical work. He spent six years in Israel and was in the Israeli Army from 1958-59.</string>
+		<string>Gabor Farkus was born in Budapest, Hungary in 1938. He hid with his mother and sister in a nursing home, formerly a Jewish hospital. He was liberated from the nursing home. He also believes Wallenberg intervened on another occasion when he was marched to a race track. He came to the United States in 1963 and did electrical work. He spent six years in Israel and was in the Israeli Army from 1958 to 1959.</string>
 		<key>image</key>
 		<string>GaborFarkus.jpg</string>
 	</dict>
@@ -48,7 +48,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Yaffa Eisner was born in Budapest in 1937. When she came to the United States, she became a kindergarten teacher and she visited Israel in 1961. Her father, a rabbi, died in 1943.</string>
+		<string>Yaffa Eisner was born in Budapest in 1937. When she came to the United States, she became a kindergarten teacher. She visited Israel in 1961. Her father, a rabbi, died in 1943.</string>
 		<key>image</key>
 		<string>YaffaEisner.jpg</string>
 	</dict>
@@ -98,7 +98,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Olga Gunz was born in Hungary and survived a forced labor camp in Austria. At the end of the war, her family left at night and ran to the basement of a hospital. She has visited Israel many times, and she lived in London for forty-eight years before coming to the United States. Olga has lectured at the Holocaust Museum in Miami for many years.</string>
+		<string>Olga Gunz was born in Hungary and survived a forced labor camp in Austria. At the end of the war, her family left at night and ran to the basement of a hospital. She has visited Israel many times, and she lived in London for 48 years before coming to the United States. Olga has lectured at the Holocaust Museum in Miami for many years.</string>
 		<key>image</key>
 		<string>OlgaGunz.jpg</string>
 	</dict>
@@ -108,7 +108,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Victor Farkas was born in 1927 in Debrecen, Hungary.</string>
+		<string>Victor Farkus was born in 1927 in Debrecen, Hungary.</string>
 		<key>image</key>
 		<string>victorFarkus.jpg.jpeg</string>
 	</dict>
@@ -118,7 +118,7 @@
 		<key>short</key>
 		<string>Hungarian Holocaust Survivor</string>
 		<key>long</key>
-		<string>Rose Gross was born in Hungary in 1928. Only she and her sister survived the Holocaust, out of the nine children in her family. She lived in the Sátoraljaujhely Ghetto before going to Auschwitz where she collected stone. She was also held in Bergen-Belsen and Mauthausen camps for some time. She worked sewing in Krakow, was in Gross Rosen for three days, and then worked in an ammunition factory in Breslau. Rose suffered from typhus. She was liberated by the British from Bergen-Belsen and came to Canada in 1953 with $5. She visits the United States in the winter. Her sister hid in Budapest.</string>
+		<string>Rose Gross was born in Hungary in 1928. Only she and her sister survived the Holocaust out of the nine children in her family. She lived in the Sátoraljaujhely Ghetto before going to Auschwitz where she collected stone. She was also held in Bergen-Belsen and Mauthausen camps for some time. She worked sewing in Krakow, was in Gross Rosen for three days, and then worked in an ammunitions factory in Breslau. Rose suffered from typhus. She was liberated by the British from Bergen-Belsen and came to Canada in 1953 with $5. She visits the United States in the winter. Her sister hid in Budapest.</string>
 		<key>image</key>
 		<string>RoseGross.jpg</string>
 	</dict>
